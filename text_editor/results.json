@@ -1,0 +1,1010 @@
+[
+  {
+    "testcases": [
+      {
+        "name": "append_command_test",
+        "description": "Test multi-line and single-line appends",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 2.0
+      },
+      {
+        "name": "append_to_file_test",
+        "description": "Appending to a line with text",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "delete_after_writing_test",
+        "description": "Test the deletion of a line after writing it to the document",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "deleting_on_own_test",
+        "description": "Delete a sentence",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "document_load_test",
+        "description": "Loading a file into a document and checking its contents",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "document_save_test",
+        "description": "Loading in a file and checking the contents",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "find_after_writing_test",
+        "description": "Test finding a line after writing it to the document",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "find_test_multiple_exist_test",
+        "description": "Find multiple lines with a given key after writing them",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "find_with_no_match_test",
+        "description": "Test that finding with no match works",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "insert_delete_insert_test",
+        "description": "Insert a line, delete a line, then insert a line",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "inserting_test",
+        "description": "Attempt to write a line",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "inserting_test_1",
+        "description": "More rigorous test of inserting_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "loading_saving_test",
+        "description": "Tests reading from file, inserting, writing to file",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "memory_test",
+        "description": "Checking for memory issues for text editor",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "merge_to_one_test",
+        "description": "Check that lines can be merged",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "mutiple_inserts_same_line_test",
+        "description": "Have multiple inserts in the same line",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "overwrite_test",
+        "description": "Simple write test over existing document",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "print_empty_document_test",
+        "description": "Test that printing an empty document gives an error",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "printing_test",
+        "description": "Print a whole file",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "printing_test1",
+        "description": "Print with different window settings",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "split_lines_test",
+        "description": "Check that lines can be split",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "write_command_test",
+        "description": "Test multi-line and single-line writes",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 2.0
+      },
+      {
+        "name": "write_white_spaces_test",
+        "description": "Test by writing white spaces",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      }
+    ],
+    "timestamp": "2017-09-12 22:00:03.782033",
+    "checksum": "56be20cfbcc1e4b62a0f1eb26325311cc7c23b3a  editor.c\na3fb96cbec74a77aa4759069e5749b4223984f36  document.c\n",
+    "revision": "6740"
+  },
+  {
+    "testcases": [
+      {
+        "name": "append_command_test",
+        "description": "Test multi-line and single-line appends",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 2.0
+      },
+      {
+        "name": "append_to_file_test",
+        "description": "Appending to a line with text",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "delete_after_writing_test",
+        "description": "Test the deletion of a line after writing it to the document",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "deleting_on_own_test",
+        "description": "Delete a sentence",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "document_load_test",
+        "description": "Loading a file into a document and checking its contents",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "document_save_test",
+        "description": "Loading in a file and checking the contents",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "find_after_writing_test",
+        "description": "Test finding a line after writing it to the document",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "find_test_multiple_exist_test",
+        "description": "Find multiple lines with a given key after writing them",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "find_with_no_match_test",
+        "description": "Test that finding with no match works",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "insert_delete_insert_test",
+        "description": "Insert a line, delete a line, then insert a line",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "inserting_test",
+        "description": "Attempt to write a line",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "inserting_test_1",
+        "description": "More rigorous test of inserting_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "loading_saving_test",
+        "description": "Tests reading from file, inserting, writing to file",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "memory_test",
+        "description": "Checking for memory issues for text editor",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "merge_to_one_test",
+        "description": "Check that lines can be merged",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "mutiple_inserts_same_line_test",
+        "description": "Have multiple inserts in the same line",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "overwrite_test",
+        "description": "Simple write test over existing document",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "print_empty_document_test",
+        "description": "Test that printing an empty document gives an error",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "printing_test",
+        "description": "Print a whole file",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "printing_test1",
+        "description": "Print with different window settings",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "split_lines_test",
+        "description": "Check that lines can be split",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "write_command_test",
+        "description": "Test multi-line and single-line writes",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 2.0
+      },
+      {
+        "name": "write_white_spaces_test",
+        "description": "Test by writing white spaces",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      }
+    ],
+    "timestamp": "2017-09-14 22:00:05.581881",
+    "checksum": "56be20cfbcc1e4b62a0f1eb26325311cc7c23b3a  editor.c\na3fb96cbec74a77aa4759069e5749b4223984f36  document.c\n",
+    "revision": "8140"
+  },
+  {
+    "testcases": [
+      {
+        "name": "append_command_test",
+        "description": "Test multi-line and single-line appends",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 2.0
+      },
+      {
+        "name": "append_to_file_test",
+        "description": "Appending to a line with text",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "delete_after_writing_test",
+        "description": "Test the deletion of a line after writing it to the document",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "deleting_on_own_test",
+        "description": "Delete a sentence",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "document_load_test",
+        "description": "Loading a file into a document and checking its contents",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "document_save_test",
+        "description": "Loading in a file and checking the contents",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "find_after_writing_test",
+        "description": "Test finding a line after writing it to the document",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "find_test_multiple_exist_test",
+        "description": "Find multiple lines with a given key after writing them",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "find_with_no_match_test",
+        "description": "Test that finding with no match works",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "insert_delete_insert_test",
+        "description": "Insert a line, delete a line, then insert a line",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "inserting_test",
+        "description": "Attempt to write a line",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "inserting_test_1",
+        "description": "More rigorous test of inserting_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "loading_saving_test",
+        "description": "Tests reading from file, inserting, writing to file",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "memory_test",
+        "description": "Checking for memory issues for text editor",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "merge_to_one_test",
+        "description": "Check that lines can be merged",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "mutiple_inserts_same_line_test",
+        "description": "Have multiple inserts in the same line",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "overwrite_test",
+        "description": "Simple write test over existing document",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "print_empty_document_test",
+        "description": "Test that printing an empty document gives an error",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "printing_test",
+        "description": "Print a whole file",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "printing_test1",
+        "description": "Print with different window settings",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "split_lines_test",
+        "description": "Check that lines can be split",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "write_command_test",
+        "description": "Test multi-line and single-line writes",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 2.0
+      },
+      {
+        "name": "write_white_spaces_test",
+        "description": "Test by writing white spaces",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      }
+    ],
+    "timestamp": "2017-09-16 22:00:04.116203",
+    "checksum": "baae4dd933d6334ce0855b511c7814720134177f  editor.c\n81d6a34ae96de9cf9724462dc994d57ea63b6bdf  document.c\n",
+    "revision": "9157"
+  },
+  {
+    "testcases": [
+      {
+        "name": "append_command_test",
+        "description": "Test multi-line and single-line appends",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 2.0
+      },
+      {
+        "name": "append_to_file_test",
+        "description": "Appending to a line with text",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "delete_after_writing_test",
+        "description": "Test the deletion of a line after writing it to the document",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "deleting_on_own_test",
+        "description": "Delete a sentence",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "document_load_test",
+        "description": "Loading a file into a document and checking its contents",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "document_save_test",
+        "description": "Loading in a file and checking the contents",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "find_after_writing_test",
+        "description": "Test finding a line after writing it to the document",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "find_test_multiple_exist_test",
+        "description": "Find multiple lines with a given key after writing them",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "find_with_no_match_test",
+        "description": "Test that finding with no match works",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "insert_delete_insert_test",
+        "description": "Insert a line, delete a line, then insert a line",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "inserting_test",
+        "description": "Attempt to write a line",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "inserting_test_1",
+        "description": "More rigorous test of inserting_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "loading_saving_test",
+        "description": "Tests reading from file, inserting, writing to file",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "memory_test",
+        "description": "Checking for memory issues for text editor",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "merge_to_one_test",
+        "description": "Check that lines can be merged",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "mutiple_inserts_same_line_test",
+        "description": "Have multiple inserts in the same line",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "overwrite_test",
+        "description": "Simple write test over existing document",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "print_empty_document_test",
+        "description": "Test that printing an empty document gives an error",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "printing_test",
+        "description": "Print a whole file",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "printing_test1",
+        "description": "Print with different window settings",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "split_lines_test",
+        "description": "Check that lines can be split",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "write_command_test",
+        "description": "Test multi-line and single-line writes",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 2.0
+      },
+      {
+        "name": "write_white_spaces_test",
+        "description": "Test by writing white spaces",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      }
+    ],
+    "timestamp": "2017-09-17 22:00:03.407459",
+    "checksum": "baae4dd933d6334ce0855b511c7814720134177f  editor.c\n81d6a34ae96de9cf9724462dc994d57ea63b6bdf  document.c\n",
+    "revision": "10397"
+  },
+  {
+    "testcases": [
+      {
+        "name": "append_command_test",
+        "description": "Test multi-line and single-line appends",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 2.0
+      },
+      {
+        "name": "append_to_file_test",
+        "description": "Appending to a line with text",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "delete_after_writing_test",
+        "description": "Test the deletion of a line after writing it to the document",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "deleting_on_own_test",
+        "description": "Delete a sentence",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "document_load_test",
+        "description": "Loading a file into a document and checking its contents",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "document_save_test",
+        "description": "Loading in a file and checking the contents",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "find_after_writing_test",
+        "description": "Test finding a line after writing it to the document",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "find_test_multiple_exist_test",
+        "description": "Find multiple lines with a given key after writing them",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "find_with_no_match_test",
+        "description": "Test that finding with no match works",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "insert_delete_insert_test",
+        "description": "Insert a line, delete a line, then insert a line",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "inserting_test",
+        "description": "Attempt to write a line",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "inserting_test_1",
+        "description": "More rigorous test of inserting_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "loading_saving_test",
+        "description": "Tests reading from file, inserting, writing to file",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "memory_test",
+        "description": "Checking for memory issues for text editor",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "merge_to_one_test",
+        "description": "Check that lines can be merged",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "mutiple_inserts_same_line_test",
+        "description": "Have multiple inserts in the same line",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "overwrite_test",
+        "description": "Simple write test over existing document",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "print_empty_document_test",
+        "description": "Test that printing an empty document gives an error",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "printing_test",
+        "description": "Print a whole file",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "printing_test1",
+        "description": "Print with different window settings",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "split_lines_test",
+        "description": "Check that lines can be split",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "write_command_test",
+        "description": "Test multi-line and single-line writes",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 2.0
+      },
+      {
+        "name": "write_white_spaces_test",
+        "description": "Test by writing white spaces",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      }
+    ],
+    "timestamp": "2017-09-18 12:00:04.822276",
+    "checksum": "1ee714cf003dc46dc3ac2bb36fb0db0b7137dcbf  editor.c\nbf3a924e9a03d7d5e6e92bc3d0c5bfdd144a9f0d  document.c\n",
+    "revision": "11382"
+  },
+  {
+    "testcases": [
+      {
+        "name": "append_command_test",
+        "description": "Test multi-line and single-line appends",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 2.0
+      },
+      {
+        "name": "append_to_file_test",
+        "description": "Appending to a line with text",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "delete_after_writing_test",
+        "description": "Test the deletion of a line after writing it to the document",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "deleting_on_own_test",
+        "description": "Delete a sentence",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "document_load_test",
+        "description": "Loading a file into a document and checking its contents",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "document_save_test",
+        "description": "Loading in a file and checking the contents",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "find_after_writing_test",
+        "description": "Test finding a line after writing it to the document",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "find_test_multiple_exist_test",
+        "description": "Find multiple lines with a given key after writing them",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "find_with_no_match_test",
+        "description": "Test that finding with no match works",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "insert_delete_insert_test",
+        "description": "Insert a line, delete a line, then insert a line",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "inserting_test",
+        "description": "Attempt to write a line",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "inserting_test_1",
+        "description": "More rigorous test of inserting_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "loading_saving_test",
+        "description": "Tests reading from file, inserting, writing to file",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "memory_test",
+        "description": "Checking for memory issues for text editor",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "merge_to_one_test",
+        "description": "Check that lines can be merged",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "mutiple_inserts_same_line_test",
+        "description": "Have multiple inserts in the same line",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "overwrite_test",
+        "description": "Simple write test over existing document",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "print_empty_document_test",
+        "description": "Test that printing an empty document gives an error",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "printing_test",
+        "description": "Print a whole file",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "printing_test1",
+        "description": "Print with different window settings",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "split_lines_test",
+        "description": "Check that lines can be split",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "write_command_test",
+        "description": "Test multi-line and single-line writes",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 2.0
+      },
+      {
+        "name": "write_white_spaces_test",
+        "description": "Test by writing white spaces",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      }
+    ],
+    "timestamp": "2017-09-19 00:00:03.712324",
+    "checksum": "1ee714cf003dc46dc3ac2bb36fb0db0b7137dcbf  editor.c\nbf3a924e9a03d7d5e6e92bc3d0c5bfdd144a9f0d  document.c\n",
+    "revision": "12620"
+  }
+]

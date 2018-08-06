@@ -1,0 +1,338 @@
+[
+  {
+    "checksum": "1b822fff16415bc539ad1549dacee0f0e861ae2e  mapreduce.c\n",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "name": "Large Input",
+        "ptsEarned": 0.0,
+        "description": "Runs mapreduce on a large input with multiple mappers.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nIncorrect number of mappers\nCouldn't open/read output file"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Multiple Mappers",
+        "ptsEarned": 0.0,
+        "description": "Correct number of mappers are used.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nIncorrect number of mappers with mappers of 0"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Non-Zero Mapper Exit",
+        "ptsEarned": 0.0,
+        "description": "Runs mapreduce on an mapper with error exit codes.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nDid not correctly handle the unstable mapper"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Non-Zero Reducer Exit",
+        "ptsEarned": 0.0,
+        "description": "Runs mapreduce on a reducer with non-zero exit codes.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nDid not correctly handle the unstable reducer"
+      },
+      {
+        "ptsPossible": 2.0,
+        "name": "Performance",
+        "ptsEarned": 0.0,
+        "description": "Tests performance of 1 mapper vs multiple mappers.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nCouldn't open/read output files"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Small Input",
+        "ptsEarned": 0.0,
+        "description": "Runs mapreduce on a small input with multiple mappers.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nIncorrect number of mappers, with mappers of 0\nUnable to open/read output file"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Splitter Usage",
+        "ptsEarned": 0.0,
+        "description": "Test that splitter is used correctly to feed data to mappers.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nData was not split evenly among mappers"
+      }
+    ],
+    "timestamp": "2017-10-27 22:00:29.728756",
+    "revision": "41374"
+  },
+  {
+    "checksum": "1b822fff16415bc539ad1549dacee0f0e861ae2e  mapreduce.c\n",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "name": "Large Input",
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nIncorrect number of mappers\nCouldn't open/read output file",
+        "description": "Runs mapreduce on a large input with multiple mappers."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Multiple Mappers",
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nIncorrect number of mappers with mappers of 0",
+        "description": "Correct number of mappers are used."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Non-Zero Mapper Exit",
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nDid not correctly handle the unstable mapper",
+        "description": "Runs mapreduce on an mapper with error exit codes."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Non-Zero Reducer Exit",
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nDid not correctly handle the unstable reducer",
+        "description": "Runs mapreduce on a reducer with non-zero exit codes."
+      },
+      {
+        "ptsPossible": 2.0,
+        "name": "Performance",
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nCouldn't open/read output files",
+        "description": "Tests performance of 1 mapper vs multiple mappers."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Small Input",
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nIncorrect number of mappers, with mappers of 0\nUnable to open/read output file",
+        "description": "Runs mapreduce on a small input with multiple mappers."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Splitter Usage",
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nData was not split evenly among mappers",
+        "description": "Test that splitter is used correctly to feed data to mappers."
+      }
+    ],
+    "revision": "42353",
+    "timestamp": "2017-10-29 22:00:31.517739"
+  },
+  {
+    "checksum": "6d4c65ff9323531667a15e8716ed320b7118fa1d  mapreduce.c\n",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "name": "Large Input",
+        "ptsEarned": 1.0,
+        "description": "Runs mapreduce on a large input with multiple mappers.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Multiple Mappers",
+        "ptsEarned": 1.0,
+        "description": "Correct number of mappers are used.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Non-Zero Mapper Exit",
+        "ptsEarned": 1.0,
+        "description": "Runs mapreduce on an mapper with error exit codes.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Non-Zero Reducer Exit",
+        "ptsEarned": 1.0,
+        "description": "Runs mapreduce on a reducer with non-zero exit codes.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "ptsPossible": 2.0,
+        "name": "Performance",
+        "ptsEarned": 2.0,
+        "description": "Tests performance of 1 mapper vs multiple mappers.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTest passed"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Small Input",
+        "ptsEarned": 1.0,
+        "description": "Runs mapreduce on a small input with multiple mappers.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Splitter Usage",
+        "ptsEarned": 1.0,
+        "description": "Test that splitter is used correctly to feed data to mappers.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      }
+    ],
+    "timestamp": "2017-10-30 22:00:31.074669",
+    "revision": "43195"
+  },
+  {
+    "checksum": "6d4c65ff9323531667a15e8716ed320b7118fa1d  mapreduce.c\n",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "name": "Large Input",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "description": "Runs mapreduce on a large input with multiple mappers."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Multiple Mappers",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "description": "Correct number of mappers are used."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Non-Zero Mapper Exit",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "description": "Runs mapreduce on an mapper with error exit codes."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Non-Zero Reducer Exit",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "description": "Runs mapreduce on a reducer with non-zero exit codes."
+      },
+      {
+        "ptsPossible": 2.0,
+        "name": "Performance",
+        "ptsEarned": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTest passed",
+        "description": "Tests performance of 1 mapper vs multiple mappers."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Small Input",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "description": "Runs mapreduce on a small input with multiple mappers."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Splitter Usage",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "description": "Test that splitter is used correctly to feed data to mappers."
+      }
+    ],
+    "revision": "43786",
+    "timestamp": "2017-10-31 22:00:30.763976"
+  },
+  {
+    "checksum": "6d4c65ff9323531667a15e8716ed320b7118fa1d  mapreduce.c\n",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "name": "Large Input",
+        "ptsEarned": 1.0,
+        "description": "Runs mapreduce on a large input with multiple mappers.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Multiple Mappers",
+        "ptsEarned": 1.0,
+        "description": "Correct number of mappers are used.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Non-Zero Mapper Exit",
+        "ptsEarned": 1.0,
+        "description": "Runs mapreduce on an mapper with error exit codes.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Non-Zero Reducer Exit",
+        "ptsEarned": 1.0,
+        "description": "Runs mapreduce on a reducer with non-zero exit codes.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "ptsPossible": 2.0,
+        "name": "Performance",
+        "ptsEarned": 2.0,
+        "description": "Tests performance of 1 mapper vs multiple mappers.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTest passed"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Small Input",
+        "ptsEarned": 1.0,
+        "description": "Runs mapreduce on a small input with multiple mappers.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Splitter Usage",
+        "ptsEarned": 1.0,
+        "description": "Test that splitter is used correctly to feed data to mappers.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      }
+    ],
+    "timestamp": "2017-11-01 12:00:30.774692",
+    "revision": "44035"
+  },
+  {
+    "checksum": "ba9a25c9f7a5c52fa54cc8eaec48e323091d0002  mapreduce.c\n",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "name": "Large Input",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "description": "Runs mapreduce on a large input with multiple mappers."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Multiple Mappers",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "description": "Correct number of mappers are used."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Non-Zero Mapper Exit",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "description": "Runs mapreduce on an mapper with error exit codes."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Non-Zero Reducer Exit",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "description": "Runs mapreduce on a reducer with non-zero exit codes."
+      },
+      {
+        "ptsPossible": 2.0,
+        "name": "Performance",
+        "ptsEarned": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTest passed",
+        "description": "Tests performance of 1 mapper vs multiple mappers."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Small Input",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "description": "Runs mapreduce on a small input with multiple mappers."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "Splitter Usage",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "description": "Test that splitter is used correctly to feed data to mappers."
+      }
+    ],
+    "revision": "44545",
+    "timestamp": "2017-11-02 00:00:30.123918"
+  }
+]

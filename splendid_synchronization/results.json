@@ -1,0 +1,716 @@
+[
+  {
+    "checksum": "f8f8fc9f43d7c0ed20c9fb721924df35531b687f  queue.c\n574cb93cde78d017cef65f23efaafc3ad71459bf  semamore.c\nfb64c1596699cf76f9d9ab1d99e7bc20a02eb09a  barrier.c\n",
+    "timestamp": "2017-10-05 22:00:42.295675",
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nMemory leaks/errors found",
+        "name": "Barrier Memory",
+        "description": "Test barrier implementation with valgrind for memory leaks and errors",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\n\nPassed 0/3 trials.",
+        "name": "Barrier Multiple",
+        "description": "Test multiple barriers at once.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 3.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\n\nPassed 0/3 trials.",
+        "name": "Barrier Reuse",
+        "description": "Test for barrier reusability.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\n\nPassed 0/3 trials.",
+        "name": "Barrier Single Use",
+        "description": "Test on single use of barrier.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Block on Min",
+        "description": "Queue blocks on pull when queue is empty.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Generic Use",
+        "description": "Generic push and pull large amounts of data",
+        "ptsEarned": 0.0,
+        "ptsPossible": 2.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Max Cap",
+        "description": "Queue size doesn't exceed max capacity.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Memory",
+        "description": "Valgrind test on queue for memory leaks/errors.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Stress Test",
+        "description": "Stress tests the queue",
+        "ptsEarned": 0.0,
+        "ptsPossible": 4.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Unbounded",
+        "description": "Test that queue is not bounded",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Semamore Use",
+        "description": "Generic use of your semamore.",
+        "ptsEarned": 3.0,
+        "ptsPossible": 3.0
+      },
+      {
+        "log": "Test Failed",
+        "name": "Semm_init",
+        "description": "Test semamore init function",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Test Failed",
+        "name": "semm_post",
+        "description": "Test that semamore post works.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Test Failed",
+        "name": "semm_post block",
+        "description": "Test that semamore post blocks",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Test Failed",
+        "name": "semm_wait",
+        "description": "Test that semamore wait works.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Test Failed",
+        "name": "semm_wait blocks",
+        "description": "Test that semamore wait blocks",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      }
+    ],
+    "revision": "27829"
+  },
+  {
+    "checksum": "f8f8fc9f43d7c0ed20c9fb721924df35531b687f  queue.c\n574cb93cde78d017cef65f23efaafc3ad71459bf  semamore.c\nfb64c1596699cf76f9d9ab1d99e7bc20a02eb09a  barrier.c\n",
+    "timestamp": "2017-10-07 22:00:40.026257",
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nMemory leaks/errors found",
+        "name": "Barrier Memory",
+        "description": "Test barrier implementation with valgrind for memory leaks and errors",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\n\nPassed 0/3 trials.",
+        "name": "Barrier Multiple",
+        "description": "Test multiple barriers at once.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 3.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\n\nPassed 0/3 trials.",
+        "name": "Barrier Reuse",
+        "description": "Test for barrier reusability.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\n\nPassed 0/3 trials.",
+        "name": "Barrier Single Use",
+        "description": "Test on single use of barrier.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Block on Min",
+        "description": "Queue blocks on pull when queue is empty.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Generic Use",
+        "description": "Generic push and pull large amounts of data",
+        "ptsEarned": 0.0,
+        "ptsPossible": 2.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Max Cap",
+        "description": "Queue size doesn't exceed max capacity.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Memory",
+        "description": "Valgrind test on queue for memory leaks/errors.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Stress Test",
+        "description": "Stress tests the queue",
+        "ptsEarned": 0.0,
+        "ptsPossible": 4.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Unbounded",
+        "description": "Test that queue is not bounded",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Semamore Use",
+        "description": "Generic use of your semamore.",
+        "ptsEarned": 3.0,
+        "ptsPossible": 3.0
+      },
+      {
+        "log": "Test Failed",
+        "name": "Semm_init",
+        "description": "Test semamore init function",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Test Failed",
+        "name": "semm_post",
+        "description": "Test that semamore post works.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Test Failed",
+        "name": "semm_post block",
+        "description": "Test that semamore post blocks",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Test Failed",
+        "name": "semm_wait",
+        "description": "Test that semamore wait works.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Test Failed",
+        "name": "semm_wait blocks",
+        "description": "Test that semamore wait blocks",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      }
+    ],
+    "revision": "28579"
+  },
+  {
+    "checksum": "f8f8fc9f43d7c0ed20c9fb721924df35531b687f  queue.c\n574cb93cde78d017cef65f23efaafc3ad71459bf  semamore.c\nfb64c1596699cf76f9d9ab1d99e7bc20a02eb09a  barrier.c\n",
+    "timestamp": "2017-10-09 22:00:39.868490",
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nMemory leaks/errors found",
+        "name": "Barrier Memory",
+        "description": "Test barrier implementation with valgrind for memory leaks and errors",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\n\nPassed 0/3 trials.",
+        "name": "Barrier Multiple",
+        "description": "Test multiple barriers at once.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 3.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\n\nPassed 0/3 trials.",
+        "name": "Barrier Reuse",
+        "description": "Test for barrier reusability.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\n\nPassed 0/3 trials.",
+        "name": "Barrier Single Use",
+        "description": "Test on single use of barrier.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Block on Min",
+        "description": "Queue blocks on pull when queue is empty.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Generic Use",
+        "description": "Generic push and pull large amounts of data",
+        "ptsEarned": 0.0,
+        "ptsPossible": 2.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Max Cap",
+        "description": "Queue size doesn't exceed max capacity.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Memory",
+        "description": "Valgrind test on queue for memory leaks/errors.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Stress Test",
+        "description": "Stress tests the queue",
+        "ptsEarned": 0.0,
+        "ptsPossible": 4.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Unbounded",
+        "description": "Test that queue is not bounded",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Semamore Use",
+        "description": "Generic use of your semamore.",
+        "ptsEarned": 3.0,
+        "ptsPossible": 3.0
+      },
+      {
+        "log": "Test Failed",
+        "name": "Semm_init",
+        "description": "Test semamore init function",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Test Failed",
+        "name": "semm_post",
+        "description": "Test that semamore post works.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Test Failed",
+        "name": "semm_post block",
+        "description": "Test that semamore post blocks",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Test Failed",
+        "name": "semm_wait",
+        "description": "Test that semamore wait works.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Test Failed",
+        "name": "semm_wait blocks",
+        "description": "Test that semamore wait blocks",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      }
+    ],
+    "revision": "31147"
+  },
+  {
+    "checksum": "f8f8fc9f43d7c0ed20c9fb721924df35531b687f  queue.c\n574cb93cde78d017cef65f23efaafc3ad71459bf  semamore.c\nfb64c1596699cf76f9d9ab1d99e7bc20a02eb09a  barrier.c\n",
+    "timestamp": "2017-10-10 22:00:40.192106",
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nMemory leaks/errors found",
+        "name": "Barrier Memory",
+        "description": "Test barrier implementation with valgrind for memory leaks and errors",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\n\nPassed 0/3 trials.",
+        "name": "Barrier Multiple",
+        "description": "Test multiple barriers at once.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 3.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\n\nPassed 0/3 trials.",
+        "name": "Barrier Reuse",
+        "description": "Test for barrier reusability.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\n\nPassed 0/3 trials.",
+        "name": "Barrier Single Use",
+        "description": "Test on single use of barrier.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Block on Min",
+        "description": "Queue blocks on pull when queue is empty.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Generic Use",
+        "description": "Generic push and pull large amounts of data",
+        "ptsEarned": 0.0,
+        "ptsPossible": 2.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Max Cap",
+        "description": "Queue size doesn't exceed max capacity.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Memory",
+        "description": "Valgrind test on queue for memory leaks/errors.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Stress Test",
+        "description": "Stress tests the queue",
+        "ptsEarned": 0.0,
+        "ptsPossible": 4.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Unbounded",
+        "description": "Test that queue is not bounded",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Semamore Use",
+        "description": "Generic use of your semamore.",
+        "ptsEarned": 3.0,
+        "ptsPossible": 3.0
+      },
+      {
+        "log": "Test Failed",
+        "name": "Semm_init",
+        "description": "Test semamore init function",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Test Failed",
+        "name": "semm_post",
+        "description": "Test that semamore post works.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Test Failed",
+        "name": "semm_post block",
+        "description": "Test that semamore post blocks",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Test Failed",
+        "name": "semm_wait",
+        "description": "Test that semamore wait works.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Test Failed",
+        "name": "semm_wait blocks",
+        "description": "Test that semamore wait blocks",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      }
+    ],
+    "revision": "32015"
+  },
+  {
+    "checksum": "f8f8fc9f43d7c0ed20c9fb721924df35531b687f  queue.c\n574cb93cde78d017cef65f23efaafc3ad71459bf  semamore.c\nfb64c1596699cf76f9d9ab1d99e7bc20a02eb09a  barrier.c\n",
+    "timestamp": "2017-10-11 12:00:40.265643",
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nMemory leaks/errors found",
+        "name": "Barrier Memory",
+        "description": "Test barrier implementation with valgrind for memory leaks and errors",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\n\nPassed 0/3 trials.",
+        "name": "Barrier Multiple",
+        "description": "Test multiple barriers at once.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 3.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\n\nPassed 0/3 trials.",
+        "name": "Barrier Reuse",
+        "description": "Test for barrier reusability.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\nFailed the test. Output was incorrect.\n\nPassed 0/3 trials.",
+        "name": "Barrier Single Use",
+        "description": "Test on single use of barrier.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Block on Min",
+        "description": "Queue blocks on pull when queue is empty.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Generic Use",
+        "description": "Generic push and pull large amounts of data",
+        "ptsEarned": 0.0,
+        "ptsPossible": 2.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Max Cap",
+        "description": "Queue size doesn't exceed max capacity.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Memory",
+        "description": "Valgrind test on queue for memory leaks/errors.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Stress Test",
+        "description": "Stress tests the queue",
+        "ptsEarned": 0.0,
+        "ptsPossible": 4.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nqueue.c:36:29: warning: unused parameter 'max_size' [-Wunused-parameter]\nqueue *queue_create(ssize_t max_size) {\n                            ^\nqueue.c:38:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\nqueue.c:40:27: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_destroy(queue *this) {\n                          ^\nqueue.c:44:24: warning: unused parameter 'this' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                       ^\nqueue.c:44:36: warning: unused parameter 'data' [-Wunused-parameter]\nvoid queue_push(queue *this, void *data) {\n                                   ^\nqueue.c:48:25: warning: unused parameter 'this' [-Wunused-parameter]\nvoid *queue_pull(queue *this) {\n                        ^\nqueue.c:50:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]\n}\n^\n5 warnings and 2 errors generated.\nmake: *** [.objs/queue-release.o] Error 1\n",
+        "name": "Queue Unbounded",
+        "description": "Test that queue is not bounded",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Semamore Use",
+        "description": "Generic use of your semamore.",
+        "ptsEarned": 3.0,
+        "ptsPossible": 3.0
+      },
+      {
+        "log": "Test Failed",
+        "name": "Semm_init",
+        "description": "Test semamore init function",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Test Failed",
+        "name": "semm_post",
+        "description": "Test that semamore post works.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Test Failed",
+        "name": "semm_post block",
+        "description": "Test that semamore post blocks",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Test Failed",
+        "name": "semm_wait",
+        "description": "Test that semamore wait works.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Test Failed",
+        "name": "semm_wait blocks",
+        "description": "Test that semamore wait blocks",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      }
+    ],
+    "revision": "32323"
+  },
+  {
+    "checksum": "14f461136c6427b3c80a064989d6eca0f3072db3  queue.c\n3beaba3e692c0174bf5d4cf216e475d50b05900b  semamore.c\n0968ae9837b865472df68f8414bb45596dd3533e  barrier.c\n",
+    "timestamp": "2017-10-12 00:00:40.529142",
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTimeout",
+        "name": "Barrier Memory",
+        "description": "Test barrier implementation with valgrind for memory leaks and errors",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTimeout\nTimeout\nTimeout\n\nPassed 0/3 trials.",
+        "name": "Barrier Multiple",
+        "description": "Test multiple barriers at once.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 3.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTimeout\nTimeout\nTimeout\n\nPassed 0/3 trials.",
+        "name": "Barrier Reuse",
+        "description": "Test for barrier reusability.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTimeout\nTimeout\nTimeout\n\nPassed 0/3 trials.",
+        "name": "Barrier Single Use",
+        "description": "Test on single use of barrier.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Queue failed to block!",
+        "name": "Queue Block on Min",
+        "description": "Queue blocks on pull when queue is empty.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Queue Generic Use",
+        "description": "Generic push and pull large amounts of data",
+        "ptsEarned": 0.0,
+        "ptsPossible": 2.0
+      },
+      {
+        "log": "Queue failed to block!",
+        "name": "Queue Max Cap",
+        "description": "Queue size doesn't exceed max capacity.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Queue Memory",
+        "description": "Valgrind test on queue for memory leaks/errors.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nYour code passed 0 out of 3 runs",
+        "name": "Queue Stress Test",
+        "description": "Stress tests the queue",
+        "ptsEarned": 0.0,
+        "ptsPossible": 4.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Queue Unbounded",
+        "description": "Test that queue is not bounded",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Timed out!",
+        "name": "Semamore Use",
+        "description": "Generic use of your semamore.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 3.0
+      },
+      {
+        "log": "Test Failed",
+        "name": "Semm_init",
+        "description": "Test semamore init function",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Test Failed",
+        "name": "semm_post",
+        "description": "Test that semamore post works.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "name": "semm_post block",
+        "description": "Test that semamore post blocks",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Test Failed",
+        "name": "semm_wait",
+        "description": "Test that semamore wait works.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "name": "semm_wait blocks",
+        "description": "Test that semamore wait blocks",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0
+      }
+    ],
+    "revision": "33120"
+  }
+]

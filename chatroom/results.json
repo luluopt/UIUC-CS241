@@ -1,0 +1,380 @@
+[
+  {
+    "testcases": [
+      {
+        "description": "Testing that client can't connect to a port that is not the server's port",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nFAILED TO COMPILE!\nclient.c:44:35: warning: unused parameter 'host' [-Wunused-parameter]\nint connect_to_server(const char *host, const char *port) {\n                                  ^\nclient.c:44:53: warning: unused parameter 'port' [-Wunused-parameter]\nint connect_to_server(const char *host, const char *port) {\n                                                    ^\n2 warnings generated.\nutils.c:33:35: warning: unused parameter 'size' [-Wunused-parameter]\nssize_t write_message_size(size_t size, int socket) {\n                                  ^\nutils.c:33:45: warning: unused parameter 'socket' [-Wunused-parameter]\nssize_t write_message_size(size_t size, int socket) {\n                                            ^\nutils.c:38:34: warning: unused parameter 'socket' [-Wunused-parameter]\nssize_t read_all_from_socket(int socket, char *buffer, size_t count) {\n                                 ^\nutils.c:38:48: warning: unused parameter 'buffer' [-Wunused-parameter]\nssize_t read_all_from_socket(int socket, char *buffer, size_t count) {\n                                               ^\nutils.c:38:63: warning: unused parameter 'count' [-Wunused-parameter]\nssize_t read_all_from_socket(int socket, char *buffer, size_t count) {\n                                                              ^\nutils.c:43:33: warning: unused parameter 'socket' [-Wunused-parameter]\nssize_t write_all_to_socket(int socket, const char *buffer, size_t count) {\n                                ^\nutils.c:43:53: warning: unused parameter 'buffer' [-Wunused-parameter]\nssize_t write_all_to_socket(int socket, const char *buffer, size_t count) {\n                                                    ^\nutils.c:43:68: warning: unused parameter 'count' [-Wunused-parameter]\nssize_t write_all_to_socket(int socket, const char *buffer, size_t count) {\n                                                                   ^\n8 warnings generated.\nserver.c:45:18: error: use of undeclared identifier 'serverSocket'\n    if (shutdown(serverSocket, SHUT_RDWR) != 0) {\n                 ^\nserver.c:48:11: error: use of undeclared identifier 'serverSocket'\n    close(serverSocket);\n          ^\nserver.c:76:23: warning: unused parameter 'port' [-Wunused-parameter]\nvoid run_server(char *port) {\n                      ^\n1 warning and 2 errors generated.\nmake: *** [.objs/server-release.o] Error 1\n",
+        "name": "Client Wrong Port",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "description": "Testing 8 student clients with student server with read and write fails",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nFAILED TO COMPILE!\nclient.c:44:35: warning: unused parameter 'host' [-Wunused-parameter]\nint connect_to_server(const char *host, const char *port) {\n                                  ^\nclient.c:44:53: warning: unused parameter 'port' [-Wunused-parameter]\nint connect_to_server(const char *host, const char *port) {\n                                                    ^\n2 warnings generated.\nutils.c:33:35: warning: unused parameter 'size' [-Wunused-parameter]\nssize_t write_message_size(size_t size, int socket) {\n                                  ^\nutils.c:33:45: warning: unused parameter 'socket' [-Wunused-parameter]\nssize_t write_message_size(size_t size, int socket) {\n                                            ^\nutils.c:38:34: warning: unused parameter 'socket' [-Wunused-parameter]\nssize_t read_all_from_socket(int socket, char *buffer, size_t count) {\n                                 ^\nutils.c:38:48: warning: unused parameter 'buffer' [-Wunused-parameter]\nssize_t read_all_from_socket(int socket, char *buffer, size_t count) {\n                                               ^\nutils.c:38:63: warning: unused parameter 'count' [-Wunused-parameter]\nssize_t read_all_from_socket(int socket, char *buffer, size_t count) {\n                                                              ^\nutils.c:43:33: warning: unused parameter 'socket' [-Wunused-parameter]\nssize_t write_all_to_socket(int socket, const char *buffer, size_t count) {\n                                ^\nutils.c:43:53: warning: unused parameter 'buffer' [-Wunused-parameter]\nssize_t write_all_to_socket(int socket, const char *buffer, size_t count) {\n                                                    ^\nutils.c:43:68: warning: unused parameter 'count' [-Wunused-parameter]\nssize_t write_all_to_socket(int socket, const char *buffer, size_t count) {\n                                                                   ^\n8 warnings generated.\nserver.c:45:18: error: use of undeclared identifier 'serverSocket'\n    if (shutdown(serverSocket, SHUT_RDWR) != 0) {\n                 ^\nserver.c:48:11: error: use of undeclared identifier 'serverSocket'\n    close(serverSocket);\n          ^\nserver.c:76:23: warning: unused parameter 'port' [-Wunused-parameter]\nvoid run_server(char *port) {\n                      ^\n1 warning and 2 errors generated.\nmake: *** [.objs/server-release.o] Error 1\n",
+        "name": "Everything Works",
+        "ptsPossible": 4.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "description": "Testing student's server and client combo for memory errors and leaks",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nFAILED TO COMPILE!\nserver.c:45:18: error: use of undeclared identifier 'serverSocket'\n    if (shutdown(serverSocket, SHUT_RDWR) != 0) {\n                 ^\nserver.c:48:11: error: use of undeclared identifier 'serverSocket'\n    close(serverSocket);\n          ^\nserver.c:76:23: warning: unused parameter 'port' [-Wunused-parameter]\nvoid run_server(char *port) {\n                      ^\n1 warning and 2 errors generated.\nmake: *** [.objs/server-release.o] Error 1\n",
+        "name": "Memory",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "description": "Testing student's client and server with read failures.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nFAILED TO COMPILE!\nserver.c:45:18: error: use of undeclared identifier 'serverSocket'\n    if (shutdown(serverSocket, SHUT_RDWR) != 0) {\n                 ^\nserver.c:48:11: error: use of undeclared identifier 'serverSocket'\n    close(serverSocket);\n          ^\nserver.c:76:23: warning: unused parameter 'port' [-Wunused-parameter]\nvoid run_server(char *port) {\n                      ^\n1 warning and 2 errors generated.\nmake: *** [.objs/server-release.o] Error 1\n",
+        "name": "Read Failures",
+        "ptsPossible": 2.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "description": "Testing student's server can't connect to port below 1024",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nFAILED TO COMPILE!\nserver.c:45:18: error: use of undeclared identifier 'serverSocket'\n    if (shutdown(serverSocket, SHUT_RDWR) != 0) {\n                 ^\nserver.c:48:11: error: use of undeclared identifier 'serverSocket'\n    close(serverSocket);\n          ^\nserver.c:76:23: warning: unused parameter 'port' [-Wunused-parameter]\nvoid run_server(char *port) {\n                      ^\n1 warning and 2 errors generated.\nmake: *** [.objs/server-release.o] Error 1\n",
+        "name": "Server: Below Port 1024",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "description": "Testing student's client with autograder's server without read/write failures.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.\nClient didn't receive entire message from server.",
+        "name": "Student Client | AG Server",
+        "ptsPossible": 2.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "description": "Testing student's server with autograder's client without read/write failures.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nFAILED TO COMPILE!\nserver.c:45:18: error: use of undeclared identifier 'serverSocket'\n    if (shutdown(serverSocket, SHUT_RDWR) != 0) {\n                 ^\nserver.c:48:11: error: use of undeclared identifier 'serverSocket'\n    close(serverSocket);\n          ^\nserver.c:76:23: warning: unused parameter 'port' [-Wunused-parameter]\nvoid run_server(char *port) {\n                      ^\n1 warning and 2 errors generated.\nmake: *** [.objs/server-release.o] Error 1\n",
+        "name": "Student Server | AG Client",
+        "ptsPossible": 2.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "description": "Testing student's client and server with write failures.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nFAILED TO COMPILE!\nserver.c:45:18: error: use of undeclared identifier 'serverSocket'\n    if (shutdown(serverSocket, SHUT_RDWR) != 0) {\n                 ^\nserver.c:48:11: error: use of undeclared identifier 'serverSocket'\n    close(serverSocket);\n          ^\nserver.c:76:23: warning: unused parameter 'port' [-Wunused-parameter]\nvoid run_server(char *port) {\n                      ^\n1 warning and 2 errors generated.\nmake: *** [.objs/server-release.o] Error 1\n",
+        "name": "Write Failures",
+        "ptsPossible": 2.0,
+        "ptsEarned": 0.0
+      }
+    ],
+    "checksum": "842f4074a44b832f36d70bed228551feda655034  client.c\nafe832251fdc6081d531fed797d9974a6808bdae  server.c\n31306a986887b1c295abb46c75f2c53bbaf5d828  utils.c\n",
+    "timestamp": "2017-11-10 22:00:08.885009",
+    "revision": "48512"
+  },
+  {
+    "testcases": [
+      {
+        "description": "Testing that client can't connect to a port that is not the server's port",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nFAILED TO COMPILE!\nclient.c:44:35: warning: unused parameter 'host' [-Wunused-parameter]\nint connect_to_server(const char *host, const char *port) {\n                                  ^\nclient.c:44:53: warning: unused parameter 'port' [-Wunused-parameter]\nint connect_to_server(const char *host, const char *port) {\n                                                    ^\n2 warnings generated.\nutils.c:33:35: warning: unused parameter 'size' [-Wunused-parameter]\nssize_t write_message_size(size_t size, int socket) {\n                                  ^\nutils.c:33:45: warning: unused parameter 'socket' [-Wunused-parameter]\nssize_t write_message_size(size_t size, int socket) {\n                                            ^\nutils.c:38:34: warning: unused parameter 'socket' [-Wunused-parameter]\nssize_t read_all_from_socket(int socket, char *buffer, size_t count) {\n                                 ^\nutils.c:38:48: warning: unused parameter 'buffer' [-Wunused-parameter]\nssize_t read_all_from_socket(int socket, char *buffer, size_t count) {\n                                               ^\nutils.c:38:63: warning: unused parameter 'count' [-Wunused-parameter]\nssize_t read_all_from_socket(int socket, char *buffer, size_t count) {\n                                                              ^\nutils.c:43:33: warning: unused parameter 'socket' [-Wunused-parameter]\nssize_t write_all_to_socket(int socket, const char *buffer, size_t count) {\n                                ^\nutils.c:43:53: warning: unused parameter 'buffer' [-Wunused-parameter]\nssize_t write_all_to_socket(int socket, const char *buffer, size_t count) {\n                                                    ^\nutils.c:43:68: warning: unused parameter 'count' [-Wunused-parameter]\nssize_t write_all_to_socket(int socket, const char *buffer, size_t count) {\n                                                                   ^\n8 warnings generated.\nserver.c:45:18: error: use of undeclared identifier 'serverSocket'\n    if (shutdown(serverSocket, SHUT_RDWR) != 0) {\n                 ^\nserver.c:48:11: error: use of undeclared identifier 'serverSocket'\n    close(serverSocket);\n          ^\nserver.c:76:23: warning: unused parameter 'port' [-Wunused-parameter]\nvoid run_server(char *port) {\n                      ^\n1 warning and 2 errors generated.\nmake: *** [.objs/server-release.o] Error 1\n",
+        "name": "Client Wrong Port",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "description": "Testing 8 student clients with student server with read and write fails",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nFAILED TO COMPILE!\nclient.c:44:35: warning: unused parameter 'host' [-Wunused-parameter]\nint connect_to_server(const char *host, const char *port) {\n                                  ^\nclient.c:44:53: warning: unused parameter 'port' [-Wunused-parameter]\nint connect_to_server(const char *host, const char *port) {\n                                                    ^\n2 warnings generated.\nutils.c:33:35: warning: unused parameter 'size' [-Wunused-parameter]\nssize_t write_message_size(size_t size, int socket) {\n                                  ^\nutils.c:33:45: warning: unused parameter 'socket' [-Wunused-parameter]\nssize_t write_message_size(size_t size, int socket) {\n                                            ^\nutils.c:38:34: warning: unused parameter 'socket' [-Wunused-parameter]\nssize_t read_all_from_socket(int socket, char *buffer, size_t count) {\n                                 ^\nutils.c:38:48: warning: unused parameter 'buffer' [-Wunused-parameter]\nssize_t read_all_from_socket(int socket, char *buffer, size_t count) {\n                                               ^\nutils.c:38:63: warning: unused parameter 'count' [-Wunused-parameter]\nssize_t read_all_from_socket(int socket, char *buffer, size_t count) {\n                                                              ^\nutils.c:43:33: warning: unused parameter 'socket' [-Wunused-parameter]\nssize_t write_all_to_socket(int socket, const char *buffer, size_t count) {\n                                ^\nutils.c:43:53: warning: unused parameter 'buffer' [-Wunused-parameter]\nssize_t write_all_to_socket(int socket, const char *buffer, size_t count) {\n                                                    ^\nutils.c:43:68: warning: unused parameter 'count' [-Wunused-parameter]\nssize_t write_all_to_socket(int socket, const char *buffer, size_t count) {\n                                                                   ^\n8 warnings generated.\nserver.c:45:18: error: use of undeclared identifier 'serverSocket'\n    if (shutdown(serverSocket, SHUT_RDWR) != 0) {\n                 ^\nserver.c:48:11: error: use of undeclared identifier 'serverSocket'\n    close(serverSocket);\n          ^\nserver.c:76:23: warning: unused parameter 'port' [-Wunused-parameter]\nvoid run_server(char *port) {\n                      ^\n1 warning and 2 errors generated.\nmake: *** [.objs/server-release.o] Error 1\n",
+        "name": "Everything Works",
+        "ptsPossible": 4.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "description": "Testing student's server and client combo for memory errors and leaks",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nFAILED TO COMPILE!\nserver.c:45:18: error: use of undeclared identifier 'serverSocket'\n    if (shutdown(serverSocket, SHUT_RDWR) != 0) {\n                 ^\nserver.c:48:11: error: use of undeclared identifier 'serverSocket'\n    close(serverSocket);\n          ^\nserver.c:76:23: warning: unused parameter 'port' [-Wunused-parameter]\nvoid run_server(char *port) {\n                      ^\n1 warning and 2 errors generated.\nmake: *** [.objs/server-release.o] Error 1\n",
+        "name": "Memory",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "description": "Testing student's client and server with read failures.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nFAILED TO COMPILE!\nserver.c:45:18: error: use of undeclared identifier 'serverSocket'\n    if (shutdown(serverSocket, SHUT_RDWR) != 0) {\n                 ^\nserver.c:48:11: error: use of undeclared identifier 'serverSocket'\n    close(serverSocket);\n          ^\nserver.c:76:23: warning: unused parameter 'port' [-Wunused-parameter]\nvoid run_server(char *port) {\n                      ^\n1 warning and 2 errors generated.\nmake: *** [.objs/server-release.o] Error 1\n",
+        "name": "Read Failures",
+        "ptsPossible": 2.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "description": "Testing student's server can't connect to port below 1024",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nFAILED TO COMPILE!\nserver.c:45:18: error: use of undeclared identifier 'serverSocket'\n    if (shutdown(serverSocket, SHUT_RDWR) != 0) {\n                 ^\nserver.c:48:11: error: use of undeclared identifier 'serverSocket'\n    close(serverSocket);\n          ^\nserver.c:76:23: warning: unused parameter 'port' [-Wunused-parameter]\nvoid run_server(char *port) {\n                      ^\n1 warning and 2 errors generated.\nmake: *** [.objs/server-release.o] Error 1\n",
+        "name": "Server: Below Port 1024",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "description": "Testing student's client with autograder's server without read/write failures.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.\nClient didn't receive entire message from server.",
+        "name": "Student Client | AG Server",
+        "ptsPossible": 2.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "description": "Testing student's server with autograder's client without read/write failures.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nFAILED TO COMPILE!\nserver.c:45:18: error: use of undeclared identifier 'serverSocket'\n    if (shutdown(serverSocket, SHUT_RDWR) != 0) {\n                 ^\nserver.c:48:11: error: use of undeclared identifier 'serverSocket'\n    close(serverSocket);\n          ^\nserver.c:76:23: warning: unused parameter 'port' [-Wunused-parameter]\nvoid run_server(char *port) {\n                      ^\n1 warning and 2 errors generated.\nmake: *** [.objs/server-release.o] Error 1\n",
+        "name": "Student Server | AG Client",
+        "ptsPossible": 2.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "description": "Testing student's client and server with write failures.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nFAILED TO COMPILE!\nserver.c:45:18: error: use of undeclared identifier 'serverSocket'\n    if (shutdown(serverSocket, SHUT_RDWR) != 0) {\n                 ^\nserver.c:48:11: error: use of undeclared identifier 'serverSocket'\n    close(serverSocket);\n          ^\nserver.c:76:23: warning: unused parameter 'port' [-Wunused-parameter]\nvoid run_server(char *port) {\n                      ^\n1 warning and 2 errors generated.\nmake: *** [.objs/server-release.o] Error 1\n",
+        "name": "Write Failures",
+        "ptsPossible": 2.0,
+        "ptsEarned": 0.0
+      }
+    ],
+    "checksum": "842f4074a44b832f36d70bed228551feda655034  client.c\nafe832251fdc6081d531fed797d9974a6808bdae  server.c\n31306a986887b1c295abb46c75f2c53bbaf5d828  utils.c\n",
+    "timestamp": "2017-11-12 22:00:08.875886",
+    "revision": "49341"
+  },
+  {
+    "testcases": [
+      {
+        "description": "Testing that client can't connect to a port that is not the server's port",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Client Wrong Port",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "description": "Testing 8 student clients with student server with read and write fails",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Everything Works",
+        "ptsPossible": 4.0,
+        "ptsEarned": 4.0
+      },
+      {
+        "description": "Testing student's server and client combo for memory errors and leaks",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.\nNone\n==9855== Memcheck, a memory error detector\n==9855== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==9855== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==9855== Command: ./socket_hook ./server 49565\n==9855== \n",
+        "name": "Memory",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "description": "Testing student's client and server with read failures.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Read Failures",
+        "ptsPossible": 2.0,
+        "ptsEarned": 2.0
+      },
+      {
+        "description": "Testing student's server can't connect to port below 1024",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Server: Below Port 1024",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "description": "Testing student's client with autograder's server without read/write failures.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Student Client | AG Server",
+        "ptsPossible": 2.0,
+        "ptsEarned": 2.0
+      },
+      {
+        "description": "Testing student's server with autograder's client without read/write failures.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Student Server | AG Client",
+        "ptsPossible": 2.0,
+        "ptsEarned": 2.0
+      },
+      {
+        "description": "Testing student's client and server with write failures.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Write Failures",
+        "ptsPossible": 2.0,
+        "ptsEarned": 2.0
+      }
+    ],
+    "checksum": "61a566bd195c51f2555a449c9b4726f0c0940e91  client.c\na3662efaa5b76668e9eec58c8b7caf0cacd535c6  server.c\nba1a75c8bdee1f8a69d37f88294eccf8cdcc0038  utils.c\n",
+    "timestamp": "2017-11-13 22:00:10.167684",
+    "revision": "50269"
+  },
+  {
+    "testcases": [
+      {
+        "description": "Testing that client can't connect to a port that is not the server's port",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Client Wrong Port",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "description": "Testing 8 student clients with student server with read and write fails",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Everything Works",
+        "ptsPossible": 4.0,
+        "ptsEarned": 4.0
+      },
+      {
+        "description": "Testing student's server and client combo for memory errors and leaks",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.\nNone\n==7480== Memcheck, a memory error detector\n==7480== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==7480== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==7480== Command: ./socket_hook ./server 49565\n==7480== \n",
+        "name": "Memory",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "description": "Testing student's client and server with read failures.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Read Failures",
+        "ptsPossible": 2.0,
+        "ptsEarned": 2.0
+      },
+      {
+        "description": "Testing student's server can't connect to port below 1024",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Server: Below Port 1024",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "description": "Testing student's client with autograder's server without read/write failures.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Student Client | AG Server",
+        "ptsPossible": 2.0,
+        "ptsEarned": 2.0
+      },
+      {
+        "description": "Testing student's server with autograder's client without read/write failures.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Student Server | AG Client",
+        "ptsPossible": 2.0,
+        "ptsEarned": 2.0
+      },
+      {
+        "description": "Testing student's client and server with write failures.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Write Failures",
+        "ptsPossible": 2.0,
+        "ptsEarned": 2.0
+      }
+    ],
+    "checksum": "61a566bd195c51f2555a449c9b4726f0c0940e91  client.c\na3662efaa5b76668e9eec58c8b7caf0cacd535c6  server.c\nba1a75c8bdee1f8a69d37f88294eccf8cdcc0038  utils.c\n",
+    "timestamp": "2017-11-14 22:00:09.664771",
+    "revision": "50949"
+  },
+  {
+    "testcases": [
+      {
+        "description": "Testing that client can't connect to a port that is not the server's port",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Client Wrong Port",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "description": "Testing 8 student clients with student server with read and write fails",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Everything Works",
+        "ptsPossible": 4.0,
+        "ptsEarned": 4.0
+      },
+      {
+        "description": "Testing student's server and client combo for memory errors and leaks",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.\nNone\n==3169== Memcheck, a memory error detector\n==3169== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==3169== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==3169== Command: ./socket_hook ./server 49565\n==3169== \n",
+        "name": "Memory",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "description": "Testing student's client and server with read failures.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Read Failures",
+        "ptsPossible": 2.0,
+        "ptsEarned": 2.0
+      },
+      {
+        "description": "Testing student's server can't connect to port below 1024",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Server: Below Port 1024",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "description": "Testing student's client with autograder's server without read/write failures.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Student Client | AG Server",
+        "ptsPossible": 2.0,
+        "ptsEarned": 2.0
+      },
+      {
+        "description": "Testing student's server with autograder's client without read/write failures.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Student Server | AG Client",
+        "ptsPossible": 2.0,
+        "ptsEarned": 2.0
+      },
+      {
+        "description": "Testing student's client and server with write failures.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Write Failures",
+        "ptsPossible": 2.0,
+        "ptsEarned": 2.0
+      }
+    ],
+    "checksum": "61a566bd195c51f2555a449c9b4726f0c0940e91  client.c\na3662efaa5b76668e9eec58c8b7caf0cacd535c6  server.c\nba1a75c8bdee1f8a69d37f88294eccf8cdcc0038  utils.c\n",
+    "timestamp": "2017-11-15 12:00:10.910140",
+    "revision": "51166"
+  },
+  {
+    "testcases": [
+      {
+        "description": "Testing that client can't connect to a port that is not the server's port",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Client Wrong Port",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "description": "Testing 8 student clients with student server with read and write fails",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Everything Works",
+        "ptsPossible": 4.0,
+        "ptsEarned": 4.0
+      },
+      {
+        "description": "Testing student's server and client combo for memory errors and leaks",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.\nNone\n==844== Memcheck, a memory error detector\n==844== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==844== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==844== Command: ./socket_hook ./server 49565\n==844== \n",
+        "name": "Memory",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "description": "Testing student's client and server with read failures.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Read Failures",
+        "ptsPossible": 2.0,
+        "ptsEarned": 2.0
+      },
+      {
+        "description": "Testing student's server can't connect to port below 1024",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Server: Below Port 1024",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "description": "Testing student's client with autograder's server without read/write failures.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Student Client | AG Server",
+        "ptsPossible": 2.0,
+        "ptsEarned": 2.0
+      },
+      {
+        "description": "Testing student's server with autograder's client without read/write failures.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Student Server | AG Client",
+        "ptsPossible": 2.0,
+        "ptsEarned": 2.0
+      },
+      {
+        "description": "Testing student's client and server with write failures.",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nTrying to compile your code...\nSuccessfully compiled your code.",
+        "name": "Write Failures",
+        "ptsPossible": 2.0,
+        "ptsEarned": 2.0
+      }
+    ],
+    "checksum": "61a566bd195c51f2555a449c9b4726f0c0940e91  client.c\na3662efaa5b76668e9eec58c8b7caf0cacd535c6  server.c\nba1a75c8bdee1f8a69d37f88294eccf8cdcc0038  utils.c\n",
+    "timestamp": "2017-11-16 00:00:09.340354",
+    "revision": "51568"
+  }
+]

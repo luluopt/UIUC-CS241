@@ -1,0 +1,975 @@
+[
+  {
+    "timestamp": "2017-10-06 22:00:42.386448",
+    "checksum": "bc93df915649834685ce7c9e24256d45e0ea1afb  alloc.c\ne564275769c257435e86ccba54aad48b6acc52ff  nickname.txt\n",
+    "revision": "28007",
+    "testcases": [
+      {
+        "name": "tester-1",
+        "description": "./mcontest testers_exe/tester-1 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 0\n[mcontest]: AVG: 0.000000\n[mcontest]: TIME: 0.000000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 4.\nYour heap starts from 0x655000, ends at 0xa0655000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-2",
+        "description": "./mcontest testers_exe/tester-2 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 0\n[mcontest]: AVG: 0.000000\n[mcontest]: TIME: 0.000000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 1.\nYour heap starts from 0xb58000, ends at 0xa0b58000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-3",
+        "description": "./mcontest testers_exe/tester-3 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 0\n[mcontest]: AVG: 0.000000\n[mcontest]: TIME: 0.000000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 1.\nYour heap starts from 0x1472000, ends at 0xa1472000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-4",
+        "description": "./mcontest testers_exe/tester-4 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 0\n[mcontest]: AVG: 0.000000\n[mcontest]: TIME: 0.000000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 1.\nYour heap starts from 0x212a000, ends at 0xa212a000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-5",
+        "description": "./mcontest testers_exe/tester-5 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 0\n[mcontest]: AVG: 0.000000\n[mcontest]: TIME: 0.000000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 1.\nYour heap starts from 0x2415000, ends at 0xa2415000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-6",
+        "description": "./mcontest testers_exe/tester-6 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 0\n[mcontest]: AVG: 0.000000\n[mcontest]: TIME: 0.000000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 1.\nYour heap starts from 0x1633000, ends at 0xa1633000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2017-10-07 22:00:41.725858",
+    "checksum": "43596f7cd55b6316a42ba3d89e724e2e723c22a0  alloc.c\ne564275769c257435e86ccba54aad48b6acc52ff  nickname.txt\n",
+    "revision": "28579",
+    "testcases": [
+      {
+        "name": "tester-1",
+        "description": "./mcontest testers_exe/tester-1 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 65536\n[mcontest]: AVG: 65536.000000\n[mcontest]: TIME: 8.540000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-2",
+        "description": "./mcontest testers_exe/tester-2 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 65536\n[mcontest]: AVG: 65536.000000\n[mcontest]: TIME: 0.000000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 41975808.\nYour heap starts from 0x225e000, ends at 0xa225e000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-3",
+        "description": "./mcontest testers_exe/tester-3 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 65536\n[mcontest]: AVG: 65536.000000\n[mcontest]: TIME: 0.000000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 1048576.\nYour heap starts from 0x19e3000, ends at 0xa19e3000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-4",
+        "description": "./mcontest testers_exe/tester-4 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED. SIGNAL=(11)\n[mcontest]: MAX: 65536\n[mcontest]: AVG: 65536.000000\n[mcontest]: TIME: 0.008000\n\n\nstderr:\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-5",
+        "description": "./mcontest testers_exe/tester-5 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 65536\n[mcontest]: AVG: 65536.000000\n[mcontest]: TIME: 0.000000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 3199992.\nYour heap starts from 0x1c5f000, ends at 0xa1c5f000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-6",
+        "description": "./mcontest testers_exe/tester-6 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED. SIGNAL=(11)\n[mcontest]: MAX: 65536\n[mcontest]: AVG: 65536.000000\n[mcontest]: TIME: 0.012000\n\n\nstderr:\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2017-10-08 22:00:42.458661",
+    "checksum": "43596f7cd55b6316a42ba3d89e724e2e723c22a0  alloc.c\ne564275769c257435e86ccba54aad48b6acc52ff  nickname.txt\n",
+    "revision": "29333",
+    "testcases": [
+      {
+        "name": "tester-1",
+        "description": "./mcontest testers_exe/tester-1 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 65536\n[mcontest]: AVG: 65536.000000\n[mcontest]: TIME: 8.644000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-2",
+        "description": "./mcontest testers_exe/tester-2 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 65536\n[mcontest]: AVG: 65536.000000\n[mcontest]: TIME: 0.000000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 41975808.\nYour heap starts from 0xa2e000, ends at 0xa0a2e000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-3",
+        "description": "./mcontest testers_exe/tester-3 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 65536\n[mcontest]: AVG: 65536.000000\n[mcontest]: TIME: 0.000000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 1048576.\nYour heap starts from 0xb66000, ends at 0xa0b66000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-4",
+        "description": "./mcontest testers_exe/tester-4 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED. SIGNAL=(11)\n[mcontest]: MAX: 65536\n[mcontest]: AVG: 65536.000000\n[mcontest]: TIME: 0.012000\n\n\nstderr:\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-5",
+        "description": "./mcontest testers_exe/tester-5 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 65536\n[mcontest]: AVG: 65536.000000\n[mcontest]: TIME: 0.000000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 3199992.\nYour heap starts from 0x11ef000, ends at 0xa11ef000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-6",
+        "description": "./mcontest testers_exe/tester-6 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED. SIGNAL=(11)\n[mcontest]: MAX: 65536\n[mcontest]: AVG: 65536.000000\n[mcontest]: TIME: 0.012000\n\n\nstderr:\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2017-10-09 12:00:42.230487",
+    "checksum": "43596f7cd55b6316a42ba3d89e724e2e723c22a0  alloc.c\ne564275769c257435e86ccba54aad48b6acc52ff  nickname.txt\n",
+    "revision": "29963",
+    "testcases": [
+      {
+        "name": "tester-1",
+        "description": "./mcontest testers_exe/tester-1 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 65536\n[mcontest]: AVG: 65536.000000\n[mcontest]: TIME: 8.484000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-2",
+        "description": "./mcontest testers_exe/tester-2 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 65536\n[mcontest]: AVG: 65536.000000\n[mcontest]: TIME: 0.000000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 41975808.\nYour heap starts from 0x25f3000, ends at 0xa25f3000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-3",
+        "description": "./mcontest testers_exe/tester-3 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 65536\n[mcontest]: AVG: 65536.000000\n[mcontest]: TIME: 0.000000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 1048576.\nYour heap starts from 0x97e000, ends at 0xa097e000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-4",
+        "description": "./mcontest testers_exe/tester-4 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED. SIGNAL=(11)\n[mcontest]: MAX: 65536\n[mcontest]: AVG: 65536.000000\n[mcontest]: TIME: 0.008000\n\n\nstderr:\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-5",
+        "description": "./mcontest testers_exe/tester-5 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 65536\n[mcontest]: AVG: 65536.000000\n[mcontest]: TIME: 0.000000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 3199992.\nYour heap starts from 0x157c000, ends at 0xa157c000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-6",
+        "description": "./mcontest testers_exe/tester-6 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED. SIGNAL=(11)\n[mcontest]: MAX: 65536\n[mcontest]: AVG: 65536.000000\n[mcontest]: TIME: 0.012000\n\n\nstderr:\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2017-10-10 00:00:41.773119",
+    "checksum": "5be5330b8152f293245fe1abc8daf2dc363f59f8  alloc.c\n0dc1ee3d5fa0efe2d9554c32a06bfe2cef4721cc  nickname.txt\n",
+    "revision": "31501",
+    "testcases": [
+      {
+        "name": "tester-1",
+        "description": "./mcontest testers_exe/tester-1 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 0\n[mcontest]: AVG: 0.000000\n[mcontest]: TIME: 0.004000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 4.\nYour heap starts from 0xc25000, ends at 0xa0c25000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-2",
+        "description": "./mcontest testers_exe/tester-2 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 0\n[mcontest]: AVG: 0.000000\n[mcontest]: TIME: 0.004000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 1.\nYour heap starts from 0xabc000, ends at 0xa0abc000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-3",
+        "description": "./mcontest testers_exe/tester-3 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 0\n[mcontest]: AVG: 0.000000\n[mcontest]: TIME: 0.004000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 1.\nYour heap starts from 0x191c000, ends at 0xa191c000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-4",
+        "description": "./mcontest testers_exe/tester-4 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 0\n[mcontest]: AVG: 0.000000\n[mcontest]: TIME: 0.004000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 1.\nYour heap starts from 0xc51000, ends at 0xa0c51000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-5",
+        "description": "./mcontest testers_exe/tester-5 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 0\n[mcontest]: AVG: 0.000000\n[mcontest]: TIME: 0.004000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 1.\nYour heap starts from 0xe87000, ends at 0xa0e87000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-6",
+        "description": "./mcontest testers_exe/tester-6 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 0\n[mcontest]: AVG: 0.000000\n[mcontest]: TIME: 0.004000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 1.\nYour heap starts from 0xe70000, ends at 0xa0e70000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2017-10-13 22:01:43.606476",
+    "checksum": "5be5330b8152f293245fe1abc8daf2dc363f59f8  alloc.c\n0dc1ee3d5fa0efe2d9554c32a06bfe2cef4721cc  nickname.txt\n",
+    "revision": "33621",
+    "testcases": [
+      {
+        "name": "tester-1",
+        "description": "./mcontest testers_exe/tester-1 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 0\n[mcontest]: AVG: 0.000000\n[mcontest]: TIME: 0.000000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 4.\nYour heap starts from 0xada000, ends at 0xa0ada000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-2",
+        "description": "./mcontest testers_exe/tester-2 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 0\n[mcontest]: AVG: 0.000000\n[mcontest]: TIME: 0.004000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 1.\nYour heap starts from 0x2010000, ends at 0xa2010000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-3",
+        "description": "./mcontest testers_exe/tester-3 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 0\n[mcontest]: AVG: 0.000000\n[mcontest]: TIME: 0.004000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 1.\nYour heap starts from 0xd1d000, ends at 0xa0d1d000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-4",
+        "description": "./mcontest testers_exe/tester-4 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 0\n[mcontest]: AVG: 0.000000\n[mcontest]: TIME: 0.004000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 1.\nYour heap starts from 0xe72000, ends at 0xa0e72000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-5",
+        "description": "./mcontest testers_exe/tester-5 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 0\n[mcontest]: AVG: 0.000000\n[mcontest]: TIME: 0.004000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 1.\nYour heap starts from 0x2264000, ends at 0xa2264000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-6",
+        "description": "./mcontest testers_exe/tester-6 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 0\n[mcontest]: AVG: 0.000000\n[mcontest]: TIME: 0.004000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 1.\nYour heap starts from 0x1697000, ends at 0xa1697000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-7",
+        "description": "./mcontest testers_exe/tester-7 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 0\n[mcontest]: AVG: 0.000000\n[mcontest]: TIME: 0.004000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 1.\nYour heap starts from 0x216f000, ends at 0xa216f000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-8",
+        "description": "./mcontest testers_exe/tester-8 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 0\n[mcontest]: AVG: 0.000000\n[mcontest]: TIME: 0.004000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 1.\nYour heap starts from 0x2308000, ends at 0xa2308000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-9",
+        "description": "./mcontest testers_exe/tester-9 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 0\n[mcontest]: AVG: 0.000000\n[mcontest]: TIME: 0.004000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 1.\nYour heap starts from 0x2183000, ends at 0xa2183000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-10",
+        "description": "./mcontest testers_exe/tester-10 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 0\n[mcontest]: AVG: 0.000000\n[mcontest]: TIME: 0.004000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 1.\nYour heap starts from 0x1e7c000, ends at 0xa1e7c000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-11",
+        "description": "./mcontest testers_exe/tester-11 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 0\n[mcontest]: AVG: 0.000000\n[mcontest]: TIME: 0.004000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 1.\nYour heap starts from 0x19e0000, ends at 0xa19e0000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-12",
+        "description": "./mcontest testers_exe/tester-12 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 0\n[mcontest]: AVG: 0.000000\n[mcontest]: TIME: 0.000000\n\n\nstderr:\nData allocated outside of heap.\nCalloc/Malloc/Realloc returns a ptr: (nil) with allocated size: 1.\nYour heap starts from 0x188d000, ends at 0xa188d000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2017-10-14 22:01:42.984757",
+    "checksum": "b69a2b997b6c0600dd04277304efb25e1eded058  alloc.c\n0dc1ee3d5fa0efe2d9554c32a06bfe2cef4721cc  nickname.txt\n",
+    "revision": "34047",
+    "testcases": [
+      {
+        "name": "tester-1",
+        "description": "./mcontest testers_exe/tester-1 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nalloc.c:36:14: error: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned long') [-Werror,-Wsign-compare]\n    while (n < size) {\n           ~ ^ ~~~~\nalloc.c:191:10: error: use of undeclared identifier 'heap_begin'\n    if (!heap_begin){\n         ^\nalloc.c:192:9: error: use of undeclared identifier 'heap_begin'\n        heap_begin = sbrk(HEAP_SIZE);\n        ^\nalloc.c:193:9: error: use of undeclared identifier 'block_info'\n        block_info = heap_begin;\n        ^\nalloc.c:193:22: error: use of undeclared identifier 'heap_begin'\n        block_info = heap_begin;\n                     ^\nalloc.c:194:9: error: use of undeclared identifier 'block_info'\n        block_info[0] = HEAP_SIZE;\n        ^\nalloc.c:195:9: error: use of undeclared identifier 'block_info'\n        block_info[1] = 0;\n        ^\nalloc.c:203:23: error: implicit declaration of function 'split_heap_func' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                      ^\nalloc.c:203:39: error: use of undeclared identifier 'block_info'\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                                      ^\nalloc.c:228:22: error: use of undeclared identifier 'block_info'\n    int *last_free = block_info;\n                     ^\nalloc.c:255:30: error: use of undeclared identifier 'block_info'\n        if(block_begin_ptr < block_info)//check if the freed block should be the new freelist head\n                             ^\nalloc.c:257:13: error: use of undeclared identifier 'block_info'\n            block_info = block_begin_ptr;\n            ^\nalloc.c:261:13: error: implicit declaration of function 'free_offset_updater' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n            free_offset_updater(block_begin_ptr);\n            ^\nalloc.c:264:5: error: implicit declaration of function 'heap_scanner' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n    heap_scanner(block_begin_ptr);\n    ^\nalloc.c:312:21: warning: unused parameter 'ptr' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                    ^\nalloc.c:312:33: warning: unused parameter 'size' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                                ^\nalloc.c:317:6: error: conflicting types for 'split_heap_func'\nint *split_heap_func(int *heap_pointer,  size_t alloc_size)\n     ^\nalloc.c:203:23: note: previous implicit declaration is here\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                      ^\nalloc.c:323:24: error: use of undeclared identifier 'block_info'\n        if(heap_ptr == block_info) //if this block is the first free block\n                       ^\nalloc.c:325:13: error: use of undeclared identifier 'block_info'\n            block_info += heap_ptr[1]/4; //update freelist to point to next free block\n            ^\nalloc.c:329:9: error: implicit declaration of function 'offset_updater' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n        offset_updater(heap_ptr, old_offset);\n        ^\nalloc.c:338:16: error: incompatible integer to pointer conversion returning 'int' from a function with result type 'int *' [-Werror,-Wint-conversion]\n        return split_heap_func(heap_ptr + ptr_offset, alloc_size);\n               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n2 warnings and 20 errors generated.\nmake: *** [alloc.so] Error 1\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-2",
+        "description": "./mcontest testers_exe/tester-2 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nalloc.c:36:14: error: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned long') [-Werror,-Wsign-compare]\n    while (n < size) {\n           ~ ^ ~~~~\nalloc.c:191:10: error: use of undeclared identifier 'heap_begin'\n    if (!heap_begin){\n         ^\nalloc.c:192:9: error: use of undeclared identifier 'heap_begin'\n        heap_begin = sbrk(HEAP_SIZE);\n        ^\nalloc.c:193:9: error: use of undeclared identifier 'block_info'\n        block_info = heap_begin;\n        ^\nalloc.c:193:22: error: use of undeclared identifier 'heap_begin'\n        block_info = heap_begin;\n                     ^\nalloc.c:194:9: error: use of undeclared identifier 'block_info'\n        block_info[0] = HEAP_SIZE;\n        ^\nalloc.c:195:9: error: use of undeclared identifier 'block_info'\n        block_info[1] = 0;\n        ^\nalloc.c:203:23: error: implicit declaration of function 'split_heap_func' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                      ^\nalloc.c:203:39: error: use of undeclared identifier 'block_info'\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                                      ^\nalloc.c:228:22: error: use of undeclared identifier 'block_info'\n    int *last_free = block_info;\n                     ^\nalloc.c:255:30: error: use of undeclared identifier 'block_info'\n        if(block_begin_ptr < block_info)//check if the freed block should be the new freelist head\n                             ^\nalloc.c:257:13: error: use of undeclared identifier 'block_info'\n            block_info = block_begin_ptr;\n            ^\nalloc.c:261:13: error: implicit declaration of function 'free_offset_updater' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n            free_offset_updater(block_begin_ptr);\n            ^\nalloc.c:264:5: error: implicit declaration of function 'heap_scanner' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n    heap_scanner(block_begin_ptr);\n    ^\nalloc.c:312:21: warning: unused parameter 'ptr' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                    ^\nalloc.c:312:33: warning: unused parameter 'size' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                                ^\nalloc.c:317:6: error: conflicting types for 'split_heap_func'\nint *split_heap_func(int *heap_pointer,  size_t alloc_size)\n     ^\nalloc.c:203:23: note: previous implicit declaration is here\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                      ^\nalloc.c:323:24: error: use of undeclared identifier 'block_info'\n        if(heap_ptr == block_info) //if this block is the first free block\n                       ^\nalloc.c:325:13: error: use of undeclared identifier 'block_info'\n            block_info += heap_ptr[1]/4; //update freelist to point to next free block\n            ^\nalloc.c:329:9: error: implicit declaration of function 'offset_updater' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n        offset_updater(heap_ptr, old_offset);\n        ^\nalloc.c:338:16: error: incompatible integer to pointer conversion returning 'int' from a function with result type 'int *' [-Werror,-Wint-conversion]\n        return split_heap_func(heap_ptr + ptr_offset, alloc_size);\n               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n2 warnings and 20 errors generated.\nmake: *** [alloc.so] Error 1\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-3",
+        "description": "./mcontest testers_exe/tester-3 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nalloc.c:36:14: error: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned long') [-Werror,-Wsign-compare]\n    while (n < size) {\n           ~ ^ ~~~~\nalloc.c:191:10: error: use of undeclared identifier 'heap_begin'\n    if (!heap_begin){\n         ^\nalloc.c:192:9: error: use of undeclared identifier 'heap_begin'\n        heap_begin = sbrk(HEAP_SIZE);\n        ^\nalloc.c:193:9: error: use of undeclared identifier 'block_info'\n        block_info = heap_begin;\n        ^\nalloc.c:193:22: error: use of undeclared identifier 'heap_begin'\n        block_info = heap_begin;\n                     ^\nalloc.c:194:9: error: use of undeclared identifier 'block_info'\n        block_info[0] = HEAP_SIZE;\n        ^\nalloc.c:195:9: error: use of undeclared identifier 'block_info'\n        block_info[1] = 0;\n        ^\nalloc.c:203:23: error: implicit declaration of function 'split_heap_func' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                      ^\nalloc.c:203:39: error: use of undeclared identifier 'block_info'\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                                      ^\nalloc.c:228:22: error: use of undeclared identifier 'block_info'\n    int *last_free = block_info;\n                     ^\nalloc.c:255:30: error: use of undeclared identifier 'block_info'\n        if(block_begin_ptr < block_info)//check if the freed block should be the new freelist head\n                             ^\nalloc.c:257:13: error: use of undeclared identifier 'block_info'\n            block_info = block_begin_ptr;\n            ^\nalloc.c:261:13: error: implicit declaration of function 'free_offset_updater' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n            free_offset_updater(block_begin_ptr);\n            ^\nalloc.c:264:5: error: implicit declaration of function 'heap_scanner' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n    heap_scanner(block_begin_ptr);\n    ^\nalloc.c:312:21: warning: unused parameter 'ptr' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                    ^\nalloc.c:312:33: warning: unused parameter 'size' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                                ^\nalloc.c:317:6: error: conflicting types for 'split_heap_func'\nint *split_heap_func(int *heap_pointer,  size_t alloc_size)\n     ^\nalloc.c:203:23: note: previous implicit declaration is here\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                      ^\nalloc.c:323:24: error: use of undeclared identifier 'block_info'\n        if(heap_ptr == block_info) //if this block is the first free block\n                       ^\nalloc.c:325:13: error: use of undeclared identifier 'block_info'\n            block_info += heap_ptr[1]/4; //update freelist to point to next free block\n            ^\nalloc.c:329:9: error: implicit declaration of function 'offset_updater' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n        offset_updater(heap_ptr, old_offset);\n        ^\nalloc.c:338:16: error: incompatible integer to pointer conversion returning 'int' from a function with result type 'int *' [-Werror,-Wint-conversion]\n        return split_heap_func(heap_ptr + ptr_offset, alloc_size);\n               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n2 warnings and 20 errors generated.\nmake: *** [alloc.so] Error 1\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-4",
+        "description": "./mcontest testers_exe/tester-4 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nalloc.c:36:14: error: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned long') [-Werror,-Wsign-compare]\n    while (n < size) {\n           ~ ^ ~~~~\nalloc.c:191:10: error: use of undeclared identifier 'heap_begin'\n    if (!heap_begin){\n         ^\nalloc.c:192:9: error: use of undeclared identifier 'heap_begin'\n        heap_begin = sbrk(HEAP_SIZE);\n        ^\nalloc.c:193:9: error: use of undeclared identifier 'block_info'\n        block_info = heap_begin;\n        ^\nalloc.c:193:22: error: use of undeclared identifier 'heap_begin'\n        block_info = heap_begin;\n                     ^\nalloc.c:194:9: error: use of undeclared identifier 'block_info'\n        block_info[0] = HEAP_SIZE;\n        ^\nalloc.c:195:9: error: use of undeclared identifier 'block_info'\n        block_info[1] = 0;\n        ^\nalloc.c:203:23: error: implicit declaration of function 'split_heap_func' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                      ^\nalloc.c:203:39: error: use of undeclared identifier 'block_info'\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                                      ^\nalloc.c:228:22: error: use of undeclared identifier 'block_info'\n    int *last_free = block_info;\n                     ^\nalloc.c:255:30: error: use of undeclared identifier 'block_info'\n        if(block_begin_ptr < block_info)//check if the freed block should be the new freelist head\n                             ^\nalloc.c:257:13: error: use of undeclared identifier 'block_info'\n            block_info = block_begin_ptr;\n            ^\nalloc.c:261:13: error: implicit declaration of function 'free_offset_updater' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n            free_offset_updater(block_begin_ptr);\n            ^\nalloc.c:264:5: error: implicit declaration of function 'heap_scanner' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n    heap_scanner(block_begin_ptr);\n    ^\nalloc.c:312:21: warning: unused parameter 'ptr' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                    ^\nalloc.c:312:33: warning: unused parameter 'size' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                                ^\nalloc.c:317:6: error: conflicting types for 'split_heap_func'\nint *split_heap_func(int *heap_pointer,  size_t alloc_size)\n     ^\nalloc.c:203:23: note: previous implicit declaration is here\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                      ^\nalloc.c:323:24: error: use of undeclared identifier 'block_info'\n        if(heap_ptr == block_info) //if this block is the first free block\n                       ^\nalloc.c:325:13: error: use of undeclared identifier 'block_info'\n            block_info += heap_ptr[1]/4; //update freelist to point to next free block\n            ^\nalloc.c:329:9: error: implicit declaration of function 'offset_updater' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n        offset_updater(heap_ptr, old_offset);\n        ^\nalloc.c:338:16: error: incompatible integer to pointer conversion returning 'int' from a function with result type 'int *' [-Werror,-Wint-conversion]\n        return split_heap_func(heap_ptr + ptr_offset, alloc_size);\n               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n2 warnings and 20 errors generated.\nmake: *** [alloc.so] Error 1\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-5",
+        "description": "./mcontest testers_exe/tester-5 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nalloc.c:36:14: error: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned long') [-Werror,-Wsign-compare]\n    while (n < size) {\n           ~ ^ ~~~~\nalloc.c:191:10: error: use of undeclared identifier 'heap_begin'\n    if (!heap_begin){\n         ^\nalloc.c:192:9: error: use of undeclared identifier 'heap_begin'\n        heap_begin = sbrk(HEAP_SIZE);\n        ^\nalloc.c:193:9: error: use of undeclared identifier 'block_info'\n        block_info = heap_begin;\n        ^\nalloc.c:193:22: error: use of undeclared identifier 'heap_begin'\n        block_info = heap_begin;\n                     ^\nalloc.c:194:9: error: use of undeclared identifier 'block_info'\n        block_info[0] = HEAP_SIZE;\n        ^\nalloc.c:195:9: error: use of undeclared identifier 'block_info'\n        block_info[1] = 0;\n        ^\nalloc.c:203:23: error: implicit declaration of function 'split_heap_func' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                      ^\nalloc.c:203:39: error: use of undeclared identifier 'block_info'\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                                      ^\nalloc.c:228:22: error: use of undeclared identifier 'block_info'\n    int *last_free = block_info;\n                     ^\nalloc.c:255:30: error: use of undeclared identifier 'block_info'\n        if(block_begin_ptr < block_info)//check if the freed block should be the new freelist head\n                             ^\nalloc.c:257:13: error: use of undeclared identifier 'block_info'\n            block_info = block_begin_ptr;\n            ^\nalloc.c:261:13: error: implicit declaration of function 'free_offset_updater' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n            free_offset_updater(block_begin_ptr);\n            ^\nalloc.c:264:5: error: implicit declaration of function 'heap_scanner' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n    heap_scanner(block_begin_ptr);\n    ^\nalloc.c:312:21: warning: unused parameter 'ptr' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                    ^\nalloc.c:312:33: warning: unused parameter 'size' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                                ^\nalloc.c:317:6: error: conflicting types for 'split_heap_func'\nint *split_heap_func(int *heap_pointer,  size_t alloc_size)\n     ^\nalloc.c:203:23: note: previous implicit declaration is here\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                      ^\nalloc.c:323:24: error: use of undeclared identifier 'block_info'\n        if(heap_ptr == block_info) //if this block is the first free block\n                       ^\nalloc.c:325:13: error: use of undeclared identifier 'block_info'\n            block_info += heap_ptr[1]/4; //update freelist to point to next free block\n            ^\nalloc.c:329:9: error: implicit declaration of function 'offset_updater' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n        offset_updater(heap_ptr, old_offset);\n        ^\nalloc.c:338:16: error: incompatible integer to pointer conversion returning 'int' from a function with result type 'int *' [-Werror,-Wint-conversion]\n        return split_heap_func(heap_ptr + ptr_offset, alloc_size);\n               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n2 warnings and 20 errors generated.\nmake: *** [alloc.so] Error 1\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-6",
+        "description": "./mcontest testers_exe/tester-6 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nalloc.c:36:14: error: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned long') [-Werror,-Wsign-compare]\n    while (n < size) {\n           ~ ^ ~~~~\nalloc.c:191:10: error: use of undeclared identifier 'heap_begin'\n    if (!heap_begin){\n         ^\nalloc.c:192:9: error: use of undeclared identifier 'heap_begin'\n        heap_begin = sbrk(HEAP_SIZE);\n        ^\nalloc.c:193:9: error: use of undeclared identifier 'block_info'\n        block_info = heap_begin;\n        ^\nalloc.c:193:22: error: use of undeclared identifier 'heap_begin'\n        block_info = heap_begin;\n                     ^\nalloc.c:194:9: error: use of undeclared identifier 'block_info'\n        block_info[0] = HEAP_SIZE;\n        ^\nalloc.c:195:9: error: use of undeclared identifier 'block_info'\n        block_info[1] = 0;\n        ^\nalloc.c:203:23: error: implicit declaration of function 'split_heap_func' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                      ^\nalloc.c:203:39: error: use of undeclared identifier 'block_info'\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                                      ^\nalloc.c:228:22: error: use of undeclared identifier 'block_info'\n    int *last_free = block_info;\n                     ^\nalloc.c:255:30: error: use of undeclared identifier 'block_info'\n        if(block_begin_ptr < block_info)//check if the freed block should be the new freelist head\n                             ^\nalloc.c:257:13: error: use of undeclared identifier 'block_info'\n            block_info = block_begin_ptr;\n            ^\nalloc.c:261:13: error: implicit declaration of function 'free_offset_updater' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n            free_offset_updater(block_begin_ptr);\n            ^\nalloc.c:264:5: error: implicit declaration of function 'heap_scanner' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n    heap_scanner(block_begin_ptr);\n    ^\nalloc.c:312:21: warning: unused parameter 'ptr' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                    ^\nalloc.c:312:33: warning: unused parameter 'size' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                                ^\nalloc.c:317:6: error: conflicting types for 'split_heap_func'\nint *split_heap_func(int *heap_pointer,  size_t alloc_size)\n     ^\nalloc.c:203:23: note: previous implicit declaration is here\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                      ^\nalloc.c:323:24: error: use of undeclared identifier 'block_info'\n        if(heap_ptr == block_info) //if this block is the first free block\n                       ^\nalloc.c:325:13: error: use of undeclared identifier 'block_info'\n            block_info += heap_ptr[1]/4; //update freelist to point to next free block\n            ^\nalloc.c:329:9: error: implicit declaration of function 'offset_updater' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n        offset_updater(heap_ptr, old_offset);\n        ^\nalloc.c:338:16: error: incompatible integer to pointer conversion returning 'int' from a function with result type 'int *' [-Werror,-Wint-conversion]\n        return split_heap_func(heap_ptr + ptr_offset, alloc_size);\n               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n2 warnings and 20 errors generated.\nmake: *** [alloc.so] Error 1\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-7",
+        "description": "./mcontest testers_exe/tester-7 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nalloc.c:36:14: error: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned long') [-Werror,-Wsign-compare]\n    while (n < size) {\n           ~ ^ ~~~~\nalloc.c:191:10: error: use of undeclared identifier 'heap_begin'\n    if (!heap_begin){\n         ^\nalloc.c:192:9: error: use of undeclared identifier 'heap_begin'\n        heap_begin = sbrk(HEAP_SIZE);\n        ^\nalloc.c:193:9: error: use of undeclared identifier 'block_info'\n        block_info = heap_begin;\n        ^\nalloc.c:193:22: error: use of undeclared identifier 'heap_begin'\n        block_info = heap_begin;\n                     ^\nalloc.c:194:9: error: use of undeclared identifier 'block_info'\n        block_info[0] = HEAP_SIZE;\n        ^\nalloc.c:195:9: error: use of undeclared identifier 'block_info'\n        block_info[1] = 0;\n        ^\nalloc.c:203:23: error: implicit declaration of function 'split_heap_func' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                      ^\nalloc.c:203:39: error: use of undeclared identifier 'block_info'\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                                      ^\nalloc.c:228:22: error: use of undeclared identifier 'block_info'\n    int *last_free = block_info;\n                     ^\nalloc.c:255:30: error: use of undeclared identifier 'block_info'\n        if(block_begin_ptr < block_info)//check if the freed block should be the new freelist head\n                             ^\nalloc.c:257:13: error: use of undeclared identifier 'block_info'\n            block_info = block_begin_ptr;\n            ^\nalloc.c:261:13: error: implicit declaration of function 'free_offset_updater' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n            free_offset_updater(block_begin_ptr);\n            ^\nalloc.c:264:5: error: implicit declaration of function 'heap_scanner' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n    heap_scanner(block_begin_ptr);\n    ^\nalloc.c:312:21: warning: unused parameter 'ptr' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                    ^\nalloc.c:312:33: warning: unused parameter 'size' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                                ^\nalloc.c:317:6: error: conflicting types for 'split_heap_func'\nint *split_heap_func(int *heap_pointer,  size_t alloc_size)\n     ^\nalloc.c:203:23: note: previous implicit declaration is here\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                      ^\nalloc.c:323:24: error: use of undeclared identifier 'block_info'\n        if(heap_ptr == block_info) //if this block is the first free block\n                       ^\nalloc.c:325:13: error: use of undeclared identifier 'block_info'\n            block_info += heap_ptr[1]/4; //update freelist to point to next free block\n            ^\nalloc.c:329:9: error: implicit declaration of function 'offset_updater' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n        offset_updater(heap_ptr, old_offset);\n        ^\nalloc.c:338:16: error: incompatible integer to pointer conversion returning 'int' from a function with result type 'int *' [-Werror,-Wint-conversion]\n        return split_heap_func(heap_ptr + ptr_offset, alloc_size);\n               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n2 warnings and 20 errors generated.\nmake: *** [alloc.so] Error 1\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-8",
+        "description": "./mcontest testers_exe/tester-8 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nalloc.c:36:14: error: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned long') [-Werror,-Wsign-compare]\n    while (n < size) {\n           ~ ^ ~~~~\nalloc.c:191:10: error: use of undeclared identifier 'heap_begin'\n    if (!heap_begin){\n         ^\nalloc.c:192:9: error: use of undeclared identifier 'heap_begin'\n        heap_begin = sbrk(HEAP_SIZE);\n        ^\nalloc.c:193:9: error: use of undeclared identifier 'block_info'\n        block_info = heap_begin;\n        ^\nalloc.c:193:22: error: use of undeclared identifier 'heap_begin'\n        block_info = heap_begin;\n                     ^\nalloc.c:194:9: error: use of undeclared identifier 'block_info'\n        block_info[0] = HEAP_SIZE;\n        ^\nalloc.c:195:9: error: use of undeclared identifier 'block_info'\n        block_info[1] = 0;\n        ^\nalloc.c:203:23: error: implicit declaration of function 'split_heap_func' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                      ^\nalloc.c:203:39: error: use of undeclared identifier 'block_info'\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                                      ^\nalloc.c:228:22: error: use of undeclared identifier 'block_info'\n    int *last_free = block_info;\n                     ^\nalloc.c:255:30: error: use of undeclared identifier 'block_info'\n        if(block_begin_ptr < block_info)//check if the freed block should be the new freelist head\n                             ^\nalloc.c:257:13: error: use of undeclared identifier 'block_info'\n            block_info = block_begin_ptr;\n            ^\nalloc.c:261:13: error: implicit declaration of function 'free_offset_updater' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n            free_offset_updater(block_begin_ptr);\n            ^\nalloc.c:264:5: error: implicit declaration of function 'heap_scanner' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n    heap_scanner(block_begin_ptr);\n    ^\nalloc.c:312:21: warning: unused parameter 'ptr' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                    ^\nalloc.c:312:33: warning: unused parameter 'size' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                                ^\nalloc.c:317:6: error: conflicting types for 'split_heap_func'\nint *split_heap_func(int *heap_pointer,  size_t alloc_size)\n     ^\nalloc.c:203:23: note: previous implicit declaration is here\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                      ^\nalloc.c:323:24: error: use of undeclared identifier 'block_info'\n        if(heap_ptr == block_info) //if this block is the first free block\n                       ^\nalloc.c:325:13: error: use of undeclared identifier 'block_info'\n            block_info += heap_ptr[1]/4; //update freelist to point to next free block\n            ^\nalloc.c:329:9: error: implicit declaration of function 'offset_updater' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n        offset_updater(heap_ptr, old_offset);\n        ^\nalloc.c:338:16: error: incompatible integer to pointer conversion returning 'int' from a function with result type 'int *' [-Werror,-Wint-conversion]\n        return split_heap_func(heap_ptr + ptr_offset, alloc_size);\n               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n2 warnings and 20 errors generated.\nmake: *** [alloc.so] Error 1\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-9",
+        "description": "./mcontest testers_exe/tester-9 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nalloc.c:36:14: error: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned long') [-Werror,-Wsign-compare]\n    while (n < size) {\n           ~ ^ ~~~~\nalloc.c:191:10: error: use of undeclared identifier 'heap_begin'\n    if (!heap_begin){\n         ^\nalloc.c:192:9: error: use of undeclared identifier 'heap_begin'\n        heap_begin = sbrk(HEAP_SIZE);\n        ^\nalloc.c:193:9: error: use of undeclared identifier 'block_info'\n        block_info = heap_begin;\n        ^\nalloc.c:193:22: error: use of undeclared identifier 'heap_begin'\n        block_info = heap_begin;\n                     ^\nalloc.c:194:9: error: use of undeclared identifier 'block_info'\n        block_info[0] = HEAP_SIZE;\n        ^\nalloc.c:195:9: error: use of undeclared identifier 'block_info'\n        block_info[1] = 0;\n        ^\nalloc.c:203:23: error: implicit declaration of function 'split_heap_func' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                      ^\nalloc.c:203:39: error: use of undeclared identifier 'block_info'\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                                      ^\nalloc.c:228:22: error: use of undeclared identifier 'block_info'\n    int *last_free = block_info;\n                     ^\nalloc.c:255:30: error: use of undeclared identifier 'block_info'\n        if(block_begin_ptr < block_info)//check if the freed block should be the new freelist head\n                             ^\nalloc.c:257:13: error: use of undeclared identifier 'block_info'\n            block_info = block_begin_ptr;\n            ^\nalloc.c:261:13: error: implicit declaration of function 'free_offset_updater' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n            free_offset_updater(block_begin_ptr);\n            ^\nalloc.c:264:5: error: implicit declaration of function 'heap_scanner' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n    heap_scanner(block_begin_ptr);\n    ^\nalloc.c:312:21: warning: unused parameter 'ptr' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                    ^\nalloc.c:312:33: warning: unused parameter 'size' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                                ^\nalloc.c:317:6: error: conflicting types for 'split_heap_func'\nint *split_heap_func(int *heap_pointer,  size_t alloc_size)\n     ^\nalloc.c:203:23: note: previous implicit declaration is here\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                      ^\nalloc.c:323:24: error: use of undeclared identifier 'block_info'\n        if(heap_ptr == block_info) //if this block is the first free block\n                       ^\nalloc.c:325:13: error: use of undeclared identifier 'block_info'\n            block_info += heap_ptr[1]/4; //update freelist to point to next free block\n            ^\nalloc.c:329:9: error: implicit declaration of function 'offset_updater' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n        offset_updater(heap_ptr, old_offset);\n        ^\nalloc.c:338:16: error: incompatible integer to pointer conversion returning 'int' from a function with result type 'int *' [-Werror,-Wint-conversion]\n        return split_heap_func(heap_ptr + ptr_offset, alloc_size);\n               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n2 warnings and 20 errors generated.\nmake: *** [alloc.so] Error 1\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-10",
+        "description": "./mcontest testers_exe/tester-10 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nalloc.c:36:14: error: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned long') [-Werror,-Wsign-compare]\n    while (n < size) {\n           ~ ^ ~~~~\nalloc.c:191:10: error: use of undeclared identifier 'heap_begin'\n    if (!heap_begin){\n         ^\nalloc.c:192:9: error: use of undeclared identifier 'heap_begin'\n        heap_begin = sbrk(HEAP_SIZE);\n        ^\nalloc.c:193:9: error: use of undeclared identifier 'block_info'\n        block_info = heap_begin;\n        ^\nalloc.c:193:22: error: use of undeclared identifier 'heap_begin'\n        block_info = heap_begin;\n                     ^\nalloc.c:194:9: error: use of undeclared identifier 'block_info'\n        block_info[0] = HEAP_SIZE;\n        ^\nalloc.c:195:9: error: use of undeclared identifier 'block_info'\n        block_info[1] = 0;\n        ^\nalloc.c:203:23: error: implicit declaration of function 'split_heap_func' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                      ^\nalloc.c:203:39: error: use of undeclared identifier 'block_info'\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                                      ^\nalloc.c:228:22: error: use of undeclared identifier 'block_info'\n    int *last_free = block_info;\n                     ^\nalloc.c:255:30: error: use of undeclared identifier 'block_info'\n        if(block_begin_ptr < block_info)//check if the freed block should be the new freelist head\n                             ^\nalloc.c:257:13: error: use of undeclared identifier 'block_info'\n            block_info = block_begin_ptr;\n            ^\nalloc.c:261:13: error: implicit declaration of function 'free_offset_updater' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n            free_offset_updater(block_begin_ptr);\n            ^\nalloc.c:264:5: error: implicit declaration of function 'heap_scanner' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n    heap_scanner(block_begin_ptr);\n    ^\nalloc.c:312:21: warning: unused parameter 'ptr' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                    ^\nalloc.c:312:33: warning: unused parameter 'size' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                                ^\nalloc.c:317:6: error: conflicting types for 'split_heap_func'\nint *split_heap_func(int *heap_pointer,  size_t alloc_size)\n     ^\nalloc.c:203:23: note: previous implicit declaration is here\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                      ^\nalloc.c:323:24: error: use of undeclared identifier 'block_info'\n        if(heap_ptr == block_info) //if this block is the first free block\n                       ^\nalloc.c:325:13: error: use of undeclared identifier 'block_info'\n            block_info += heap_ptr[1]/4; //update freelist to point to next free block\n            ^\nalloc.c:329:9: error: implicit declaration of function 'offset_updater' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n        offset_updater(heap_ptr, old_offset);\n        ^\nalloc.c:338:16: error: incompatible integer to pointer conversion returning 'int' from a function with result type 'int *' [-Werror,-Wint-conversion]\n        return split_heap_func(heap_ptr + ptr_offset, alloc_size);\n               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n2 warnings and 20 errors generated.\nmake: *** [alloc.so] Error 1\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-11",
+        "description": "./mcontest testers_exe/tester-11 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nalloc.c:36:14: error: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned long') [-Werror,-Wsign-compare]\n    while (n < size) {\n           ~ ^ ~~~~\nalloc.c:191:10: error: use of undeclared identifier 'heap_begin'\n    if (!heap_begin){\n         ^\nalloc.c:192:9: error: use of undeclared identifier 'heap_begin'\n        heap_begin = sbrk(HEAP_SIZE);\n        ^\nalloc.c:193:9: error: use of undeclared identifier 'block_info'\n        block_info = heap_begin;\n        ^\nalloc.c:193:22: error: use of undeclared identifier 'heap_begin'\n        block_info = heap_begin;\n                     ^\nalloc.c:194:9: error: use of undeclared identifier 'block_info'\n        block_info[0] = HEAP_SIZE;\n        ^\nalloc.c:195:9: error: use of undeclared identifier 'block_info'\n        block_info[1] = 0;\n        ^\nalloc.c:203:23: error: implicit declaration of function 'split_heap_func' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                      ^\nalloc.c:203:39: error: use of undeclared identifier 'block_info'\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                                      ^\nalloc.c:228:22: error: use of undeclared identifier 'block_info'\n    int *last_free = block_info;\n                     ^\nalloc.c:255:30: error: use of undeclared identifier 'block_info'\n        if(block_begin_ptr < block_info)//check if the freed block should be the new freelist head\n                             ^\nalloc.c:257:13: error: use of undeclared identifier 'block_info'\n            block_info = block_begin_ptr;\n            ^\nalloc.c:261:13: error: implicit declaration of function 'free_offset_updater' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n            free_offset_updater(block_begin_ptr);\n            ^\nalloc.c:264:5: error: implicit declaration of function 'heap_scanner' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n    heap_scanner(block_begin_ptr);\n    ^\nalloc.c:312:21: warning: unused parameter 'ptr' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                    ^\nalloc.c:312:33: warning: unused parameter 'size' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                                ^\nalloc.c:317:6: error: conflicting types for 'split_heap_func'\nint *split_heap_func(int *heap_pointer,  size_t alloc_size)\n     ^\nalloc.c:203:23: note: previous implicit declaration is here\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                      ^\nalloc.c:323:24: error: use of undeclared identifier 'block_info'\n        if(heap_ptr == block_info) //if this block is the first free block\n                       ^\nalloc.c:325:13: error: use of undeclared identifier 'block_info'\n            block_info += heap_ptr[1]/4; //update freelist to point to next free block\n            ^\nalloc.c:329:9: error: implicit declaration of function 'offset_updater' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n        offset_updater(heap_ptr, old_offset);\n        ^\nalloc.c:338:16: error: incompatible integer to pointer conversion returning 'int' from a function with result type 'int *' [-Werror,-Wint-conversion]\n        return split_heap_func(heap_ptr + ptr_offset, alloc_size);\n               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n2 warnings and 20 errors generated.\nmake: *** [alloc.so] Error 1\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-12",
+        "description": "./mcontest testers_exe/tester-12 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nalloc.c:36:14: error: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned long') [-Werror,-Wsign-compare]\n    while (n < size) {\n           ~ ^ ~~~~\nalloc.c:191:10: error: use of undeclared identifier 'heap_begin'\n    if (!heap_begin){\n         ^\nalloc.c:192:9: error: use of undeclared identifier 'heap_begin'\n        heap_begin = sbrk(HEAP_SIZE);\n        ^\nalloc.c:193:9: error: use of undeclared identifier 'block_info'\n        block_info = heap_begin;\n        ^\nalloc.c:193:22: error: use of undeclared identifier 'heap_begin'\n        block_info = heap_begin;\n                     ^\nalloc.c:194:9: error: use of undeclared identifier 'block_info'\n        block_info[0] = HEAP_SIZE;\n        ^\nalloc.c:195:9: error: use of undeclared identifier 'block_info'\n        block_info[1] = 0;\n        ^\nalloc.c:203:23: error: implicit declaration of function 'split_heap_func' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                      ^\nalloc.c:203:39: error: use of undeclared identifier 'block_info'\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                                      ^\nalloc.c:228:22: error: use of undeclared identifier 'block_info'\n    int *last_free = block_info;\n                     ^\nalloc.c:255:30: error: use of undeclared identifier 'block_info'\n        if(block_begin_ptr < block_info)//check if the freed block should be the new freelist head\n                             ^\nalloc.c:257:13: error: use of undeclared identifier 'block_info'\n            block_info = block_begin_ptr;\n            ^\nalloc.c:261:13: error: implicit declaration of function 'free_offset_updater' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n            free_offset_updater(block_begin_ptr);\n            ^\nalloc.c:264:5: error: implicit declaration of function 'heap_scanner' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n    heap_scanner(block_begin_ptr);\n    ^\nalloc.c:312:21: warning: unused parameter 'ptr' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                    ^\nalloc.c:312:33: warning: unused parameter 'size' [-Wunused-parameter]\nvoid *realloc(void *ptr, size_t size) {\n                                ^\nalloc.c:317:6: error: conflicting types for 'split_heap_func'\nint *split_heap_func(int *heap_pointer,  size_t alloc_size)\n     ^\nalloc.c:203:23: note: previous implicit declaration is here\n    alloc_begin_ptr = split_heap_func(block_info, alloc_size);\n                      ^\nalloc.c:323:24: error: use of undeclared identifier 'block_info'\n        if(heap_ptr == block_info) //if this block is the first free block\n                       ^\nalloc.c:325:13: error: use of undeclared identifier 'block_info'\n            block_info += heap_ptr[1]/4; //update freelist to point to next free block\n            ^\nalloc.c:329:9: error: implicit declaration of function 'offset_updater' is invalid in C99 [-Werror,-Wimplicit-function-declaration]\n        offset_updater(heap_ptr, old_offset);\n        ^\nalloc.c:338:16: error: incompatible integer to pointer conversion returning 'int' from a function with result type 'int *' [-Werror,-Wint-conversion]\n        return split_heap_func(heap_ptr + ptr_offset, alloc_size);\n               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n2 warnings and 20 errors generated.\nmake: *** [alloc.so] Error 1\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2017-10-15 22:01:43.955621",
+    "checksum": "947ec8148c6e4739d25da2361c74fb7831eb9314  alloc.c\n0dc1ee3d5fa0efe2d9554c32a06bfe2cef4721cc  nickname.txt\n",
+    "revision": "34438",
+    "testcases": [
+      {
+        "name": "tester-1",
+        "description": "./mcontest testers_exe/tester-1 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 28\n[mcontest]: AVG: 14.000000\n[mcontest]: TIME: 19.944000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-2",
+        "description": "./mcontest testers_exe/tester-2 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED. SIGNAL=(15)\n[mcontest]: MAX: 45673761\n[mcontest]: AVG: 43824477.170031\n[mcontest]: TIME: 29.992000\n\n\nstderr:\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-3",
+        "description": "./mcontest testers_exe/tester-3 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1048625\n[mcontest]: AVG: 524281.260949\n[mcontest]: TIME: 1.352000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-4",
+        "description": "./mcontest testers_exe/tester-4 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1610613752\n[mcontest]: AVG: 1073735605.928459\n[mcontest]: TIME: 1.296000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-5",
+        "description": "./mcontest testers_exe/tester-5 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED. SIGNAL=(15)\n[mcontest]: MAX: 314065615\n[mcontest]: AVG: 157950684.137747\n[mcontest]: TIME: 29.992000\n\n\nstderr:\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-6",
+        "description": "./mcontest testers_exe/tester-6 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 2326440739\n[mcontest]: AVG: 1741015586.209302\n[mcontest]: TIME: 8.080000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-7",
+        "description": "./mcontest testers_exe/tester-7 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1789569803\n[mcontest]: AVG: 1374597094.782609\n[mcontest]: TIME: 3.272000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-8",
+        "description": "./mcontest testers_exe/tester-8 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 2028179145\n[mcontest]: AVG: 1842285832.674419\n[mcontest]: TIME: 4.668000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-9",
+        "description": "./mcontest testers_exe/tester-9 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED. SIGNAL=(15)\n[mcontest]: MAX: 1037237289\n[mcontest]: AVG: 517049669.301015\n[mcontest]: TIME: 30.000000\n\n\nstderr:\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-10",
+        "description": "./mcontest testers_exe/tester-10 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 2570060427\n[mcontest]: AVG: 1340021645.168224\n[mcontest]: TIME: 0.004000\n\n\nstderr:\nData allocated outside of heap.\nSbrk returns the heap ptr: 0xa302c29c.\nYour heap starts from 0x1c0b000, ends at 0xa1c0b000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-11",
+        "description": "./mcontest testers_exe/tester-11 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed the test\n\nstdout:\n[mcontest]: STATUS: FAILED=(91)\n[mcontest]: MAX: 2147484721\n[mcontest]: AVG: 1073742385.000000\n[mcontest]: TIME: 0.000000\n\n\nstderr:\nData allocated outside of heap.\nSbrk returns the heap ptr: 0xc0b86649.\nYour heap starts from 0xb65000, ends at 0xa0b65000\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 0.0
+      },
+      {
+        "name": "tester-12",
+        "description": "./mcontest testers_exe/tester-12 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1610614345\n[mcontest]: AVG: 837755470.010989\n[mcontest]: TIME: 10.744000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2017-10-16 12:01:44.809452",
+    "checksum": "096be5829e6e048b680da16080314388afad2bba  alloc.c\n0dc1ee3d5fa0efe2d9554c32a06bfe2cef4721cc  nickname.txt\n",
+    "revision": "34759",
+    "testcases": [
+      {
+        "name": "tester-1",
+        "description": "./mcontest testers_exe/tester-1 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 4128\n[mcontest]: AVG: 4128.000000\n[mcontest]: TIME: 1.124000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-2",
+        "description": "./mcontest testers_exe/tester-2 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 211038256\n[mcontest]: AVG: 168764988.132368\n[mcontest]: TIME: 0.752000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-3",
+        "description": "./mcontest testers_exe/tester-3 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1052720\n[mcontest]: AVG: 1052632.624615\n[mcontest]: TIME: 0.320000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-4",
+        "description": "./mcontest testers_exe/tester-4 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1073745968\n[mcontest]: AVG: 1073745711.997372\n[mcontest]: TIME: 0.396000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-5",
+        "description": "./mcontest testers_exe/tester-5 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 509612016\n[mcontest]: AVG: 264000131.859789\n[mcontest]: TIME: 0.180000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-6",
+        "description": "./mcontest testers_exe/tester-6 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1073745968\n[mcontest]: AVG: 1044725918.270270\n[mcontest]: TIME: 8.060000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-7",
+        "description": "./mcontest testers_exe/tester-7 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1073745968\n[mcontest]: AVG: 1027061540.173913\n[mcontest]: TIME: 3.324000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-8",
+        "description": "./mcontest testers_exe/tester-8 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1193050640\n[mcontest]: AVG: 1144105138.871795\n[mcontest]: TIME: 4.676000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-9",
+        "description": "./mcontest testers_exe/tester-9 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1832846864\n[mcontest]: AVG: 960332389.107986\n[mcontest]: TIME: 20.288000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-10",
+        "description": "./mcontest testers_exe/tester-10 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 402659408\n[mcontest]: AVG: 399929605.690284\n[mcontest]: TIME: 0.044000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-11",
+        "description": "./mcontest testers_exe/tester-11 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 2147487808\n[mcontest]: AVG: 2147452017.201847\n[mcontest]: TIME: 0.024000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-12",
+        "description": "./mcontest testers_exe/tester-12 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1073745984\n[mcontest]: AVG: 1061946622.945055\n[mcontest]: TIME: 10.644000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2017-10-17 00:01:44.511145",
+    "checksum": "096be5829e6e048b680da16080314388afad2bba  alloc.c\n0dc1ee3d5fa0efe2d9554c32a06bfe2cef4721cc  nickname.txt\n",
+    "revision": "35413",
+    "testcases": [
+      {
+        "name": "tester-1",
+        "description": "./mcontest testers_exe/tester-1 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 4128\n[mcontest]: AVG: 4128.000000\n[mcontest]: TIME: 1.120000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-2",
+        "description": "./mcontest testers_exe/tester-2 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 211038256\n[mcontest]: AVG: 168764988.132368\n[mcontest]: TIME: 0.748000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-3",
+        "description": "./mcontest testers_exe/tester-3 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1052720\n[mcontest]: AVG: 1052632.624615\n[mcontest]: TIME: 0.324000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-4",
+        "description": "./mcontest testers_exe/tester-4 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1073745968\n[mcontest]: AVG: 1073745711.997372\n[mcontest]: TIME: 0.392000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-5",
+        "description": "./mcontest testers_exe/tester-5 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 509612016\n[mcontest]: AVG: 264000131.859789\n[mcontest]: TIME: 0.184000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-6",
+        "description": "./mcontest testers_exe/tester-6 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1073745968\n[mcontest]: AVG: 1044725918.270270\n[mcontest]: TIME: 8.008000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-7",
+        "description": "./mcontest testers_exe/tester-7 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1073745968\n[mcontest]: AVG: 1027061540.173913\n[mcontest]: TIME: 3.336000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-8",
+        "description": "./mcontest testers_exe/tester-8 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1193050640\n[mcontest]: AVG: 1144105138.871795\n[mcontest]: TIME: 4.640000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-9",
+        "description": "./mcontest testers_exe/tester-9 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1832846864\n[mcontest]: AVG: 960332389.107986\n[mcontest]: TIME: 20.084000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-10",
+        "description": "./mcontest testers_exe/tester-10 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 402659408\n[mcontest]: AVG: 399929605.690284\n[mcontest]: TIME: 0.048000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-11",
+        "description": "./mcontest testers_exe/tester-11 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 2147487808\n[mcontest]: AVG: 2147452017.201847\n[mcontest]: TIME: 0.024000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-12",
+        "description": "./mcontest testers_exe/tester-12 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1073745984\n[mcontest]: AVG: 1061946622.945055\n[mcontest]: TIME: 10.748000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2017-10-17 05:44:45.904058",
+    "checksum": "096be5829e6e048b680da16080314388afad2bba  alloc.c\n0dc1ee3d5fa0efe2d9554c32a06bfe2cef4721cc  nickname.txt\n",
+    "revision": "35437",
+    "testcases": [
+      {
+        "name": "tester-1",
+        "description": "./mcontest testers_exe/tester-1 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 4128\n[mcontest]: AVG: 4128.000000\n[mcontest]: TIME: 1.120000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-2",
+        "description": "./mcontest testers_exe/tester-2 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 211038256\n[mcontest]: AVG: 168764988.132368\n[mcontest]: TIME: 0.752000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-3",
+        "description": "./mcontest testers_exe/tester-3 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1052720\n[mcontest]: AVG: 1052632.624615\n[mcontest]: TIME: 0.320000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-4",
+        "description": "./mcontest testers_exe/tester-4 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1073745968\n[mcontest]: AVG: 1073745711.997372\n[mcontest]: TIME: 0.384000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-5",
+        "description": "./mcontest testers_exe/tester-5 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 518397120\n[mcontest]: AVG: 267740464.261322\n[mcontest]: TIME: 0.180000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-6",
+        "description": "./mcontest testers_exe/tester-6 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1073745968\n[mcontest]: AVG: 1044725918.270270\n[mcontest]: TIME: 7.964000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-7",
+        "description": "./mcontest testers_exe/tester-7 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1073745968\n[mcontest]: AVG: 1027061540.173913\n[mcontest]: TIME: 3.356000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-8",
+        "description": "./mcontest testers_exe/tester-8 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1193050640\n[mcontest]: AVG: 1144105138.871795\n[mcontest]: TIME: 4.620000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-9",
+        "description": "./mcontest testers_exe/tester-9 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1827173312\n[mcontest]: AVG: 957430514.348024\n[mcontest]: TIME: 20.004000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-10",
+        "description": "./mcontest testers_exe/tester-10 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 402659408\n[mcontest]: AVG: 399929605.690284\n[mcontest]: TIME: 0.048000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-11",
+        "description": "./mcontest testers_exe/tester-11 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 2147487808\n[mcontest]: AVG: 2147452017.201847\n[mcontest]: TIME: 0.020000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-12",
+        "description": "./mcontest testers_exe/tester-12 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1073745984\n[mcontest]: AVG: 1061946622.945055\n[mcontest]: TIME: 10.892000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2017-11-06 16:48:45.747746",
+    "checksum": "096be5829e6e048b680da16080314388afad2bba  alloc.c\n0dc1ee3d5fa0efe2d9554c32a06bfe2cef4721cc  nickname.txt\n",
+    "revision": "35437",
+    "testcases": [
+      {
+        "name": "tester-1",
+        "description": "./mcontest testers_exe/tester-1 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 4128\n[mcontest]: AVG: 4128.000000\n[mcontest]: TIME: 0.844000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-2",
+        "description": "./mcontest testers_exe/tester-2 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 211038256\n[mcontest]: AVG: 168764988.132368\n[mcontest]: TIME: 0.576000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-3",
+        "description": "./mcontest testers_exe/tester-3 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1052720\n[mcontest]: AVG: 1052632.624615\n[mcontest]: TIME: 0.316000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-4",
+        "description": "./mcontest testers_exe/tester-4 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1073745968\n[mcontest]: AVG: 1073745711.997372\n[mcontest]: TIME: 0.336000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-5",
+        "description": "./mcontest testers_exe/tester-5 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 519070992\n[mcontest]: AVG: 263226030.968317\n[mcontest]: TIME: 0.196000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-6",
+        "description": "./mcontest testers_exe/tester-6 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1073745968\n[mcontest]: AVG: 1044725918.270270\n[mcontest]: TIME: 7.848000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-7",
+        "description": "./mcontest testers_exe/tester-7 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1073745968\n[mcontest]: AVG: 1027061540.173913\n[mcontest]: TIME: 3.204000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-8",
+        "description": "./mcontest testers_exe/tester-8 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1193050640\n[mcontest]: AVG: 1144105138.871795\n[mcontest]: TIME: 4.448000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-9",
+        "description": "./mcontest testers_exe/tester-9 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1824757456\n[mcontest]: AVG: 956977371.412303\n[mcontest]: TIME: 21.000000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-10",
+        "description": "./mcontest testers_exe/tester-10 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 402659408\n[mcontest]: AVG: 399929605.690284\n[mcontest]: TIME: 0.028000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-11",
+        "description": "./mcontest testers_exe/tester-11 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 2147487808\n[mcontest]: AVG: 2147452017.201847\n[mcontest]: TIME: 0.016000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-12",
+        "description": "./mcontest testers_exe/tester-12 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1073745984\n[mcontest]: AVG: 1061946622.945055\n[mcontest]: TIME: 10.100000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2017-11-12 21:47:04.184898",
+    "checksum": "096be5829e6e048b680da16080314388afad2bba  alloc.c\n0dc1ee3d5fa0efe2d9554c32a06bfe2cef4721cc  nickname.txt\n",
+    "revision": "35437",
+    "testcases": [
+      {
+        "name": "tester-1",
+        "description": "./mcontest testers_exe/tester-1 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 4128\n[mcontest]: AVG: 4128.000000\n[mcontest]: TIME: 0.848000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-2",
+        "description": "./mcontest testers_exe/tester-2 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 211038256\n[mcontest]: AVG: 168764988.132368\n[mcontest]: TIME: 0.576000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-3",
+        "description": "./mcontest testers_exe/tester-3 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1052720\n[mcontest]: AVG: 1052632.624615\n[mcontest]: TIME: 0.316000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-4",
+        "description": "./mcontest testers_exe/tester-4 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1073745968\n[mcontest]: AVG: 1073745711.997372\n[mcontest]: TIME: 0.348000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-5",
+        "description": "./mcontest testers_exe/tester-5 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 516350480\n[mcontest]: AVG: 263296789.982983\n[mcontest]: TIME: 0.200000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-6",
+        "description": "./mcontest testers_exe/tester-6 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1073745968\n[mcontest]: AVG: 1044725918.270270\n[mcontest]: TIME: 7.808000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-7",
+        "description": "./mcontest testers_exe/tester-7 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1073745968\n[mcontest]: AVG: 1027061540.173913\n[mcontest]: TIME: 3.208000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-8",
+        "description": "./mcontest testers_exe/tester-8 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1193050640\n[mcontest]: AVG: 1144105138.871795\n[mcontest]: TIME: 4.452000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-9",
+        "description": "./mcontest testers_exe/tester-9 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1835886496\n[mcontest]: AVG: 963165961.539650\n[mcontest]: TIME: 21.304000\n\n\nstderr:\nMemory was allocated and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-10",
+        "description": "./mcontest testers_exe/tester-10 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 402659408\n[mcontest]: AVG: 399929605.690284\n[mcontest]: TIME: 0.028000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-11",
+        "description": "./mcontest testers_exe/tester-11 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 2147487808\n[mcontest]: AVG: 2147452017.201847\n[mcontest]: TIME: 0.016000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      },
+      {
+        "name": "tester-12",
+        "description": "./mcontest testers_exe/tester-12 (timeout 60 seconds)",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\n\nstdout:\n[mcontest]: STATUS: OK\n[mcontest]: MAX: 1073745984\n[mcontest]: AVG: 1061946622.945055\n[mcontest]: TIME: 10.112000\n\n\nstderr:\nMemory was allocated, used, and freed!\n",
+        "ptsPossible": 1.0,
+        "ptsEarned": 1.0
+      }
+    ]
+  }
+]

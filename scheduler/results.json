@@ -1,0 +1,450 @@
+[
+  {
+    "checksum": "7a83a6700b6edcbab5e8084da63d6526e120dc71  libscheduler.c\ncd679844b810e6f71c7a1bd7af1d7a46a227afc0  libscheduler.h\n",
+    "timestamp": "2017-11-04 22:00:02.176037",
+    "revision": "45326",
+    "testcases": [
+      {
+        "description": "Compare output of First Come First Served (FCFS) scheduling solutions",
+        "ptsEarned": 0.0,
+        "name": "FCFS",
+        "ptsPossible": 3.0,
+        "log": "simulator.c returned with an exit code of 3"
+      },
+      {
+        "description": "Compare output of Preemptive Priority (PPRI) scheduling solutions",
+        "ptsEarned": 0.0,
+        "name": "PPRI",
+        "ptsPossible": 3.0,
+        "log": "simulator.c returned with an exit code of 3"
+      },
+      {
+        "description": "Compare output of Non-preemptive Priority (PRI) scheduling solutions",
+        "ptsEarned": 0.0,
+        "name": "PRI",
+        "ptsPossible": 3.0,
+        "log": "simulator.c returned with an exit code of 3"
+      },
+      {
+        "description": "Compare output of Preemptive Shortest Remaining Time First (PSRTF) scheduling solutions",
+        "ptsEarned": 0.0,
+        "name": "PSRTF",
+        "ptsPossible": 3.0,
+        "log": "simulator.c returned with an exit code of 3"
+      },
+      {
+        "description": "Compare output of Round Robin (RR) with a quantum of 1 scheduling solutions",
+        "ptsEarned": 0.0,
+        "name": "RR1",
+        "ptsPossible": 3.0,
+        "log": "simulator.c returned with an exit code of 3"
+      },
+      {
+        "description": "Compare output of Round Robin (RR) with a quantum of 2 scheduling solutions",
+        "ptsEarned": 0.0,
+        "name": "RR2",
+        "ptsPossible": 3.0,
+        "log": "simulator.c returned with an exit code of 3"
+      },
+      {
+        "description": "Compare output of Round Robin (RR) with a quantum of 4 scheduling solutions",
+        "ptsEarned": 0.0,
+        "name": "RR4",
+        "ptsPossible": 3.0,
+        "log": "simulator.c returned with an exit code of 3"
+      },
+      {
+        "description": "Compare output of Non-preemptive Shortest Job First (SJF) scheduling solutions",
+        "ptsEarned": 0.0,
+        "name": "SJF",
+        "ptsPossible": 3.0,
+        "log": "simulator.c returned with an exit code of 3"
+      }
+    ]
+  },
+  {
+    "checksum": "5b4b2b4a7e23bae55d402c0dddae12b1965f661f  libscheduler.c\ncd679844b810e6f71c7a1bd7af1d7a46a227afc0  libscheduler.h\n",
+    "timestamp": "2017-11-06 22:00:02.441238",
+    "revision": "46756",
+    "testcases": [
+      {
+        "description": "Compare output of First Come First Served (FCFS) scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "FCFS",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Preemptive Priority (PPRI) scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "PPRI",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Non-preemptive Priority (PRI) scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "PRI",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Preemptive Shortest Remaining Time First (PSRTF) scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "PSRTF",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Round Robin (RR) with a quantum of 1 scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "RR1",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Round Robin (RR) with a quantum of 2 scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "RR2",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Round Robin (RR) with a quantum of 4 scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "RR4",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Non-preemptive Shortest Job First (SJF) scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "SJF",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      }
+    ]
+  },
+  {
+    "checksum": "5b4b2b4a7e23bae55d402c0dddae12b1965f661f  libscheduler.c\ncd679844b810e6f71c7a1bd7af1d7a46a227afc0  libscheduler.h\n",
+    "timestamp": "2017-11-07 13:00:00.918401",
+    "revision": "47063",
+    "testcases": [
+      {
+        "description": "Test comparer_fcfs",
+        "ptsEarned": 0.0,
+        "name": "test_comparer_fcfs",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nscheduler_test.c:74:5: error: use of undeclared identifier 'job'\n    job *j = malloc(sizeof(job));\n    ^\nscheduler_test.c:74:10: error: use of undeclared identifier 'j'\n    job *j = malloc(sizeof(job));\n         ^\nscheduler_test.c:74:28: error: use of undeclared identifier 'job'\n    job *j = malloc(sizeof(job));\n                           ^\nscheduler_test.c:75:5: error: use of undeclared identifier 'scheduler_info'\n    scheduler_info schedule_data1;\n    ^\nscheduler_test.c:76:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.running_time = 12;\n    ^\nscheduler_test.c:77:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.priority = 3;\n    ^\nscheduler_test.c:78:23: error: use of undeclared identifier 'j'\n    scheduler_new_job(j, /* job_number */1, /* current_time */1, &schedule_data1);\n                      ^\nscheduler_test.c:78:67: error: use of undeclared identifier 'schedule_data1'\n    scheduler_new_job(j, /* job_number */1, /* current_time */1, &schedule_data1);\n                                                                  ^\nscheduler_test.c:80:5: warning: implicit declaration of function 'assert' is invalid in C99 [-Wimplicit-function-declaration]\n    assert(j->metadata);\n    ^\nscheduler_test.c:80:12: error: use of undeclared identifier 'j'\n    assert(j->metadata);\n           ^\nscheduler_test.c:82:10: error: use of undeclared identifier 'j'\n    free(j);\n         ^\nscheduler_test.c:93:5: error: use of undeclared identifier 'job'\n    job *j1 = malloc(sizeof(job));\n    ^\nscheduler_test.c:93:10: error: use of undeclared identifier 'j1'\n    job *j1 = malloc(sizeof(job));\n         ^\nscheduler_test.c:93:29: error: use of undeclared identifier 'job'\n    job *j1 = malloc(sizeof(job));\n                            ^\nscheduler_test.c:94:5: error: use of undeclared identifier 'scheduler_info'\n    scheduler_info schedule_data1;\n    ^\nscheduler_test.c:95:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.running_time = 10;\n    ^\nscheduler_test.c:96:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.priority = 1;\n    ^\nscheduler_test.c:97:23: error: use of undeclared identifier 'j1'\n    scheduler_new_job(j1, /* job_number */1, /* current_time */1, &schedule_data1);\n                      ^\nscheduler_test.c:97:68: error: use of undeclared identifier 'schedule_data1'\n    scheduler_new_job(j1, /* job_number */1, /* current_time */1, &schedule_data1);\n                                                                   ^\nscheduler_test.c:100:5: error: use of undeclared identifier 'job'\n    job *j2 = malloc(sizeof(job));\n    ^\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n1 warning and 20 errors generated.\nmake: *** [.objs/scheduler_test-release.o] Error 1\n"
+      },
+      {
+        "description": "Test comparer_ppri",
+        "ptsEarned": 0.0,
+        "name": "test_comparer_ppri",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nscheduler_test.c:74:5: error: use of undeclared identifier 'job'\n    job *j = malloc(sizeof(job));\n    ^\nscheduler_test.c:74:10: error: use of undeclared identifier 'j'\n    job *j = malloc(sizeof(job));\n         ^\nscheduler_test.c:74:28: error: use of undeclared identifier 'job'\n    job *j = malloc(sizeof(job));\n                           ^\nscheduler_test.c:75:5: error: use of undeclared identifier 'scheduler_info'\n    scheduler_info schedule_data1;\n    ^\nscheduler_test.c:76:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.running_time = 12;\n    ^\nscheduler_test.c:77:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.priority = 3;\n    ^\nscheduler_test.c:78:23: error: use of undeclared identifier 'j'\n    scheduler_new_job(j, /* job_number */1, /* current_time */1, &schedule_data1);\n                      ^\nscheduler_test.c:78:67: error: use of undeclared identifier 'schedule_data1'\n    scheduler_new_job(j, /* job_number */1, /* current_time */1, &schedule_data1);\n                                                                  ^\nscheduler_test.c:80:5: warning: implicit declaration of function 'assert' is invalid in C99 [-Wimplicit-function-declaration]\n    assert(j->metadata);\n    ^\nscheduler_test.c:80:12: error: use of undeclared identifier 'j'\n    assert(j->metadata);\n           ^\nscheduler_test.c:82:10: error: use of undeclared identifier 'j'\n    free(j);\n         ^\nscheduler_test.c:93:5: error: use of undeclared identifier 'job'\n    job *j1 = malloc(sizeof(job));\n    ^\nscheduler_test.c:93:10: error: use of undeclared identifier 'j1'\n    job *j1 = malloc(sizeof(job));\n         ^\nscheduler_test.c:93:29: error: use of undeclared identifier 'job'\n    job *j1 = malloc(sizeof(job));\n                            ^\nscheduler_test.c:94:5: error: use of undeclared identifier 'scheduler_info'\n    scheduler_info schedule_data1;\n    ^\nscheduler_test.c:95:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.running_time = 10;\n    ^\nscheduler_test.c:96:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.priority = 1;\n    ^\nscheduler_test.c:97:23: error: use of undeclared identifier 'j1'\n    scheduler_new_job(j1, /* job_number */1, /* current_time */1, &schedule_data1);\n                      ^\nscheduler_test.c:97:68: error: use of undeclared identifier 'schedule_data1'\n    scheduler_new_job(j1, /* job_number */1, /* current_time */1, &schedule_data1);\n                                                                   ^\nscheduler_test.c:100:5: error: use of undeclared identifier 'job'\n    job *j2 = malloc(sizeof(job));\n    ^\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n1 warning and 20 errors generated.\nmake: *** [.objs/scheduler_test-release.o] Error 1\n"
+      },
+      {
+        "description": "Test comparer_pri",
+        "ptsEarned": 0.0,
+        "name": "test_comparer_pri",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nscheduler_test.c:74:5: error: use of undeclared identifier 'job'\n    job *j = malloc(sizeof(job));\n    ^\nscheduler_test.c:74:10: error: use of undeclared identifier 'j'\n    job *j = malloc(sizeof(job));\n         ^\nscheduler_test.c:74:28: error: use of undeclared identifier 'job'\n    job *j = malloc(sizeof(job));\n                           ^\nscheduler_test.c:75:5: error: use of undeclared identifier 'scheduler_info'\n    scheduler_info schedule_data1;\n    ^\nscheduler_test.c:76:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.running_time = 12;\n    ^\nscheduler_test.c:77:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.priority = 3;\n    ^\nscheduler_test.c:78:23: error: use of undeclared identifier 'j'\n    scheduler_new_job(j, /* job_number */1, /* current_time */1, &schedule_data1);\n                      ^\nscheduler_test.c:78:67: error: use of undeclared identifier 'schedule_data1'\n    scheduler_new_job(j, /* job_number */1, /* current_time */1, &schedule_data1);\n                                                                  ^\nscheduler_test.c:80:5: warning: implicit declaration of function 'assert' is invalid in C99 [-Wimplicit-function-declaration]\n    assert(j->metadata);\n    ^\nscheduler_test.c:80:12: error: use of undeclared identifier 'j'\n    assert(j->metadata);\n           ^\nscheduler_test.c:82:10: error: use of undeclared identifier 'j'\n    free(j);\n         ^\nscheduler_test.c:93:5: error: use of undeclared identifier 'job'\n    job *j1 = malloc(sizeof(job));\n    ^\nscheduler_test.c:93:10: error: use of undeclared identifier 'j1'\n    job *j1 = malloc(sizeof(job));\n         ^\nscheduler_test.c:93:29: error: use of undeclared identifier 'job'\n    job *j1 = malloc(sizeof(job));\n                            ^\nscheduler_test.c:94:5: error: use of undeclared identifier 'scheduler_info'\n    scheduler_info schedule_data1;\n    ^\nscheduler_test.c:95:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.running_time = 10;\n    ^\nscheduler_test.c:96:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.priority = 1;\n    ^\nscheduler_test.c:97:23: error: use of undeclared identifier 'j1'\n    scheduler_new_job(j1, /* job_number */1, /* current_time */1, &schedule_data1);\n                      ^\nscheduler_test.c:97:68: error: use of undeclared identifier 'schedule_data1'\n    scheduler_new_job(j1, /* job_number */1, /* current_time */1, &schedule_data1);\n                                                                   ^\nscheduler_test.c:100:5: error: use of undeclared identifier 'job'\n    job *j2 = malloc(sizeof(job));\n    ^\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n1 warning and 20 errors generated.\nmake: *** [.objs/scheduler_test-release.o] Error 1\n"
+      },
+      {
+        "description": "Test comparer_psrtf",
+        "ptsEarned": 0.0,
+        "name": "test_comparer_psrtf",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nscheduler_test.c:74:5: error: use of undeclared identifier 'job'\n    job *j = malloc(sizeof(job));\n    ^\nscheduler_test.c:74:10: error: use of undeclared identifier 'j'\n    job *j = malloc(sizeof(job));\n         ^\nscheduler_test.c:74:28: error: use of undeclared identifier 'job'\n    job *j = malloc(sizeof(job));\n                           ^\nscheduler_test.c:75:5: error: use of undeclared identifier 'scheduler_info'\n    scheduler_info schedule_data1;\n    ^\nscheduler_test.c:76:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.running_time = 12;\n    ^\nscheduler_test.c:77:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.priority = 3;\n    ^\nscheduler_test.c:78:23: error: use of undeclared identifier 'j'\n    scheduler_new_job(j, /* job_number */1, /* current_time */1, &schedule_data1);\n                      ^\nscheduler_test.c:78:67: error: use of undeclared identifier 'schedule_data1'\n    scheduler_new_job(j, /* job_number */1, /* current_time */1, &schedule_data1);\n                                                                  ^\nscheduler_test.c:80:5: warning: implicit declaration of function 'assert' is invalid in C99 [-Wimplicit-function-declaration]\n    assert(j->metadata);\n    ^\nscheduler_test.c:80:12: error: use of undeclared identifier 'j'\n    assert(j->metadata);\n           ^\nscheduler_test.c:82:10: error: use of undeclared identifier 'j'\n    free(j);\n         ^\nscheduler_test.c:93:5: error: use of undeclared identifier 'job'\n    job *j1 = malloc(sizeof(job));\n    ^\nscheduler_test.c:93:10: error: use of undeclared identifier 'j1'\n    job *j1 = malloc(sizeof(job));\n         ^\nscheduler_test.c:93:29: error: use of undeclared identifier 'job'\n    job *j1 = malloc(sizeof(job));\n                            ^\nscheduler_test.c:94:5: error: use of undeclared identifier 'scheduler_info'\n    scheduler_info schedule_data1;\n    ^\nscheduler_test.c:95:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.running_time = 10;\n    ^\nscheduler_test.c:96:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.priority = 1;\n    ^\nscheduler_test.c:97:23: error: use of undeclared identifier 'j1'\n    scheduler_new_job(j1, /* job_number */1, /* current_time */1, &schedule_data1);\n                      ^\nscheduler_test.c:97:68: error: use of undeclared identifier 'schedule_data1'\n    scheduler_new_job(j1, /* job_number */1, /* current_time */1, &schedule_data1);\n                                                                   ^\nscheduler_test.c:100:5: error: use of undeclared identifier 'job'\n    job *j2 = malloc(sizeof(job));\n    ^\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n1 warning and 20 errors generated.\nmake: *** [.objs/scheduler_test-release.o] Error 1\n"
+      },
+      {
+        "description": "Test comparer_sjf",
+        "ptsEarned": 0.0,
+        "name": "test_comparer_sjf",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nscheduler_test.c:74:5: error: use of undeclared identifier 'job'\n    job *j = malloc(sizeof(job));\n    ^\nscheduler_test.c:74:10: error: use of undeclared identifier 'j'\n    job *j = malloc(sizeof(job));\n         ^\nscheduler_test.c:74:28: error: use of undeclared identifier 'job'\n    job *j = malloc(sizeof(job));\n                           ^\nscheduler_test.c:75:5: error: use of undeclared identifier 'scheduler_info'\n    scheduler_info schedule_data1;\n    ^\nscheduler_test.c:76:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.running_time = 12;\n    ^\nscheduler_test.c:77:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.priority = 3;\n    ^\nscheduler_test.c:78:23: error: use of undeclared identifier 'j'\n    scheduler_new_job(j, /* job_number */1, /* current_time */1, &schedule_data1);\n                      ^\nscheduler_test.c:78:67: error: use of undeclared identifier 'schedule_data1'\n    scheduler_new_job(j, /* job_number */1, /* current_time */1, &schedule_data1);\n                                                                  ^\nscheduler_test.c:80:5: warning: implicit declaration of function 'assert' is invalid in C99 [-Wimplicit-function-declaration]\n    assert(j->metadata);\n    ^\nscheduler_test.c:80:12: error: use of undeclared identifier 'j'\n    assert(j->metadata);\n           ^\nscheduler_test.c:82:10: error: use of undeclared identifier 'j'\n    free(j);\n         ^\nscheduler_test.c:93:5: error: use of undeclared identifier 'job'\n    job *j1 = malloc(sizeof(job));\n    ^\nscheduler_test.c:93:10: error: use of undeclared identifier 'j1'\n    job *j1 = malloc(sizeof(job));\n         ^\nscheduler_test.c:93:29: error: use of undeclared identifier 'job'\n    job *j1 = malloc(sizeof(job));\n                            ^\nscheduler_test.c:94:5: error: use of undeclared identifier 'scheduler_info'\n    scheduler_info schedule_data1;\n    ^\nscheduler_test.c:95:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.running_time = 10;\n    ^\nscheduler_test.c:96:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.priority = 1;\n    ^\nscheduler_test.c:97:23: error: use of undeclared identifier 'j1'\n    scheduler_new_job(j1, /* job_number */1, /* current_time */1, &schedule_data1);\n                      ^\nscheduler_test.c:97:68: error: use of undeclared identifier 'schedule_data1'\n    scheduler_new_job(j1, /* job_number */1, /* current_time */1, &schedule_data1);\n                                                                   ^\nscheduler_test.c:100:5: error: use of undeclared identifier 'job'\n    job *j2 = malloc(sizeof(job));\n    ^\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n1 warning and 20 errors generated.\nmake: *** [.objs/scheduler_test-release.o] Error 1\n"
+      },
+      {
+        "description": "Test scheduler_new_job fills out job->metadata",
+        "ptsEarned": 0.0,
+        "name": "test_new_job",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nscheduler_test.c:74:5: error: use of undeclared identifier 'job'\n    job *j = malloc(sizeof(job));\n    ^\nscheduler_test.c:74:10: error: use of undeclared identifier 'j'\n    job *j = malloc(sizeof(job));\n         ^\nscheduler_test.c:74:28: error: use of undeclared identifier 'job'\n    job *j = malloc(sizeof(job));\n                           ^\nscheduler_test.c:75:5: error: use of undeclared identifier 'scheduler_info'\n    scheduler_info schedule_data1;\n    ^\nscheduler_test.c:76:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.running_time = 12;\n    ^\nscheduler_test.c:77:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.priority = 3;\n    ^\nscheduler_test.c:78:23: error: use of undeclared identifier 'j'\n    scheduler_new_job(j, /* job_number */1, /* current_time */1, &schedule_data1);\n                      ^\nscheduler_test.c:78:67: error: use of undeclared identifier 'schedule_data1'\n    scheduler_new_job(j, /* job_number */1, /* current_time */1, &schedule_data1);\n                                                                  ^\nscheduler_test.c:80:5: warning: implicit declaration of function 'assert' is invalid in C99 [-Wimplicit-function-declaration]\n    assert(j->metadata);\n    ^\nscheduler_test.c:80:12: error: use of undeclared identifier 'j'\n    assert(j->metadata);\n           ^\nscheduler_test.c:82:10: error: use of undeclared identifier 'j'\n    free(j);\n         ^\nscheduler_test.c:93:5: error: use of undeclared identifier 'job'\n    job *j1 = malloc(sizeof(job));\n    ^\nscheduler_test.c:93:10: error: use of undeclared identifier 'j1'\n    job *j1 = malloc(sizeof(job));\n         ^\nscheduler_test.c:93:29: error: use of undeclared identifier 'job'\n    job *j1 = malloc(sizeof(job));\n                            ^\nscheduler_test.c:94:5: error: use of undeclared identifier 'scheduler_info'\n    scheduler_info schedule_data1;\n    ^\nscheduler_test.c:95:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.running_time = 10;\n    ^\nscheduler_test.c:96:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.priority = 1;\n    ^\nscheduler_test.c:97:23: error: use of undeclared identifier 'j1'\n    scheduler_new_job(j1, /* job_number */1, /* current_time */1, &schedule_data1);\n                      ^\nscheduler_test.c:97:68: error: use of undeclared identifier 'schedule_data1'\n    scheduler_new_job(j1, /* job_number */1, /* current_time */1, &schedule_data1);\n                                                                   ^\nscheduler_test.c:100:5: error: use of undeclared identifier 'job'\n    job *j2 = malloc(sizeof(job));\n    ^\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n1 warning and 20 errors generated.\nmake: *** [.objs/scheduler_test-release.o] Error 1\n"
+      },
+      {
+        "description": "Test comparer_rr",
+        "ptsEarned": 0.0,
+        "name": "test_rr",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nscheduler_test.c:74:5: error: use of undeclared identifier 'job'\n    job *j = malloc(sizeof(job));\n    ^\nscheduler_test.c:74:10: error: use of undeclared identifier 'j'\n    job *j = malloc(sizeof(job));\n         ^\nscheduler_test.c:74:28: error: use of undeclared identifier 'job'\n    job *j = malloc(sizeof(job));\n                           ^\nscheduler_test.c:75:5: error: use of undeclared identifier 'scheduler_info'\n    scheduler_info schedule_data1;\n    ^\nscheduler_test.c:76:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.running_time = 12;\n    ^\nscheduler_test.c:77:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.priority = 3;\n    ^\nscheduler_test.c:78:23: error: use of undeclared identifier 'j'\n    scheduler_new_job(j, /* job_number */1, /* current_time */1, &schedule_data1);\n                      ^\nscheduler_test.c:78:67: error: use of undeclared identifier 'schedule_data1'\n    scheduler_new_job(j, /* job_number */1, /* current_time */1, &schedule_data1);\n                                                                  ^\nscheduler_test.c:80:5: warning: implicit declaration of function 'assert' is invalid in C99 [-Wimplicit-function-declaration]\n    assert(j->metadata);\n    ^\nscheduler_test.c:80:12: error: use of undeclared identifier 'j'\n    assert(j->metadata);\n           ^\nscheduler_test.c:82:10: error: use of undeclared identifier 'j'\n    free(j);\n         ^\nscheduler_test.c:93:5: error: use of undeclared identifier 'job'\n    job *j1 = malloc(sizeof(job));\n    ^\nscheduler_test.c:93:10: error: use of undeclared identifier 'j1'\n    job *j1 = malloc(sizeof(job));\n         ^\nscheduler_test.c:93:29: error: use of undeclared identifier 'job'\n    job *j1 = malloc(sizeof(job));\n                            ^\nscheduler_test.c:94:5: error: use of undeclared identifier 'scheduler_info'\n    scheduler_info schedule_data1;\n    ^\nscheduler_test.c:95:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.running_time = 10;\n    ^\nscheduler_test.c:96:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.priority = 1;\n    ^\nscheduler_test.c:97:23: error: use of undeclared identifier 'j1'\n    scheduler_new_job(j1, /* job_number */1, /* current_time */1, &schedule_data1);\n                      ^\nscheduler_test.c:97:68: error: use of undeclared identifier 'schedule_data1'\n    scheduler_new_job(j1, /* job_number */1, /* current_time */1, &schedule_data1);\n                                                                   ^\nscheduler_test.c:100:5: error: use of undeclared identifier 'job'\n    job *j2 = malloc(sizeof(job));\n    ^\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n1 warning and 20 errors generated.\nmake: *** [.objs/scheduler_test-release.o] Error 1\n"
+      },
+      {
+        "description": "Test that scheduler is initialized with started with FCFS scheme",
+        "ptsEarned": 0.0,
+        "name": "test_start_up_fcfs",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nscheduler_test.c:74:5: error: use of undeclared identifier 'job'\n    job *j = malloc(sizeof(job));\n    ^\nscheduler_test.c:74:10: error: use of undeclared identifier 'j'\n    job *j = malloc(sizeof(job));\n         ^\nscheduler_test.c:74:28: error: use of undeclared identifier 'job'\n    job *j = malloc(sizeof(job));\n                           ^\nscheduler_test.c:75:5: error: use of undeclared identifier 'scheduler_info'\n    scheduler_info schedule_data1;\n    ^\nscheduler_test.c:76:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.running_time = 12;\n    ^\nscheduler_test.c:77:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.priority = 3;\n    ^\nscheduler_test.c:78:23: error: use of undeclared identifier 'j'\n    scheduler_new_job(j, /* job_number */1, /* current_time */1, &schedule_data1);\n                      ^\nscheduler_test.c:78:67: error: use of undeclared identifier 'schedule_data1'\n    scheduler_new_job(j, /* job_number */1, /* current_time */1, &schedule_data1);\n                                                                  ^\nscheduler_test.c:80:5: warning: implicit declaration of function 'assert' is invalid in C99 [-Wimplicit-function-declaration]\n    assert(j->metadata);\n    ^\nscheduler_test.c:80:12: error: use of undeclared identifier 'j'\n    assert(j->metadata);\n           ^\nscheduler_test.c:82:10: error: use of undeclared identifier 'j'\n    free(j);\n         ^\nscheduler_test.c:93:5: error: use of undeclared identifier 'job'\n    job *j1 = malloc(sizeof(job));\n    ^\nscheduler_test.c:93:10: error: use of undeclared identifier 'j1'\n    job *j1 = malloc(sizeof(job));\n         ^\nscheduler_test.c:93:29: error: use of undeclared identifier 'job'\n    job *j1 = malloc(sizeof(job));\n                            ^\nscheduler_test.c:94:5: error: use of undeclared identifier 'scheduler_info'\n    scheduler_info schedule_data1;\n    ^\nscheduler_test.c:95:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.running_time = 10;\n    ^\nscheduler_test.c:96:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.priority = 1;\n    ^\nscheduler_test.c:97:23: error: use of undeclared identifier 'j1'\n    scheduler_new_job(j1, /* job_number */1, /* current_time */1, &schedule_data1);\n                      ^\nscheduler_test.c:97:68: error: use of undeclared identifier 'schedule_data1'\n    scheduler_new_job(j1, /* job_number */1, /* current_time */1, &schedule_data1);\n                                                                   ^\nscheduler_test.c:100:5: error: use of undeclared identifier 'job'\n    job *j2 = malloc(sizeof(job));\n    ^\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n1 warning and 20 errors generated.\nmake: *** [.objs/scheduler_test-release.o] Error 1\n"
+      },
+      {
+        "description": "Test that scheduler is initialized with started with RR scheme",
+        "ptsEarned": 0.0,
+        "name": "test_start_up_rr",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nscheduler_test.c:74:5: error: use of undeclared identifier 'job'\n    job *j = malloc(sizeof(job));\n    ^\nscheduler_test.c:74:10: error: use of undeclared identifier 'j'\n    job *j = malloc(sizeof(job));\n         ^\nscheduler_test.c:74:28: error: use of undeclared identifier 'job'\n    job *j = malloc(sizeof(job));\n                           ^\nscheduler_test.c:75:5: error: use of undeclared identifier 'scheduler_info'\n    scheduler_info schedule_data1;\n    ^\nscheduler_test.c:76:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.running_time = 12;\n    ^\nscheduler_test.c:77:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.priority = 3;\n    ^\nscheduler_test.c:78:23: error: use of undeclared identifier 'j'\n    scheduler_new_job(j, /* job_number */1, /* current_time */1, &schedule_data1);\n                      ^\nscheduler_test.c:78:67: error: use of undeclared identifier 'schedule_data1'\n    scheduler_new_job(j, /* job_number */1, /* current_time */1, &schedule_data1);\n                                                                  ^\nscheduler_test.c:80:5: warning: implicit declaration of function 'assert' is invalid in C99 [-Wimplicit-function-declaration]\n    assert(j->metadata);\n    ^\nscheduler_test.c:80:12: error: use of undeclared identifier 'j'\n    assert(j->metadata);\n           ^\nscheduler_test.c:82:10: error: use of undeclared identifier 'j'\n    free(j);\n         ^\nscheduler_test.c:93:5: error: use of undeclared identifier 'job'\n    job *j1 = malloc(sizeof(job));\n    ^\nscheduler_test.c:93:10: error: use of undeclared identifier 'j1'\n    job *j1 = malloc(sizeof(job));\n         ^\nscheduler_test.c:93:29: error: use of undeclared identifier 'job'\n    job *j1 = malloc(sizeof(job));\n                            ^\nscheduler_test.c:94:5: error: use of undeclared identifier 'scheduler_info'\n    scheduler_info schedule_data1;\n    ^\nscheduler_test.c:95:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.running_time = 10;\n    ^\nscheduler_test.c:96:5: error: use of undeclared identifier 'schedule_data1'\n    schedule_data1.priority = 1;\n    ^\nscheduler_test.c:97:23: error: use of undeclared identifier 'j1'\n    scheduler_new_job(j1, /* job_number */1, /* current_time */1, &schedule_data1);\n                      ^\nscheduler_test.c:97:68: error: use of undeclared identifier 'schedule_data1'\n    scheduler_new_job(j1, /* job_number */1, /* current_time */1, &schedule_data1);\n                                                                   ^\nscheduler_test.c:100:5: error: use of undeclared identifier 'job'\n    job *j2 = malloc(sizeof(job));\n    ^\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n1 warning and 20 errors generated.\nmake: *** [.objs/scheduler_test-release.o] Error 1\n"
+      }
+    ]
+  },
+  {
+    "checksum": "5b4b2b4a7e23bae55d402c0dddae12b1965f661f  libscheduler.c\ncd679844b810e6f71c7a1bd7af1d7a46a227afc0  libscheduler.h\n",
+    "timestamp": "2017-11-07 22:00:02.238144",
+    "revision": "47286",
+    "testcases": [
+      {
+        "description": "Compare output of First Come First Served (FCFS) scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "FCFS",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Preemptive Priority (PPRI) scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "PPRI",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Non-preemptive Priority (PRI) scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "PRI",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Preemptive Shortest Remaining Time First (PSRTF) scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "PSRTF",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Round Robin (RR) with a quantum of 1 scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "RR1",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Round Robin (RR) with a quantum of 2 scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "RR2",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Round Robin (RR) with a quantum of 4 scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "RR4",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Non-preemptive Shortest Job First (SJF) scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "SJF",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      }
+    ]
+  },
+  {
+    "checksum": "5b4b2b4a7e23bae55d402c0dddae12b1965f661f  libscheduler.c\ncd679844b810e6f71c7a1bd7af1d7a46a227afc0  libscheduler.h\n",
+    "timestamp": "2017-11-08 22:00:02.096701",
+    "revision": "47821",
+    "testcases": [
+      {
+        "description": "Compare output of First Come First Served (FCFS) scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "FCFS",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Preemptive Priority (PPRI) scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "PPRI",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Non-preemptive Priority (PRI) scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "PRI",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Preemptive Shortest Remaining Time First (PSRTF) scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "PSRTF",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Round Robin (RR) with a quantum of 1 scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "RR1",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Round Robin (RR) with a quantum of 2 scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "RR2",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Round Robin (RR) with a quantum of 4 scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "RR4",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Non-preemptive Shortest Job First (SJF) scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "SJF",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      }
+    ]
+  },
+  {
+    "checksum": "5b4b2b4a7e23bae55d402c0dddae12b1965f661f  libscheduler.c\ncd679844b810e6f71c7a1bd7af1d7a46a227afc0  libscheduler.h\n",
+    "timestamp": "2017-11-09 12:00:03.148482",
+    "revision": "47995",
+    "testcases": [
+      {
+        "description": "Compare output of First Come First Served (FCFS) scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "FCFS",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Preemptive Priority (PPRI) scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "PPRI",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Non-preemptive Priority (PRI) scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "PRI",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Preemptive Shortest Remaining Time First (PSRTF) scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "PSRTF",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Round Robin (RR) with a quantum of 1 scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "RR1",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Round Robin (RR) with a quantum of 2 scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "RR2",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Round Robin (RR) with a quantum of 4 scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "RR4",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Non-preemptive Shortest Job First (SJF) scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "SJF",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      }
+    ]
+  },
+  {
+    "checksum": "5b4b2b4a7e23bae55d402c0dddae12b1965f661f  libscheduler.c\ncd679844b810e6f71c7a1bd7af1d7a46a227afc0  libscheduler.h\n",
+    "timestamp": "2017-11-10 00:00:02.380932",
+    "revision": "48291",
+    "testcases": [
+      {
+        "description": "Compare output of First Come First Served (FCFS) scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "FCFS",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Preemptive Priority (PPRI) scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "PPRI",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Non-preemptive Priority (PRI) scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "PRI",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Preemptive Shortest Remaining Time First (PSRTF) scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "PSRTF",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Round Robin (RR) with a quantum of 1 scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "RR1",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Round Robin (RR) with a quantum of 2 scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "RR2",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Round Robin (RR) with a quantum of 4 scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "RR4",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "description": "Compare output of Non-preemptive Shortest Job First (SJF) scheduling solutions",
+        "ptsEarned": 3.0,
+        "name": "SJF",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      }
+    ]
+  }
+]

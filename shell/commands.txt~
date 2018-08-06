@@ -1,0 +1,6 @@
+ls
+ls -l
+cd libs
+cd ..
+cd unknown
+sleep 1

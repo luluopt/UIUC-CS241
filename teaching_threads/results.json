@@ -1,0 +1,380 @@
+[
+  {
+    "timestamp": "2017-09-30 22:00:05.862112",
+    "testcases": [
+      {
+        "name": "Multiple Threads, Doesn't Evenly Divide List",
+        "description": "Test multiple threads with a list that doesn't divide evenly into the number of threads.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "Multiple Threads, Doesn't Evenly Divide Longer List",
+        "description": "Test multiple threads with a longer list that doesn't divide evenly.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "Multiple Threads, Evenly Divides List",
+        "description": "Tests a list with multiple threads.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "Multiple Threads, Evenly Divides Long List",
+        "description": "Test a longer list with multiple threads.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "One Thread, Long List",
+        "description": "Test a long list with one thread.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "One Thread, Short List",
+        "description": "Test a short list with one thread.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "Speed Test",
+        "description": "Test the speed of multiple threads vs one thread.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 7.0
+      },
+      {
+        "name": "Too Many Threads",
+        "description": "Test where the number of threads is greater than the length of the list.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      }
+    ],
+    "checksum": "db07f71b3962d8f2cbf6828e63228fd3243e1e40  par_reduce.c\n",
+    "revision": "23058"
+  },
+  {
+    "timestamp": "2017-10-01 22:00:06.053294",
+    "testcases": [
+      {
+        "name": "Multiple Threads, Doesn't Evenly Divide List",
+        "description": "Test multiple threads with a list that doesn't divide evenly into the number of threads.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "Multiple Threads, Doesn't Evenly Divide Longer List",
+        "description": "Test multiple threads with a longer list that doesn't divide evenly.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "Multiple Threads, Evenly Divides List",
+        "description": "Tests a list with multiple threads.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "Multiple Threads, Evenly Divides Long List",
+        "description": "Test a longer list with multiple threads.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "One Thread, Long List",
+        "description": "Test a long list with one thread.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "One Thread, Short List",
+        "description": "Test a short list with one thread.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "Speed Test",
+        "description": "Test the speed of multiple threads vs one thread.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 7.0
+      },
+      {
+        "name": "Too Many Threads",
+        "description": "Test where the number of threads is greater than the length of the list.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      }
+    ],
+    "checksum": "db07f71b3962d8f2cbf6828e63228fd3243e1e40  par_reduce.c\n",
+    "revision": "24060"
+  },
+  {
+    "timestamp": "2017-10-02 22:00:06.055483",
+    "testcases": [
+      {
+        "name": "Multiple Threads, Doesn't Evenly Divide List",
+        "description": "Test multiple threads with a list that doesn't divide evenly into the number of threads.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "Multiple Threads, Doesn't Evenly Divide Longer List",
+        "description": "Test multiple threads with a longer list that doesn't divide evenly.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "Multiple Threads, Evenly Divides List",
+        "description": "Tests a list with multiple threads.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "Multiple Threads, Evenly Divides Long List",
+        "description": "Test a longer list with multiple threads.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "One Thread, Long List",
+        "description": "Test a long list with one thread.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "One Thread, Short List",
+        "description": "Test a short list with one thread.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "Speed Test",
+        "description": "Test the speed of multiple threads vs one thread.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 7.0
+      },
+      {
+        "name": "Too Many Threads",
+        "description": "Test where the number of threads is greater than the length of the list.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      }
+    ],
+    "checksum": "db07f71b3962d8f2cbf6828e63228fd3243e1e40  par_reduce.c\n",
+    "revision": "25813"
+  },
+  {
+    "timestamp": "2017-10-03 22:00:05.732410",
+    "testcases": [
+      {
+        "name": "Multiple Threads, Doesn't Evenly Divide List",
+        "description": "Test multiple threads with a list that doesn't divide evenly into the number of threads.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "Multiple Threads, Doesn't Evenly Divide Longer List",
+        "description": "Test multiple threads with a longer list that doesn't divide evenly.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "Multiple Threads, Evenly Divides List",
+        "description": "Tests a list with multiple threads.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "Multiple Threads, Evenly Divides Long List",
+        "description": "Test a longer list with multiple threads.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "One Thread, Long List",
+        "description": "Test a long list with one thread.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "One Thread, Short List",
+        "description": "Test a short list with one thread.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "Speed Test",
+        "description": "Test the speed of multiple threads vs one thread.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 7.0
+      },
+      {
+        "name": "Too Many Threads",
+        "description": "Test where the number of threads is greater than the length of the list.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      }
+    ],
+    "checksum": "db07f71b3962d8f2cbf6828e63228fd3243e1e40  par_reduce.c\n",
+    "revision": "26584"
+  },
+  {
+    "timestamp": "2017-10-04 12:00:06.506219",
+    "testcases": [
+      {
+        "name": "Multiple Threads, Doesn't Evenly Divide List",
+        "description": "Test multiple threads with a list that doesn't divide evenly into the number of threads.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "Multiple Threads, Doesn't Evenly Divide Longer List",
+        "description": "Test multiple threads with a longer list that doesn't divide evenly.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "Multiple Threads, Evenly Divides List",
+        "description": "Tests a list with multiple threads.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "Multiple Threads, Evenly Divides Long List",
+        "description": "Test a longer list with multiple threads.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "One Thread, Long List",
+        "description": "Test a long list with one thread.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "One Thread, Short List",
+        "description": "Test a short list with one thread.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "Speed Test",
+        "description": "Test the speed of multiple threads vs one thread.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 7.0
+      },
+      {
+        "name": "Too Many Threads",
+        "description": "Test where the number of threads is greater than the length of the list.",
+        "ptsEarned": 0.0,
+        "log": "Incorrect Output",
+        "ptsPossible": 1.0
+      }
+    ],
+    "checksum": "db07f71b3962d8f2cbf6828e63228fd3243e1e40  par_reduce.c\n",
+    "revision": "27124"
+  },
+  {
+    "timestamp": "2017-10-05 00:00:05.705540",
+    "testcases": [
+      {
+        "name": "Multiple Threads, Doesn't Evenly Divide List",
+        "description": "Test multiple threads with a list that doesn't divide evenly into the number of threads.",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "Multiple Threads, Doesn't Evenly Divide Longer List",
+        "description": "Test multiple threads with a longer list that doesn't divide evenly.",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "Multiple Threads, Evenly Divides List",
+        "description": "Tests a list with multiple threads.",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "Multiple Threads, Evenly Divides Long List",
+        "description": "Test a longer list with multiple threads.",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "One Thread, Long List",
+        "description": "Test a long list with one thread.",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "One Thread, Short List",
+        "description": "Test a short list with one thread.",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsPossible": 1.0
+      },
+      {
+        "name": "Speed Test",
+        "description": "Test the speed of multiple threads vs one thread.",
+        "ptsEarned": 7.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsPossible": 7.0
+      },
+      {
+        "name": "Too Many Threads",
+        "description": "Test where the number of threads is greater than the length of the list.",
+        "ptsEarned": 0.0,
+        "log": "Too many threads and/or incorrect output",
+        "ptsPossible": 1.0
+      }
+    ],
+    "checksum": "fb74009f6870cbbe3f79ee7647ca1d4eae773547  par_reduce.c\n",
+    "revision": "27545"
+  }
+]

@@ -1,0 +1,4 @@
+Hello, it's filesystems!
+If you have successfully reached this folder
+there are some goodies waiting for you. Try
+your cat on other files and see if you get something printed out!

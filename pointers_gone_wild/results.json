@@ -1,0 +1,1010 @@
+[
+  {
+    "timestamp": "2017-09-08 22:00:03.465763",
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Checking for memory issues...",
+        "name": "part1_memory",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 1",
+        "name": "part1_test1",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 2",
+        "name": "part1_test2",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 3",
+        "name": "part1_test3",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 4",
+        "name": "part1_test4",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 5",
+        "name": "part1_test5",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 6",
+        "name": "part1_test6",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 7",
+        "name": "part1_test7",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 8",
+        "name": "part1_test8",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 9",
+        "name": "part1_test9",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 10",
+        "name": "part1_test10",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function clear_bits",
+        "name": "part1_test_clear_bits",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function little_automaton()",
+        "name": "part1_test_little_automaton",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n==21885== Memcheck, a memory error detector\n==21885== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==21885== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==21885== Command: ./part2\n==21885== \n==21885== \n==21885== HEAP SUMMARY:\n==21885==     in use at exit: 0 bytes in 0 blocks\n==21885==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated\n==21885== \n==21885== All heap blocks were freed -- no leaks are possible\n==21885== \n==21885== For counts of detected and suppressed errors, rerun with: -v\n==21885== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)\n",
+        "ptsEarned": 1.0,
+        "description": "Part2: Checking for memory issues...",
+        "name": "part2_memory",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part2: Test function main",
+        "name": "part2_test_main",
+        "ptsPossible": 11.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test function one",
+        "name": "part3_test1",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test function two",
+        "name": "part3_test2",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test Dragon Encode",
+        "name": "part3_test3_dragon_encode",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test Dragon Decode",
+        "name": "part3_test4_dragon_decode",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test Id Dragon",
+        "name": "part3_test5_id_dragon",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test XOR Dragon",
+        "name": "part3_test6_xor_dragon",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test createDragon Function",
+        "name": "part3_test7_create_dragon",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test Block Length",
+        "name": "part3_test8_block_length",
+        "ptsPossible": 1.0
+      }
+    ],
+    "revision": "2860",
+    "checksum": "a23994e3df1d34e015aec751f0b70c3c661554ea  part1-functions.c\nc75739ab0e16681ec1d3f4b120cb5ad7539bff51  part2-main.c\n36bdb38d60b40e93d7355800c1bf47f4db0c93b8  part3-functions.c\n"
+  },
+  {
+    "timestamp": "2017-09-10 22:00:04.400409",
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Checking for memory issues...",
+        "name": "part1_memory",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 1",
+        "name": "part1_test1",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 2",
+        "name": "part1_test2",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 3",
+        "name": "part1_test3",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 4",
+        "name": "part1_test4",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 5",
+        "name": "part1_test5",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 6",
+        "name": "part1_test6",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 7",
+        "name": "part1_test7",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 8",
+        "name": "part1_test8",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 9",
+        "name": "part1_test9",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 10",
+        "name": "part1_test10",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function clear_bits",
+        "name": "part1_test_clear_bits",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function little_automaton()",
+        "name": "part1_test_little_automaton",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n==21816== Memcheck, a memory error detector\n==21816== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==21816== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==21816== Command: ./part2\n==21816== \n==21816== \n==21816== HEAP SUMMARY:\n==21816==     in use at exit: 0 bytes in 0 blocks\n==21816==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated\n==21816== \n==21816== All heap blocks were freed -- no leaks are possible\n==21816== \n==21816== For counts of detected and suppressed errors, rerun with: -v\n==21816== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)\n",
+        "ptsEarned": 1.0,
+        "description": "Part2: Checking for memory issues...",
+        "name": "part2_memory",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part2: Test function main",
+        "name": "part2_test_main",
+        "ptsPossible": 11.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test function one",
+        "name": "part3_test1",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test function two",
+        "name": "part3_test2",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test Dragon Encode",
+        "name": "part3_test3_dragon_encode",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test Dragon Decode",
+        "name": "part3_test4_dragon_decode",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test Id Dragon",
+        "name": "part3_test5_id_dragon",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test XOR Dragon",
+        "name": "part3_test6_xor_dragon",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test createDragon Function",
+        "name": "part3_test7_create_dragon",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test Block Length",
+        "name": "part3_test8_block_length",
+        "ptsPossible": 1.0
+      }
+    ],
+    "revision": "4765",
+    "checksum": "a23994e3df1d34e015aec751f0b70c3c661554ea  part1-functions.c\nc75739ab0e16681ec1d3f4b120cb5ad7539bff51  part2-main.c\n36bdb38d60b40e93d7355800c1bf47f4db0c93b8  part3-functions.c\n"
+  },
+  {
+    "timestamp": "2017-09-11 22:00:03.491964",
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Checking for memory issues...",
+        "name": "part1_memory",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 1",
+        "name": "part1_test1",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 2",
+        "name": "part1_test2",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 3",
+        "name": "part1_test3",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 4",
+        "name": "part1_test4",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 5",
+        "name": "part1_test5",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 6",
+        "name": "part1_test6",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 7",
+        "name": "part1_test7",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 8",
+        "name": "part1_test8",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 9",
+        "name": "part1_test9",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 10",
+        "name": "part1_test10",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function clear_bits",
+        "name": "part1_test_clear_bits",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart1-functions.c:75:5: error: expression result unused [-Werror,-Wunused-value]\n    *x;\n    ^~\npart1-functions.c:88:11: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n        ~ ^  ~~~\npart1-functions.c:88:23: error: ordered comparison between pointer and integer ('const char *' and 'int') [-Werror]\n    if (a >= 'A' && a <= 'z')\n                    ~ ^  ~~~\npart1-functions.c:113:9: error: variable 'values' is uninitialized when used here [-Werror,-Wuninitialized]\n        values[i] = (float)i / n;\n        ^~~~~~\npart1-functions.c:109:18: note: initialize the variable 'values' to silence this warning\n    float *values;\n                 ^\n                  = NULL\npart1-functions.c:148:5: error: statement requires expression of integer type ('const char *' invalid)\n    switch (s) {\n    ^       ~\npart1-functions.c:149:10: error: expression is not an integer constant expression\n    case \"blue\":\n         ^~~~~~\npart1-functions.c:153:10: error: expression is not an integer constant expression\n    case \"orange\":\n         ^~~~~~~~\npart1-functions.c:169:70: error: format specifies type 'double' but the argument has type 'int' [-Werror,-Wformat]\nvoid ten(const int d) { printf(\"The radius of the circle is: %f.\\n\", d / 2); }\n                                                             ~~      ^~~~~\n                                                             %d\npart1-functions.c:194:30: warning: unused parameter 'value' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                             ^\npart1-functions.c:194:46: warning: unused parameter 'flag' [-Wunused-parameter]\nlong int clear_bits(long int value, long int flag) {\n                                             ^\npart1-functions.c:224:28: warning: unused parameter 'transition' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                           ^\npart1-functions.c:224:64: warning: unused parameter 'input_string' [-Wunused-parameter]\nint little_automaton(int (*transition)(int, char), const char *input_string) {\n                                                               ^\n4 warnings and 8 errors generated.\nmake: *** [.objs/part1-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function little_automaton()",
+        "name": "part1_test_little_automaton",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n==11219== Memcheck, a memory error detector\n==11219== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==11219== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==11219== Command: ./part2\n==11219== \n==11219== \n==11219== HEAP SUMMARY:\n==11219==     in use at exit: 0 bytes in 0 blocks\n==11219==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated\n==11219== \n==11219== All heap blocks were freed -- no leaks are possible\n==11219== \n==11219== For counts of detected and suppressed errors, rerun with: -v\n==11219== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)\n",
+        "ptsEarned": 1.0,
+        "description": "Part2: Checking for memory issues...",
+        "name": "part2_memory",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part2: Test function main",
+        "name": "part2_test_main",
+        "ptsPossible": 11.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test function one",
+        "name": "part3_test1",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test function two",
+        "name": "part3_test2",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test Dragon Encode",
+        "name": "part3_test3_dragon_encode",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test Dragon Decode",
+        "name": "part3_test4_dragon_decode",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test Id Dragon",
+        "name": "part3_test5_id_dragon",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test XOR Dragon",
+        "name": "part3_test6_xor_dragon",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test createDragon Function",
+        "name": "part3_test7_create_dragon",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test Block Length",
+        "name": "part3_test8_block_length",
+        "ptsPossible": 1.0
+      }
+    ],
+    "revision": "5968",
+    "checksum": "a23994e3df1d34e015aec751f0b70c3c661554ea  part1-functions.c\nc75739ab0e16681ec1d3f4b120cb5ad7539bff51  part2-main.c\n36bdb38d60b40e93d7355800c1bf47f4db0c93b8  part3-functions.c\n"
+  },
+  {
+    "timestamp": "2017-09-12 22:00:03.756136",
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n==1004== Memcheck, a memory error detector\n==1004== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==1004== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==1004== Command: ./part1\n==1004== \n==1004== \n==1004== HEAP SUMMARY:\n==1004==     in use at exit: 0 bytes in 0 blocks\n==1004==   total heap usage: 15 allocs, 15 frees, 4,597 bytes allocated\n==1004== \n==1004== All heap blocks were freed -- no leaks are possible\n==1004== \n==1004== For counts of detected and suppressed errors, rerun with: -v\n==1004== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)\n",
+        "ptsEarned": 1.0,
+        "description": "Part1: Checking for memory issues...",
+        "name": "part1_memory",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 1",
+        "name": "part1_test1",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function 2",
+        "name": "part1_test2",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function 3",
+        "name": "part1_test3",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function 4",
+        "name": "part1_test4",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function 5",
+        "name": "part1_test5",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part1: Test function 6",
+        "name": "part1_test6",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function 7",
+        "name": "part1_test7",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function 8",
+        "name": "part1_test8",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function 9",
+        "name": "part1_test9",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function 10",
+        "name": "part1_test10",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function clear_bits",
+        "name": "part1_test_clear_bits",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function little_automaton()",
+        "name": "part1_test_little_automaton",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n==1141== Memcheck, a memory error detector\n==1141== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==1141== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==1141== Command: ./part2\n==1141== \n==1141== \n==1141== HEAP SUMMARY:\n==1141==     in use at exit: 0 bytes in 0 blocks\n==1141==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated\n==1141== \n==1141== All heap blocks were freed -- no leaks are possible\n==1141== \n==1141== For counts of detected and suppressed errors, rerun with: -v\n==1141== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)\n",
+        "ptsEarned": 1.0,
+        "description": "Part2: Checking for memory issues...",
+        "name": "part2_memory",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part2: Test function main",
+        "name": "part2_test_main",
+        "ptsPossible": 11.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test function one",
+        "name": "part3_test1",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test function two",
+        "name": "part3_test2",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test Dragon Encode",
+        "name": "part3_test3_dragon_encode",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test Dragon Decode",
+        "name": "part3_test4_dragon_decode",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test Id Dragon",
+        "name": "part3_test5_id_dragon",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test XOR Dragon",
+        "name": "part3_test6_xor_dragon",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test createDragon Function",
+        "name": "part3_test7_create_dragon",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test Block Length",
+        "name": "part3_test8_block_length",
+        "ptsPossible": 1.0
+      }
+    ],
+    "revision": "6736",
+    "checksum": "ecc8a651b0fafa275ba5fea79047d04603a71de9  part1-functions.c\nc75739ab0e16681ec1d3f4b120cb5ad7539bff51  part2-main.c\n36bdb38d60b40e93d7355800c1bf47f4db0c93b8  part3-functions.c\n"
+  },
+  {
+    "timestamp": "2017-09-13 12:00:03.523927",
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n==19107== Memcheck, a memory error detector\n==19107== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==19107== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==19107== Command: ./part1\n==19107== \n==19107== \n==19107== HEAP SUMMARY:\n==19107==     in use at exit: 0 bytes in 0 blocks\n==19107==   total heap usage: 15 allocs, 15 frees, 4,597 bytes allocated\n==19107== \n==19107== All heap blocks were freed -- no leaks are possible\n==19107== \n==19107== For counts of detected and suppressed errors, rerun with: -v\n==19107== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)\n",
+        "ptsEarned": 1.0,
+        "description": "Part1: Checking for memory issues...",
+        "name": "part1_memory",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function 1",
+        "name": "part1_test1",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function 2",
+        "name": "part1_test2",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function 3",
+        "name": "part1_test3",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function 4",
+        "name": "part1_test4",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function 5",
+        "name": "part1_test5",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function 6",
+        "name": "part1_test6",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function 7",
+        "name": "part1_test7",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function 8",
+        "name": "part1_test8",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function 9",
+        "name": "part1_test9",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function 10",
+        "name": "part1_test10",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function clear_bits",
+        "name": "part1_test_clear_bits",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function little_automaton()",
+        "name": "part1_test_little_automaton",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n==19230== Memcheck, a memory error detector\n==19230== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==19230== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==19230== Command: ./part2\n==19230== \n==19230== Invalid write of size 8\n==19230==    at 0x400B3D: main (part2-main.c:25)\n==19230==  Address 0x52050d0 is 0 bytes inside a block of size 4 alloc'd\n==19230==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)\n==19230==    by 0x400B2F: main (part2-main.c:24)\n==19230== \n==19230== Use of uninitialised value of size 8\n==19230==    at 0x4007AD: double_step (part2-functions.c:32)\n==19230==    by 0x400B4D: main (part2-main.c:27)\n==19230== \n==19230== Conditional jump or move depends on uninitialised value(s)\n==19230==    at 0x4C2EDA1: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)\n==19230==    by 0x400B55: main (part2-main.c:28)\n==19230== \n==19230== \n==19230== HEAP SUMMARY:\n==19230==     in use at exit: 4 bytes in 1 blocks\n==19230==   total heap usage: 12 allocs, 11 frees, 4,131 bytes allocated\n==19230== \n==19230== 4 bytes in 1 blocks are definitely lost in loss record 1 of 1\n==19230==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)\n==19230==    by 0x400B79: main (part2-main.c:36)\n==19230== \n==19230== LEAK SUMMARY:\n==19230==    definitely lost: 4 bytes in 1 blocks\n==19230==    indirectly lost: 0 bytes in 0 blocks\n==19230==      possibly lost: 0 bytes in 0 blocks\n==19230==    still reachable: 0 bytes in 0 blocks\n==19230==         suppressed: 0 bytes in 0 blocks\n==19230== \n==19230== For counts of detected and suppressed errors, rerun with: -v\n==19230== Use --track-origins=yes to see where uninitialised values come from\n==19230== ERROR SUMMARY: 4 errors from 4 contexts (suppressed: 0 from 0)\n\nMEMORY ERROR/LEAK!",
+        "ptsEarned": 0.0,
+        "description": "Part2: Checking for memory issues...",
+        "name": "part2_memory",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 11.0,
+        "description": "Part2: Test function main",
+        "name": "part2_test_main",
+        "ptsPossible": 11.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart3-functions.c:34:22: error: member reference type 'dragon' is not a pointer; did you mean to use '.'?\n        new_dragon[i]->name = gen_new_dragon_name(NAME_LENGTH);\n        ~~~~~~~~~~~~~^~\n                     .\npart3-functions.c:34:29: error: expression is not assignable\n        new_dragon[i]->name = gen_new_dragon_name(NAME_LENGTH);\n        ~~~~~~~~~~~~~~~~~~~ ^\npart3-functions.c:35:22: error: member reference type 'dragon' is not a pointer; did you mean to use '.'?\n        new_dragon[i]->talon = id_talon;\n        ~~~~~~~~~~~~~^~\n                     .\npart3-functions.c:35:30: error: expression is not assignable\n        new_dragon[i]->talon = id_talon;\n        ~~~~~~~~~~~~~~~~~~~~ ^\npart3-functions.c:48:19: warning: unused parameter 'vec' [-Wunused-parameter]\nchar *two(vector *vec) {\n                  ^\npart3-functions.c:57:31: warning: unused parameter 'dragon' [-Wunused-parameter]\nvector *dragon_encode(dragon *dragon, const char *str) {\n                              ^\npart3-functions.c:57:51: warning: unused parameter 'str' [-Wunused-parameter]\nvector *dragon_encode(dragon *dragon, const char *str) {\n                                                  ^\npart3-functions.c:69:29: warning: unused parameter 'dragon' [-Wunused-parameter]\nchar *dragon_decode(dragon *dragon, vector *encoded_data) {\n                            ^\npart3-functions.c:69:45: warning: unused parameter 'encoded_data' [-Wunused-parameter]\nchar *dragon_decode(dragon *dragon, vector *encoded_data) {\n                                            ^\n5 warnings and 4 errors generated.\nmake: *** [.objs/part3-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test function one",
+        "name": "part3_test1",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart3-functions.c:34:22: error: member reference type 'dragon' is not a pointer; did you mean to use '.'?\n        new_dragon[i]->name = gen_new_dragon_name(NAME_LENGTH);\n        ~~~~~~~~~~~~~^~\n                     .\npart3-functions.c:34:29: error: expression is not assignable\n        new_dragon[i]->name = gen_new_dragon_name(NAME_LENGTH);\n        ~~~~~~~~~~~~~~~~~~~ ^\npart3-functions.c:35:22: error: member reference type 'dragon' is not a pointer; did you mean to use '.'?\n        new_dragon[i]->talon = id_talon;\n        ~~~~~~~~~~~~~^~\n                     .\npart3-functions.c:35:30: error: expression is not assignable\n        new_dragon[i]->talon = id_talon;\n        ~~~~~~~~~~~~~~~~~~~~ ^\npart3-functions.c:48:19: warning: unused parameter 'vec' [-Wunused-parameter]\nchar *two(vector *vec) {\n                  ^\npart3-functions.c:57:31: warning: unused parameter 'dragon' [-Wunused-parameter]\nvector *dragon_encode(dragon *dragon, const char *str) {\n                              ^\npart3-functions.c:57:51: warning: unused parameter 'str' [-Wunused-parameter]\nvector *dragon_encode(dragon *dragon, const char *str) {\n                                                  ^\npart3-functions.c:69:29: warning: unused parameter 'dragon' [-Wunused-parameter]\nchar *dragon_decode(dragon *dragon, vector *encoded_data) {\n                            ^\npart3-functions.c:69:45: warning: unused parameter 'encoded_data' [-Wunused-parameter]\nchar *dragon_decode(dragon *dragon, vector *encoded_data) {\n                                            ^\n5 warnings and 4 errors generated.\nmake: *** [.objs/part3-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test function two",
+        "name": "part3_test2",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart3-functions.c:34:22: error: member reference type 'dragon' is not a pointer; did you mean to use '.'?\n        new_dragon[i]->name = gen_new_dragon_name(NAME_LENGTH);\n        ~~~~~~~~~~~~~^~\n                     .\npart3-functions.c:34:29: error: expression is not assignable\n        new_dragon[i]->name = gen_new_dragon_name(NAME_LENGTH);\n        ~~~~~~~~~~~~~~~~~~~ ^\npart3-functions.c:35:22: error: member reference type 'dragon' is not a pointer; did you mean to use '.'?\n        new_dragon[i]->talon = id_talon;\n        ~~~~~~~~~~~~~^~\n                     .\npart3-functions.c:35:30: error: expression is not assignable\n        new_dragon[i]->talon = id_talon;\n        ~~~~~~~~~~~~~~~~~~~~ ^\npart3-functions.c:48:19: warning: unused parameter 'vec' [-Wunused-parameter]\nchar *two(vector *vec) {\n                  ^\npart3-functions.c:57:31: warning: unused parameter 'dragon' [-Wunused-parameter]\nvector *dragon_encode(dragon *dragon, const char *str) {\n                              ^\npart3-functions.c:57:51: warning: unused parameter 'str' [-Wunused-parameter]\nvector *dragon_encode(dragon *dragon, const char *str) {\n                                                  ^\npart3-functions.c:69:29: warning: unused parameter 'dragon' [-Wunused-parameter]\nchar *dragon_decode(dragon *dragon, vector *encoded_data) {\n                            ^\npart3-functions.c:69:45: warning: unused parameter 'encoded_data' [-Wunused-parameter]\nchar *dragon_decode(dragon *dragon, vector *encoded_data) {\n                                            ^\n5 warnings and 4 errors generated.\nmake: *** [.objs/part3-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test Dragon Encode",
+        "name": "part3_test3_dragon_encode",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart3-functions.c:34:22: error: member reference type 'dragon' is not a pointer; did you mean to use '.'?\n        new_dragon[i]->name = gen_new_dragon_name(NAME_LENGTH);\n        ~~~~~~~~~~~~~^~\n                     .\npart3-functions.c:34:29: error: expression is not assignable\n        new_dragon[i]->name = gen_new_dragon_name(NAME_LENGTH);\n        ~~~~~~~~~~~~~~~~~~~ ^\npart3-functions.c:35:22: error: member reference type 'dragon' is not a pointer; did you mean to use '.'?\n        new_dragon[i]->talon = id_talon;\n        ~~~~~~~~~~~~~^~\n                     .\npart3-functions.c:35:30: error: expression is not assignable\n        new_dragon[i]->talon = id_talon;\n        ~~~~~~~~~~~~~~~~~~~~ ^\npart3-functions.c:48:19: warning: unused parameter 'vec' [-Wunused-parameter]\nchar *two(vector *vec) {\n                  ^\npart3-functions.c:57:31: warning: unused parameter 'dragon' [-Wunused-parameter]\nvector *dragon_encode(dragon *dragon, const char *str) {\n                              ^\npart3-functions.c:57:51: warning: unused parameter 'str' [-Wunused-parameter]\nvector *dragon_encode(dragon *dragon, const char *str) {\n                                                  ^\npart3-functions.c:69:29: warning: unused parameter 'dragon' [-Wunused-parameter]\nchar *dragon_decode(dragon *dragon, vector *encoded_data) {\n                            ^\npart3-functions.c:69:45: warning: unused parameter 'encoded_data' [-Wunused-parameter]\nchar *dragon_decode(dragon *dragon, vector *encoded_data) {\n                                            ^\n5 warnings and 4 errors generated.\nmake: *** [.objs/part3-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test Dragon Decode",
+        "name": "part3_test4_dragon_decode",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart3-functions.c:34:22: error: member reference type 'dragon' is not a pointer; did you mean to use '.'?\n        new_dragon[i]->name = gen_new_dragon_name(NAME_LENGTH);\n        ~~~~~~~~~~~~~^~\n                     .\npart3-functions.c:34:29: error: expression is not assignable\n        new_dragon[i]->name = gen_new_dragon_name(NAME_LENGTH);\n        ~~~~~~~~~~~~~~~~~~~ ^\npart3-functions.c:35:22: error: member reference type 'dragon' is not a pointer; did you mean to use '.'?\n        new_dragon[i]->talon = id_talon;\n        ~~~~~~~~~~~~~^~\n                     .\npart3-functions.c:35:30: error: expression is not assignable\n        new_dragon[i]->talon = id_talon;\n        ~~~~~~~~~~~~~~~~~~~~ ^\npart3-functions.c:48:19: warning: unused parameter 'vec' [-Wunused-parameter]\nchar *two(vector *vec) {\n                  ^\npart3-functions.c:57:31: warning: unused parameter 'dragon' [-Wunused-parameter]\nvector *dragon_encode(dragon *dragon, const char *str) {\n                              ^\npart3-functions.c:57:51: warning: unused parameter 'str' [-Wunused-parameter]\nvector *dragon_encode(dragon *dragon, const char *str) {\n                                                  ^\npart3-functions.c:69:29: warning: unused parameter 'dragon' [-Wunused-parameter]\nchar *dragon_decode(dragon *dragon, vector *encoded_data) {\n                            ^\npart3-functions.c:69:45: warning: unused parameter 'encoded_data' [-Wunused-parameter]\nchar *dragon_decode(dragon *dragon, vector *encoded_data) {\n                                            ^\n5 warnings and 4 errors generated.\nmake: *** [.objs/part3-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test Id Dragon",
+        "name": "part3_test5_id_dragon",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart3-functions.c:34:22: error: member reference type 'dragon' is not a pointer; did you mean to use '.'?\n        new_dragon[i]->name = gen_new_dragon_name(NAME_LENGTH);\n        ~~~~~~~~~~~~~^~\n                     .\npart3-functions.c:34:29: error: expression is not assignable\n        new_dragon[i]->name = gen_new_dragon_name(NAME_LENGTH);\n        ~~~~~~~~~~~~~~~~~~~ ^\npart3-functions.c:35:22: error: member reference type 'dragon' is not a pointer; did you mean to use '.'?\n        new_dragon[i]->talon = id_talon;\n        ~~~~~~~~~~~~~^~\n                     .\npart3-functions.c:35:30: error: expression is not assignable\n        new_dragon[i]->talon = id_talon;\n        ~~~~~~~~~~~~~~~~~~~~ ^\npart3-functions.c:48:19: warning: unused parameter 'vec' [-Wunused-parameter]\nchar *two(vector *vec) {\n                  ^\npart3-functions.c:57:31: warning: unused parameter 'dragon' [-Wunused-parameter]\nvector *dragon_encode(dragon *dragon, const char *str) {\n                              ^\npart3-functions.c:57:51: warning: unused parameter 'str' [-Wunused-parameter]\nvector *dragon_encode(dragon *dragon, const char *str) {\n                                                  ^\npart3-functions.c:69:29: warning: unused parameter 'dragon' [-Wunused-parameter]\nchar *dragon_decode(dragon *dragon, vector *encoded_data) {\n                            ^\npart3-functions.c:69:45: warning: unused parameter 'encoded_data' [-Wunused-parameter]\nchar *dragon_decode(dragon *dragon, vector *encoded_data) {\n                                            ^\n5 warnings and 4 errors generated.\nmake: *** [.objs/part3-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test XOR Dragon",
+        "name": "part3_test6_xor_dragon",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart3-functions.c:34:22: error: member reference type 'dragon' is not a pointer; did you mean to use '.'?\n        new_dragon[i]->name = gen_new_dragon_name(NAME_LENGTH);\n        ~~~~~~~~~~~~~^~\n                     .\npart3-functions.c:34:29: error: expression is not assignable\n        new_dragon[i]->name = gen_new_dragon_name(NAME_LENGTH);\n        ~~~~~~~~~~~~~~~~~~~ ^\npart3-functions.c:35:22: error: member reference type 'dragon' is not a pointer; did you mean to use '.'?\n        new_dragon[i]->talon = id_talon;\n        ~~~~~~~~~~~~~^~\n                     .\npart3-functions.c:35:30: error: expression is not assignable\n        new_dragon[i]->talon = id_talon;\n        ~~~~~~~~~~~~~~~~~~~~ ^\npart3-functions.c:48:19: warning: unused parameter 'vec' [-Wunused-parameter]\nchar *two(vector *vec) {\n                  ^\npart3-functions.c:57:31: warning: unused parameter 'dragon' [-Wunused-parameter]\nvector *dragon_encode(dragon *dragon, const char *str) {\n                              ^\npart3-functions.c:57:51: warning: unused parameter 'str' [-Wunused-parameter]\nvector *dragon_encode(dragon *dragon, const char *str) {\n                                                  ^\npart3-functions.c:69:29: warning: unused parameter 'dragon' [-Wunused-parameter]\nchar *dragon_decode(dragon *dragon, vector *encoded_data) {\n                            ^\npart3-functions.c:69:45: warning: unused parameter 'encoded_data' [-Wunused-parameter]\nchar *dragon_decode(dragon *dragon, vector *encoded_data) {\n                                            ^\n5 warnings and 4 errors generated.\nmake: *** [.objs/part3-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test createDragon Function",
+        "name": "part3_test7_create_dragon",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart3-functions.c:34:22: error: member reference type 'dragon' is not a pointer; did you mean to use '.'?\n        new_dragon[i]->name = gen_new_dragon_name(NAME_LENGTH);\n        ~~~~~~~~~~~~~^~\n                     .\npart3-functions.c:34:29: error: expression is not assignable\n        new_dragon[i]->name = gen_new_dragon_name(NAME_LENGTH);\n        ~~~~~~~~~~~~~~~~~~~ ^\npart3-functions.c:35:22: error: member reference type 'dragon' is not a pointer; did you mean to use '.'?\n        new_dragon[i]->talon = id_talon;\n        ~~~~~~~~~~~~~^~\n                     .\npart3-functions.c:35:30: error: expression is not assignable\n        new_dragon[i]->talon = id_talon;\n        ~~~~~~~~~~~~~~~~~~~~ ^\npart3-functions.c:48:19: warning: unused parameter 'vec' [-Wunused-parameter]\nchar *two(vector *vec) {\n                  ^\npart3-functions.c:57:31: warning: unused parameter 'dragon' [-Wunused-parameter]\nvector *dragon_encode(dragon *dragon, const char *str) {\n                              ^\npart3-functions.c:57:51: warning: unused parameter 'str' [-Wunused-parameter]\nvector *dragon_encode(dragon *dragon, const char *str) {\n                                                  ^\npart3-functions.c:69:29: warning: unused parameter 'dragon' [-Wunused-parameter]\nchar *dragon_decode(dragon *dragon, vector *encoded_data) {\n                            ^\npart3-functions.c:69:45: warning: unused parameter 'encoded_data' [-Wunused-parameter]\nchar *dragon_decode(dragon *dragon, vector *encoded_data) {\n                                            ^\n5 warnings and 4 errors generated.\nmake: *** [.objs/part3-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test Block Length",
+        "name": "part3_test8_block_length",
+        "ptsPossible": 1.0
+      }
+    ],
+    "revision": "7211",
+    "checksum": "f35751f2f3ad58535b95b4ff41ade139f2f731f8  part1-functions.c\n389f569004e102a5c91c7450bbf1629e4b73c6a3  part2-main.c\nca5daf8f404fce643bee0af6c7becac63e4c8f01  part3-functions.c\n"
+  },
+  {
+    "timestamp": "2017-09-14 00:00:02.804421",
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n==6729== Memcheck, a memory error detector\n==6729== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==6729== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==6729== Command: ./part1\n==6729== \n==6729== \n==6729== HEAP SUMMARY:\n==6729==     in use at exit: 0 bytes in 0 blocks\n==6729==   total heap usage: 15 allocs, 15 frees, 4,597 bytes allocated\n==6729== \n==6729== All heap blocks were freed -- no leaks are possible\n==6729== \n==6729== For counts of detected and suppressed errors, rerun with: -v\n==6729== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)\n",
+        "ptsEarned": 1.0,
+        "description": "Part1: Checking for memory issues...",
+        "name": "part1_memory",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function 1",
+        "name": "part1_test1",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function 2",
+        "name": "part1_test2",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function 3",
+        "name": "part1_test3",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function 4",
+        "name": "part1_test4",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function 5",
+        "name": "part1_test5",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function 6",
+        "name": "part1_test6",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function 7",
+        "name": "part1_test7",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function 8",
+        "name": "part1_test8",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function 9",
+        "name": "part1_test9",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function 10",
+        "name": "part1_test10",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function clear_bits",
+        "name": "part1_test_clear_bits",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 1.0,
+        "description": "Part1: Test function little_automaton()",
+        "name": "part1_test_little_automaton",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n==6852== Memcheck, a memory error detector\n==6852== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==6852== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==6852== Command: ./part2\n==6852== \n==6852== Invalid write of size 8\n==6852==    at 0x400B3D: main (part2-main.c:25)\n==6852==  Address 0x52050d0 is 0 bytes inside a block of size 4 alloc'd\n==6852==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)\n==6852==    by 0x400B2F: main (part2-main.c:24)\n==6852== \n==6852== Use of uninitialised value of size 8\n==6852==    at 0x4007AD: double_step (part2-functions.c:32)\n==6852==    by 0x400B4D: main (part2-main.c:27)\n==6852== \n==6852== Conditional jump or move depends on uninitialised value(s)\n==6852==    at 0x4C2EDA1: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)\n==6852==    by 0x400B55: main (part2-main.c:28)\n==6852== \n==6852== \n==6852== HEAP SUMMARY:\n==6852==     in use at exit: 4 bytes in 1 blocks\n==6852==   total heap usage: 12 allocs, 11 frees, 4,131 bytes allocated\n==6852== \n==6852== 4 bytes in 1 blocks are definitely lost in loss record 1 of 1\n==6852==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)\n==6852==    by 0x400B79: main (part2-main.c:36)\n==6852== \n==6852== LEAK SUMMARY:\n==6852==    definitely lost: 4 bytes in 1 blocks\n==6852==    indirectly lost: 0 bytes in 0 blocks\n==6852==      possibly lost: 0 bytes in 0 blocks\n==6852==    still reachable: 0 bytes in 0 blocks\n==6852==         suppressed: 0 bytes in 0 blocks\n==6852== \n==6852== For counts of detected and suppressed errors, rerun with: -v\n==6852== Use --track-origins=yes to see where uninitialised values come from\n==6852== ERROR SUMMARY: 4 errors from 4 contexts (suppressed: 0 from 0)\n\nMEMORY ERROR/LEAK!",
+        "ptsEarned": 0.0,
+        "description": "Part2: Checking for memory issues...",
+        "name": "part2_memory",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..",
+        "ptsEarned": 11.0,
+        "description": "Part2: Test function main",
+        "name": "part2_test_main",
+        "ptsPossible": 11.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart3-functions.c:29:31: error: too few arguments to function call, expected 3, have 0\n    vector *v = vector_create()\uff1b\n                ~~~~~~~~~~~~~ ^\n./includes/vector.h:61:1: note: 'vector_create' declared here\nvector *vector_create(copy_constructor_type copy_constructor, destructor_type destructor, default_constructor_type default_constructor);\n^\npart3-functions.c:29:32: error: non-ASCII characters are not allowed outside of literals and identifiers\n    vector *v = vector_create()\uff1b\n                               ^~\npart3-functions.c:30:23: error: non-ASCII characters are not allowed outside of literals and identifiers\n    dragon *new_dragon\uff1b\n                      ^~\npart3-functions.c:34:9: error: use of undeclared identifier 'string'; did you mean 'stdin'?\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n        ^~~~~~\n        stdin\n/usr/include/stdio.h:168:25: note: 'stdin' declared here\nextern struct _IO_FILE *stdin;          /* Standard input stream.  */\n                        ^\npart3-functions.c:34:15: error: expected ';' after expression\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n              ^\n              ;\npart3-functions.c:34:16: error: use of undeclared identifier 'temp_name'\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n               ^\npart3-functions.c:37:25: error: use of undeclared identifier 'each_vec'\n        VEC_FOR_EACH(v, each_vec) {\n                        ^\npart3-functions.c:38:17: error: use of undeclared identifier 'each_vec'\n            if (each_vec.name != temp_name) {\n                ^\npart3-functions.c:38:34: error: use of undeclared identifier 'temp_name'; did you mean 'tempnam'?\n            if (each_vec.name != temp_name) {\n                                 ^~~~~~~~~\n                                 tempnam\n/usr/include/stdio.h:227:14: note: 'tempnam' declared here\nextern char *tempnam (const char *__dir, const char *__pfx)\n             ^\npart3-functions.c:43:13: error: use of undeclared identifier 'new_dragon'\n            new_dragon[i].name = temp_name;\n            ^\npart3-functions.c:43:34: error: use of undeclared identifier 'temp_name'; did you mean 'tempnam'?\n            new_dragon[i].name = temp_name;\n                                 ^~~~~~~~~\n                                 tempnam\n/usr/include/stdio.h:227:14: note: 'tempnam' declared here\nextern char *tempnam (const char *__dir, const char *__pfx)\n             ^\npart3-functions.c:44:33: error: use of undeclared identifier 'new_dragon'\n            vector_push_back(v, new_dragon[i]);\n                                ^\npart3-functions.c:34:9: error: expression result unused [-Werror,-Wunused-value]\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n        ^~~~~~\npart3-functions.c:60:5: error: use of undeclared identifier 'string'; did you mean 'stdin'?\n    string str ='';\n    ^~~~~~\n    stdin\n/usr/include/stdio.h:168:25: note: 'stdin' declared here\nextern struct _IO_FILE *stdin;          /* Standard input stream.  */\n                        ^\npart3-functions.c:60:11: error: expected ';' after expression\n    string str ='';\n          ^\n          ;\npart3-functions.c:60:12: error: use of undeclared identifier 'str'\n    string str ='';\n           ^\npart3-functions.c:60:17: error: empty character constant [-Werror,-Winvalid-pp-token]\n    string str ='';\n                ^\npart3-functions.c:60:17: error: expected expression\npart3-functions.c:61:23: error: use of undeclared identifier 'each_vec'\n    VEC_FOR_EACH(vec, each_vec) {\n                      ^\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n20 errors generated.\nmake: *** [.objs/part3-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test function one",
+        "name": "part3_test1",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart3-functions.c:29:31: error: too few arguments to function call, expected 3, have 0\n    vector *v = vector_create()\uff1b\n                ~~~~~~~~~~~~~ ^\n./includes/vector.h:61:1: note: 'vector_create' declared here\nvector *vector_create(copy_constructor_type copy_constructor, destructor_type destructor, default_constructor_type default_constructor);\n^\npart3-functions.c:29:32: error: non-ASCII characters are not allowed outside of literals and identifiers\n    vector *v = vector_create()\uff1b\n                               ^~\npart3-functions.c:30:23: error: non-ASCII characters are not allowed outside of literals and identifiers\n    dragon *new_dragon\uff1b\n                      ^~\npart3-functions.c:34:9: error: use of undeclared identifier 'string'; did you mean 'stdin'?\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n        ^~~~~~\n        stdin\n/usr/include/stdio.h:168:25: note: 'stdin' declared here\nextern struct _IO_FILE *stdin;          /* Standard input stream.  */\n                        ^\npart3-functions.c:34:15: error: expected ';' after expression\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n              ^\n              ;\npart3-functions.c:34:16: error: use of undeclared identifier 'temp_name'\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n               ^\npart3-functions.c:37:25: error: use of undeclared identifier 'each_vec'\n        VEC_FOR_EACH(v, each_vec) {\n                        ^\npart3-functions.c:38:17: error: use of undeclared identifier 'each_vec'\n            if (each_vec.name != temp_name) {\n                ^\npart3-functions.c:38:34: error: use of undeclared identifier 'temp_name'; did you mean 'tempnam'?\n            if (each_vec.name != temp_name) {\n                                 ^~~~~~~~~\n                                 tempnam\n/usr/include/stdio.h:227:14: note: 'tempnam' declared here\nextern char *tempnam (const char *__dir, const char *__pfx)\n             ^\npart3-functions.c:43:13: error: use of undeclared identifier 'new_dragon'\n            new_dragon[i].name = temp_name;\n            ^\npart3-functions.c:43:34: error: use of undeclared identifier 'temp_name'; did you mean 'tempnam'?\n            new_dragon[i].name = temp_name;\n                                 ^~~~~~~~~\n                                 tempnam\n/usr/include/stdio.h:227:14: note: 'tempnam' declared here\nextern char *tempnam (const char *__dir, const char *__pfx)\n             ^\npart3-functions.c:44:33: error: use of undeclared identifier 'new_dragon'\n            vector_push_back(v, new_dragon[i]);\n                                ^\npart3-functions.c:34:9: error: expression result unused [-Werror,-Wunused-value]\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n        ^~~~~~\npart3-functions.c:60:5: error: use of undeclared identifier 'string'; did you mean 'stdin'?\n    string str ='';\n    ^~~~~~\n    stdin\n/usr/include/stdio.h:168:25: note: 'stdin' declared here\nextern struct _IO_FILE *stdin;          /* Standard input stream.  */\n                        ^\npart3-functions.c:60:11: error: expected ';' after expression\n    string str ='';\n          ^\n          ;\npart3-functions.c:60:12: error: use of undeclared identifier 'str'\n    string str ='';\n           ^\npart3-functions.c:60:17: error: empty character constant [-Werror,-Winvalid-pp-token]\n    string str ='';\n                ^\npart3-functions.c:60:17: error: expected expression\npart3-functions.c:61:23: error: use of undeclared identifier 'each_vec'\n    VEC_FOR_EACH(vec, each_vec) {\n                      ^\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n20 errors generated.\nmake: *** [.objs/part3-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test function two",
+        "name": "part3_test2",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart3-functions.c:29:31: error: too few arguments to function call, expected 3, have 0\n    vector *v = vector_create()\uff1b\n                ~~~~~~~~~~~~~ ^\n./includes/vector.h:61:1: note: 'vector_create' declared here\nvector *vector_create(copy_constructor_type copy_constructor, destructor_type destructor, default_constructor_type default_constructor);\n^\npart3-functions.c:29:32: error: non-ASCII characters are not allowed outside of literals and identifiers\n    vector *v = vector_create()\uff1b\n                               ^~\npart3-functions.c:30:23: error: non-ASCII characters are not allowed outside of literals and identifiers\n    dragon *new_dragon\uff1b\n                      ^~\npart3-functions.c:34:9: error: use of undeclared identifier 'string'; did you mean 'stdin'?\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n        ^~~~~~\n        stdin\n/usr/include/stdio.h:168:25: note: 'stdin' declared here\nextern struct _IO_FILE *stdin;          /* Standard input stream.  */\n                        ^\npart3-functions.c:34:15: error: expected ';' after expression\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n              ^\n              ;\npart3-functions.c:34:16: error: use of undeclared identifier 'temp_name'\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n               ^\npart3-functions.c:37:25: error: use of undeclared identifier 'each_vec'\n        VEC_FOR_EACH(v, each_vec) {\n                        ^\npart3-functions.c:38:17: error: use of undeclared identifier 'each_vec'\n            if (each_vec.name != temp_name) {\n                ^\npart3-functions.c:38:34: error: use of undeclared identifier 'temp_name'; did you mean 'tempnam'?\n            if (each_vec.name != temp_name) {\n                                 ^~~~~~~~~\n                                 tempnam\n/usr/include/stdio.h:227:14: note: 'tempnam' declared here\nextern char *tempnam (const char *__dir, const char *__pfx)\n             ^\npart3-functions.c:43:13: error: use of undeclared identifier 'new_dragon'\n            new_dragon[i].name = temp_name;\n            ^\npart3-functions.c:43:34: error: use of undeclared identifier 'temp_name'; did you mean 'tempnam'?\n            new_dragon[i].name = temp_name;\n                                 ^~~~~~~~~\n                                 tempnam\n/usr/include/stdio.h:227:14: note: 'tempnam' declared here\nextern char *tempnam (const char *__dir, const char *__pfx)\n             ^\npart3-functions.c:44:33: error: use of undeclared identifier 'new_dragon'\n            vector_push_back(v, new_dragon[i]);\n                                ^\npart3-functions.c:34:9: error: expression result unused [-Werror,-Wunused-value]\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n        ^~~~~~\npart3-functions.c:60:5: error: use of undeclared identifier 'string'; did you mean 'stdin'?\n    string str ='';\n    ^~~~~~\n    stdin\n/usr/include/stdio.h:168:25: note: 'stdin' declared here\nextern struct _IO_FILE *stdin;          /* Standard input stream.  */\n                        ^\npart3-functions.c:60:11: error: expected ';' after expression\n    string str ='';\n          ^\n          ;\npart3-functions.c:60:12: error: use of undeclared identifier 'str'\n    string str ='';\n           ^\npart3-functions.c:60:17: error: empty character constant [-Werror,-Winvalid-pp-token]\n    string str ='';\n                ^\npart3-functions.c:60:17: error: expected expression\npart3-functions.c:61:23: error: use of undeclared identifier 'each_vec'\n    VEC_FOR_EACH(vec, each_vec) {\n                      ^\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n20 errors generated.\nmake: *** [.objs/part3-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test Dragon Encode",
+        "name": "part3_test3_dragon_encode",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart3-functions.c:29:31: error: too few arguments to function call, expected 3, have 0\n    vector *v = vector_create()\uff1b\n                ~~~~~~~~~~~~~ ^\n./includes/vector.h:61:1: note: 'vector_create' declared here\nvector *vector_create(copy_constructor_type copy_constructor, destructor_type destructor, default_constructor_type default_constructor);\n^\npart3-functions.c:29:32: error: non-ASCII characters are not allowed outside of literals and identifiers\n    vector *v = vector_create()\uff1b\n                               ^~\npart3-functions.c:30:23: error: non-ASCII characters are not allowed outside of literals and identifiers\n    dragon *new_dragon\uff1b\n                      ^~\npart3-functions.c:34:9: error: use of undeclared identifier 'string'; did you mean 'stdin'?\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n        ^~~~~~\n        stdin\n/usr/include/stdio.h:168:25: note: 'stdin' declared here\nextern struct _IO_FILE *stdin;          /* Standard input stream.  */\n                        ^\npart3-functions.c:34:15: error: expected ';' after expression\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n              ^\n              ;\npart3-functions.c:34:16: error: use of undeclared identifier 'temp_name'\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n               ^\npart3-functions.c:37:25: error: use of undeclared identifier 'each_vec'\n        VEC_FOR_EACH(v, each_vec) {\n                        ^\npart3-functions.c:38:17: error: use of undeclared identifier 'each_vec'\n            if (each_vec.name != temp_name) {\n                ^\npart3-functions.c:38:34: error: use of undeclared identifier 'temp_name'; did you mean 'tempnam'?\n            if (each_vec.name != temp_name) {\n                                 ^~~~~~~~~\n                                 tempnam\n/usr/include/stdio.h:227:14: note: 'tempnam' declared here\nextern char *tempnam (const char *__dir, const char *__pfx)\n             ^\npart3-functions.c:43:13: error: use of undeclared identifier 'new_dragon'\n            new_dragon[i].name = temp_name;\n            ^\npart3-functions.c:43:34: error: use of undeclared identifier 'temp_name'; did you mean 'tempnam'?\n            new_dragon[i].name = temp_name;\n                                 ^~~~~~~~~\n                                 tempnam\n/usr/include/stdio.h:227:14: note: 'tempnam' declared here\nextern char *tempnam (const char *__dir, const char *__pfx)\n             ^\npart3-functions.c:44:33: error: use of undeclared identifier 'new_dragon'\n            vector_push_back(v, new_dragon[i]);\n                                ^\npart3-functions.c:34:9: error: expression result unused [-Werror,-Wunused-value]\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n        ^~~~~~\npart3-functions.c:60:5: error: use of undeclared identifier 'string'; did you mean 'stdin'?\n    string str ='';\n    ^~~~~~\n    stdin\n/usr/include/stdio.h:168:25: note: 'stdin' declared here\nextern struct _IO_FILE *stdin;          /* Standard input stream.  */\n                        ^\npart3-functions.c:60:11: error: expected ';' after expression\n    string str ='';\n          ^\n          ;\npart3-functions.c:60:12: error: use of undeclared identifier 'str'\n    string str ='';\n           ^\npart3-functions.c:60:17: error: empty character constant [-Werror,-Winvalid-pp-token]\n    string str ='';\n                ^\npart3-functions.c:60:17: error: expected expression\npart3-functions.c:61:23: error: use of undeclared identifier 'each_vec'\n    VEC_FOR_EACH(vec, each_vec) {\n                      ^\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n20 errors generated.\nmake: *** [.objs/part3-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test Dragon Decode",
+        "name": "part3_test4_dragon_decode",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart3-functions.c:29:31: error: too few arguments to function call, expected 3, have 0\n    vector *v = vector_create()\uff1b\n                ~~~~~~~~~~~~~ ^\n./includes/vector.h:61:1: note: 'vector_create' declared here\nvector *vector_create(copy_constructor_type copy_constructor, destructor_type destructor, default_constructor_type default_constructor);\n^\npart3-functions.c:29:32: error: non-ASCII characters are not allowed outside of literals and identifiers\n    vector *v = vector_create()\uff1b\n                               ^~\npart3-functions.c:30:23: error: non-ASCII characters are not allowed outside of literals and identifiers\n    dragon *new_dragon\uff1b\n                      ^~\npart3-functions.c:34:9: error: use of undeclared identifier 'string'; did you mean 'stdin'?\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n        ^~~~~~\n        stdin\n/usr/include/stdio.h:168:25: note: 'stdin' declared here\nextern struct _IO_FILE *stdin;          /* Standard input stream.  */\n                        ^\npart3-functions.c:34:15: error: expected ';' after expression\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n              ^\n              ;\npart3-functions.c:34:16: error: use of undeclared identifier 'temp_name'\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n               ^\npart3-functions.c:37:25: error: use of undeclared identifier 'each_vec'\n        VEC_FOR_EACH(v, each_vec) {\n                        ^\npart3-functions.c:38:17: error: use of undeclared identifier 'each_vec'\n            if (each_vec.name != temp_name) {\n                ^\npart3-functions.c:38:34: error: use of undeclared identifier 'temp_name'; did you mean 'tempnam'?\n            if (each_vec.name != temp_name) {\n                                 ^~~~~~~~~\n                                 tempnam\n/usr/include/stdio.h:227:14: note: 'tempnam' declared here\nextern char *tempnam (const char *__dir, const char *__pfx)\n             ^\npart3-functions.c:43:13: error: use of undeclared identifier 'new_dragon'\n            new_dragon[i].name = temp_name;\n            ^\npart3-functions.c:43:34: error: use of undeclared identifier 'temp_name'; did you mean 'tempnam'?\n            new_dragon[i].name = temp_name;\n                                 ^~~~~~~~~\n                                 tempnam\n/usr/include/stdio.h:227:14: note: 'tempnam' declared here\nextern char *tempnam (const char *__dir, const char *__pfx)\n             ^\npart3-functions.c:44:33: error: use of undeclared identifier 'new_dragon'\n            vector_push_back(v, new_dragon[i]);\n                                ^\npart3-functions.c:34:9: error: expression result unused [-Werror,-Wunused-value]\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n        ^~~~~~\npart3-functions.c:60:5: error: use of undeclared identifier 'string'; did you mean 'stdin'?\n    string str ='';\n    ^~~~~~\n    stdin\n/usr/include/stdio.h:168:25: note: 'stdin' declared here\nextern struct _IO_FILE *stdin;          /* Standard input stream.  */\n                        ^\npart3-functions.c:60:11: error: expected ';' after expression\n    string str ='';\n          ^\n          ;\npart3-functions.c:60:12: error: use of undeclared identifier 'str'\n    string str ='';\n           ^\npart3-functions.c:60:17: error: empty character constant [-Werror,-Winvalid-pp-token]\n    string str ='';\n                ^\npart3-functions.c:60:17: error: expected expression\npart3-functions.c:61:23: error: use of undeclared identifier 'each_vec'\n    VEC_FOR_EACH(vec, each_vec) {\n                      ^\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n20 errors generated.\nmake: *** [.objs/part3-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test Id Dragon",
+        "name": "part3_test5_id_dragon",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart3-functions.c:29:31: error: too few arguments to function call, expected 3, have 0\n    vector *v = vector_create()\uff1b\n                ~~~~~~~~~~~~~ ^\n./includes/vector.h:61:1: note: 'vector_create' declared here\nvector *vector_create(copy_constructor_type copy_constructor, destructor_type destructor, default_constructor_type default_constructor);\n^\npart3-functions.c:29:32: error: non-ASCII characters are not allowed outside of literals and identifiers\n    vector *v = vector_create()\uff1b\n                               ^~\npart3-functions.c:30:23: error: non-ASCII characters are not allowed outside of literals and identifiers\n    dragon *new_dragon\uff1b\n                      ^~\npart3-functions.c:34:9: error: use of undeclared identifier 'string'; did you mean 'stdin'?\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n        ^~~~~~\n        stdin\n/usr/include/stdio.h:168:25: note: 'stdin' declared here\nextern struct _IO_FILE *stdin;          /* Standard input stream.  */\n                        ^\npart3-functions.c:34:15: error: expected ';' after expression\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n              ^\n              ;\npart3-functions.c:34:16: error: use of undeclared identifier 'temp_name'\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n               ^\npart3-functions.c:37:25: error: use of undeclared identifier 'each_vec'\n        VEC_FOR_EACH(v, each_vec) {\n                        ^\npart3-functions.c:38:17: error: use of undeclared identifier 'each_vec'\n            if (each_vec.name != temp_name) {\n                ^\npart3-functions.c:38:34: error: use of undeclared identifier 'temp_name'; did you mean 'tempnam'?\n            if (each_vec.name != temp_name) {\n                                 ^~~~~~~~~\n                                 tempnam\n/usr/include/stdio.h:227:14: note: 'tempnam' declared here\nextern char *tempnam (const char *__dir, const char *__pfx)\n             ^\npart3-functions.c:43:13: error: use of undeclared identifier 'new_dragon'\n            new_dragon[i].name = temp_name;\n            ^\npart3-functions.c:43:34: error: use of undeclared identifier 'temp_name'; did you mean 'tempnam'?\n            new_dragon[i].name = temp_name;\n                                 ^~~~~~~~~\n                                 tempnam\n/usr/include/stdio.h:227:14: note: 'tempnam' declared here\nextern char *tempnam (const char *__dir, const char *__pfx)\n             ^\npart3-functions.c:44:33: error: use of undeclared identifier 'new_dragon'\n            vector_push_back(v, new_dragon[i]);\n                                ^\npart3-functions.c:34:9: error: expression result unused [-Werror,-Wunused-value]\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n        ^~~~~~\npart3-functions.c:60:5: error: use of undeclared identifier 'string'; did you mean 'stdin'?\n    string str ='';\n    ^~~~~~\n    stdin\n/usr/include/stdio.h:168:25: note: 'stdin' declared here\nextern struct _IO_FILE *stdin;          /* Standard input stream.  */\n                        ^\npart3-functions.c:60:11: error: expected ';' after expression\n    string str ='';\n          ^\n          ;\npart3-functions.c:60:12: error: use of undeclared identifier 'str'\n    string str ='';\n           ^\npart3-functions.c:60:17: error: empty character constant [-Werror,-Winvalid-pp-token]\n    string str ='';\n                ^\npart3-functions.c:60:17: error: expected expression\npart3-functions.c:61:23: error: use of undeclared identifier 'each_vec'\n    VEC_FOR_EACH(vec, each_vec) {\n                      ^\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n20 errors generated.\nmake: *** [.objs/part3-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test XOR Dragon",
+        "name": "part3_test6_xor_dragon",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart3-functions.c:29:31: error: too few arguments to function call, expected 3, have 0\n    vector *v = vector_create()\uff1b\n                ~~~~~~~~~~~~~ ^\n./includes/vector.h:61:1: note: 'vector_create' declared here\nvector *vector_create(copy_constructor_type copy_constructor, destructor_type destructor, default_constructor_type default_constructor);\n^\npart3-functions.c:29:32: error: non-ASCII characters are not allowed outside of literals and identifiers\n    vector *v = vector_create()\uff1b\n                               ^~\npart3-functions.c:30:23: error: non-ASCII characters are not allowed outside of literals and identifiers\n    dragon *new_dragon\uff1b\n                      ^~\npart3-functions.c:34:9: error: use of undeclared identifier 'string'; did you mean 'stdin'?\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n        ^~~~~~\n        stdin\n/usr/include/stdio.h:168:25: note: 'stdin' declared here\nextern struct _IO_FILE *stdin;          /* Standard input stream.  */\n                        ^\npart3-functions.c:34:15: error: expected ';' after expression\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n              ^\n              ;\npart3-functions.c:34:16: error: use of undeclared identifier 'temp_name'\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n               ^\npart3-functions.c:37:25: error: use of undeclared identifier 'each_vec'\n        VEC_FOR_EACH(v, each_vec) {\n                        ^\npart3-functions.c:38:17: error: use of undeclared identifier 'each_vec'\n            if (each_vec.name != temp_name) {\n                ^\npart3-functions.c:38:34: error: use of undeclared identifier 'temp_name'; did you mean 'tempnam'?\n            if (each_vec.name != temp_name) {\n                                 ^~~~~~~~~\n                                 tempnam\n/usr/include/stdio.h:227:14: note: 'tempnam' declared here\nextern char *tempnam (const char *__dir, const char *__pfx)\n             ^\npart3-functions.c:43:13: error: use of undeclared identifier 'new_dragon'\n            new_dragon[i].name = temp_name;\n            ^\npart3-functions.c:43:34: error: use of undeclared identifier 'temp_name'; did you mean 'tempnam'?\n            new_dragon[i].name = temp_name;\n                                 ^~~~~~~~~\n                                 tempnam\n/usr/include/stdio.h:227:14: note: 'tempnam' declared here\nextern char *tempnam (const char *__dir, const char *__pfx)\n             ^\npart3-functions.c:44:33: error: use of undeclared identifier 'new_dragon'\n            vector_push_back(v, new_dragon[i]);\n                                ^\npart3-functions.c:34:9: error: expression result unused [-Werror,-Wunused-value]\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n        ^~~~~~\npart3-functions.c:60:5: error: use of undeclared identifier 'string'; did you mean 'stdin'?\n    string str ='';\n    ^~~~~~\n    stdin\n/usr/include/stdio.h:168:25: note: 'stdin' declared here\nextern struct _IO_FILE *stdin;          /* Standard input stream.  */\n                        ^\npart3-functions.c:60:11: error: expected ';' after expression\n    string str ='';\n          ^\n          ;\npart3-functions.c:60:12: error: use of undeclared identifier 'str'\n    string str ='';\n           ^\npart3-functions.c:60:17: error: empty character constant [-Werror,-Winvalid-pp-token]\n    string str ='';\n                ^\npart3-functions.c:60:17: error: expected expression\npart3-functions.c:61:23: error: use of undeclared identifier 'each_vec'\n    VEC_FOR_EACH(vec, each_vec) {\n                      ^\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n20 errors generated.\nmake: *** [.objs/part3-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test createDragon Function",
+        "name": "part3_test7_create_dragon",
+        "ptsPossible": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\npart3-functions.c:29:31: error: too few arguments to function call, expected 3, have 0\n    vector *v = vector_create()\uff1b\n                ~~~~~~~~~~~~~ ^\n./includes/vector.h:61:1: note: 'vector_create' declared here\nvector *vector_create(copy_constructor_type copy_constructor, destructor_type destructor, default_constructor_type default_constructor);\n^\npart3-functions.c:29:32: error: non-ASCII characters are not allowed outside of literals and identifiers\n    vector *v = vector_create()\uff1b\n                               ^~\npart3-functions.c:30:23: error: non-ASCII characters are not allowed outside of literals and identifiers\n    dragon *new_dragon\uff1b\n                      ^~\npart3-functions.c:34:9: error: use of undeclared identifier 'string'; did you mean 'stdin'?\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n        ^~~~~~\n        stdin\n/usr/include/stdio.h:168:25: note: 'stdin' declared here\nextern struct _IO_FILE *stdin;          /* Standard input stream.  */\n                        ^\npart3-functions.c:34:15: error: expected ';' after expression\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n              ^\n              ;\npart3-functions.c:34:16: error: use of undeclared identifier 'temp_name'\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n               ^\npart3-functions.c:37:25: error: use of undeclared identifier 'each_vec'\n        VEC_FOR_EACH(v, each_vec) {\n                        ^\npart3-functions.c:38:17: error: use of undeclared identifier 'each_vec'\n            if (each_vec.name != temp_name) {\n                ^\npart3-functions.c:38:34: error: use of undeclared identifier 'temp_name'; did you mean 'tempnam'?\n            if (each_vec.name != temp_name) {\n                                 ^~~~~~~~~\n                                 tempnam\n/usr/include/stdio.h:227:14: note: 'tempnam' declared here\nextern char *tempnam (const char *__dir, const char *__pfx)\n             ^\npart3-functions.c:43:13: error: use of undeclared identifier 'new_dragon'\n            new_dragon[i].name = temp_name;\n            ^\npart3-functions.c:43:34: error: use of undeclared identifier 'temp_name'; did you mean 'tempnam'?\n            new_dragon[i].name = temp_name;\n                                 ^~~~~~~~~\n                                 tempnam\n/usr/include/stdio.h:227:14: note: 'tempnam' declared here\nextern char *tempnam (const char *__dir, const char *__pfx)\n             ^\npart3-functions.c:44:33: error: use of undeclared identifier 'new_dragon'\n            vector_push_back(v, new_dragon[i]);\n                                ^\npart3-functions.c:34:9: error: expression result unused [-Werror,-Wunused-value]\n        string temp_name= gen_new_dragon_name(NAME_LENGTH);\n        ^~~~~~\npart3-functions.c:60:5: error: use of undeclared identifier 'string'; did you mean 'stdin'?\n    string str ='';\n    ^~~~~~\n    stdin\n/usr/include/stdio.h:168:25: note: 'stdin' declared here\nextern struct _IO_FILE *stdin;          /* Standard input stream.  */\n                        ^\npart3-functions.c:60:11: error: expected ';' after expression\n    string str ='';\n          ^\n          ;\npart3-functions.c:60:12: error: use of undeclared identifier 'str'\n    string str ='';\n           ^\npart3-functions.c:60:17: error: empty character constant [-Werror,-Winvalid-pp-token]\n    string str ='';\n                ^\npart3-functions.c:60:17: error: expected expression\npart3-functions.c:61:23: error: use of undeclared identifier 'each_vec'\n    VEC_FOR_EACH(vec, each_vec) {\n                      ^\nfatal error: too many errors emitted, stopping now [-ferror-limit=]\n20 errors generated.\nmake: *** [.objs/part3-functions-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "description": "Part3: Test Block Length",
+        "name": "part3_test8_block_length",
+        "ptsPossible": 1.0
+      }
+    ],
+    "revision": "7847",
+    "checksum": "a87ed14ece5ba5f4cc7ab082f25da44f6953050c  part1-functions.c\n389f569004e102a5c91c7450bbf1629e4b73c6a3  part2-main.c\n6235cc183ce2b9b16ff9492f6c33da91a6018377  part3-functions.c\n"
+  }
+]

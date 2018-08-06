@@ -1,0 +1,548 @@
+[
+  {
+    "revision": "8433",
+    "checksum": "c28ab05c607a8b0cd84b43f78601301de8c1cb39  env.c\n375d9bb1f82f6664b7f2396f966e18064cea4063  time.c\n",
+    "testcases": [
+      {
+        "description": "Test full env funtionality (hard)",
+        "name": "env_test",
+        "ptsEarned": 0.0,
+        "ptsPossible": 3.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test full env funtionality",
+        "name": "env_test",
+        "ptsEarned": 0.0,
+        "ptsPossible": 2.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env exec failure",
+        "name": "env_test_exec",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env",
+        "name": "env_test_one",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env referencing variable",
+        "name": "env_test_ref",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env referencing nonexistence variable",
+        "name": "env_test_ref_empty",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env",
+        "name": "env_test_two",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env usage",
+        "name": "env_test_usage",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env usage 2",
+        "name": "env_test_usage_2",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test time",
+        "name": "time_test",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Invalid reported time"
+      },
+      {
+        "description": "Test time exec failure",
+        "name": "time_test_exec",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test time usage",
+        "name": "time_test_usage",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      }
+    ],
+    "timestamp": "2017-09-15 22:00:03.317047"
+  },
+  {
+    "revision": "10397",
+    "checksum": "c28ab05c607a8b0cd84b43f78601301de8c1cb39  env.c\n375d9bb1f82f6664b7f2396f966e18064cea4063  time.c\n",
+    "testcases": [
+      {
+        "description": "Test full env funtionality (hard)",
+        "name": "env_test",
+        "ptsEarned": 0.0,
+        "ptsPossible": 3.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test full env funtionality",
+        "name": "env_test",
+        "ptsEarned": 0.0,
+        "ptsPossible": 2.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env exec failure",
+        "name": "env_test_exec",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env",
+        "name": "env_test_one",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env referencing variable",
+        "name": "env_test_ref",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env referencing nonexistence variable",
+        "name": "env_test_ref_empty",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env",
+        "name": "env_test_two",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env usage",
+        "name": "env_test_usage",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env usage 2",
+        "name": "env_test_usage_2",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test time",
+        "name": "time_test",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Invalid reported time"
+      },
+      {
+        "description": "Test time exec failure",
+        "name": "time_test_exec",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test time usage",
+        "name": "time_test_usage",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      }
+    ],
+    "timestamp": "2017-09-17 22:00:03.399067"
+  },
+  {
+    "revision": "12352",
+    "checksum": "c28ab05c607a8b0cd84b43f78601301de8c1cb39  env.c\n375d9bb1f82f6664b7f2396f966e18064cea4063  time.c\n",
+    "testcases": [
+      {
+        "description": "Test full env funtionality (hard)",
+        "name": "env_test",
+        "ptsEarned": 0.0,
+        "ptsPossible": 3.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test full env funtionality",
+        "name": "env_test",
+        "ptsEarned": 0.0,
+        "ptsPossible": 2.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env exec failure",
+        "name": "env_test_exec",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env",
+        "name": "env_test_one",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env referencing variable",
+        "name": "env_test_ref",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env referencing nonexistence variable",
+        "name": "env_test_ref_empty",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env",
+        "name": "env_test_two",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env usage",
+        "name": "env_test_usage",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env usage 2",
+        "name": "env_test_usage_2",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test time",
+        "name": "time_test",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Invalid reported time"
+      },
+      {
+        "description": "Test time exec failure",
+        "name": "time_test_exec",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test time usage",
+        "name": "time_test_usage",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      }
+    ],
+    "timestamp": "2017-09-18 22:00:03.284977"
+  },
+  {
+    "revision": "13092",
+    "checksum": "c28ab05c607a8b0cd84b43f78601301de8c1cb39  env.c\n375d9bb1f82f6664b7f2396f966e18064cea4063  time.c\n",
+    "testcases": [
+      {
+        "description": "Test full env funtionality (hard)",
+        "name": "env_test",
+        "ptsEarned": 0.0,
+        "ptsPossible": 3.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test full env funtionality",
+        "name": "env_test",
+        "ptsEarned": 0.0,
+        "ptsPossible": 2.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env exec failure",
+        "name": "env_test_exec",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env",
+        "name": "env_test_one",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env referencing variable",
+        "name": "env_test_ref",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env referencing nonexistence variable",
+        "name": "env_test_ref_empty",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env",
+        "name": "env_test_two",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env usage",
+        "name": "env_test_usage",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env usage 2",
+        "name": "env_test_usage_2",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test time",
+        "name": "time_test",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Invalid reported time"
+      },
+      {
+        "description": "Test time exec failure",
+        "name": "time_test_exec",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test time usage",
+        "name": "time_test_usage",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      }
+    ],
+    "timestamp": "2017-09-19 22:00:03.454610"
+  },
+  {
+    "revision": "14009",
+    "checksum": "9bc73f14905aa40737fa811acfcdb446371fd4f6  env.c\n04d7f894e953199750de418700dc3f4e26fc06fd  time.c\n",
+    "testcases": [
+      {
+        "description": "Test full env funtionality (hard)",
+        "name": "env_test",
+        "ptsEarned": 3.0,
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      },
+      {
+        "description": "Test full env funtionality",
+        "name": "env_test",
+        "ptsEarned": 2.0,
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      },
+      {
+        "description": "Test env exec failure",
+        "name": "env_test_exec",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env",
+        "name": "env_test_one",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env referencing variable",
+        "name": "env_test_ref",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env referencing nonexistence variable",
+        "name": "env_test_ref_empty",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env",
+        "name": "env_test_two",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env usage",
+        "name": "env_test_usage",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      },
+      {
+        "description": "Test env usage 2",
+        "name": "env_test_usage_2",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test time",
+        "name": "time_test",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      },
+      {
+        "description": "Test time exec failure",
+        "name": "time_test_exec",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      },
+      {
+        "description": "Test time usage",
+        "name": "time_test_usage",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }
+    ],
+    "timestamp": "2017-09-20 12:00:03.949416"
+  },
+  {
+    "revision": "14900",
+    "checksum": "9bc73f14905aa40737fa811acfcdb446371fd4f6  env.c\n04d7f894e953199750de418700dc3f4e26fc06fd  time.c\n",
+    "testcases": [
+      {
+        "description": "Test full env funtionality (hard)",
+        "name": "env_test",
+        "ptsEarned": 3.0,
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      },
+      {
+        "description": "Test full env funtionality",
+        "name": "env_test",
+        "ptsEarned": 2.0,
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      },
+      {
+        "description": "Test env exec failure",
+        "name": "env_test_exec",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env",
+        "name": "env_test_one",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env referencing variable",
+        "name": "env_test_ref",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env referencing nonexistence variable",
+        "name": "env_test_ref_empty",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env",
+        "name": "env_test_two",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test env usage",
+        "name": "env_test_usage",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      },
+      {
+        "description": "Test env usage 2",
+        "name": "env_test_usage_2",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "log": "Did not find correct output"
+      },
+      {
+        "description": "Test time",
+        "name": "time_test",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      },
+      {
+        "description": "Test time exec failure",
+        "name": "time_test_exec",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      },
+      {
+        "description": "Test time usage",
+        "name": "time_test_usage",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }
+    ],
+    "timestamp": "2017-09-21 00:00:03.408938"
+  }
+]

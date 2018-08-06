@@ -1,0 +1,6 @@
+cd ..
+ls -l
+ls -al
+ls
+sleep 2
+sleep 2

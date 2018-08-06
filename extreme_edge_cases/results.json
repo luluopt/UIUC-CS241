@@ -1,0 +1,590 @@
+[
+  {
+    "timestamp": "2017-09-05 22:00:02.472027",
+    "testcases": [
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser correctly handles various ASCII characters",
+        "ptsPossible": 1.0,
+        "name": "implementationASCII",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns sentences with the correct capitalization",
+        "ptsPossible": 1.0,
+        "name": "implementationCorrectCapitals",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns an array with the correct number of elements",
+        "ptsPossible": 1.0,
+        "name": "implementationCorrectNumberSentences",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns an array with elements that are the correct length",
+        "ptsPossible": 1.0,
+        "name": "implementationCorrectNumberWords",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns output where incomplete sentences are ignored",
+        "ptsPossible": 1.0,
+        "name": "implementationIncompleteSentences",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns an array that is null terminated",
+        "ptsPossible": 1.0,
+        "name": "implementationLastElementNull",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns a correct array with edge case punctuation and spaces",
+        "ptsPossible": 1.0,
+        "name": "implementationMultiplePunc",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 1.0,
+        "description": "Test that camelCaser returns NULL when given NULL",
+        "ptsPossible": 1.0,
+        "name": "implementationNull",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Stress tests your camelCaser implementation",
+        "ptsPossible": 1.0,
+        "name": "implementationStressTest",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Memory test for your camelCaser and destroy (you must pass implementation tests to get full points here)",
+        "ptsPossible": 2.0,
+        "name": "Memory",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Testing your unit tests...",
+        "ptsPossible": 16.0,
+        "name": "Unit Tests",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nYou identified 6/6 good implementations and 0/10 bad implementations.\n\nFailed test"
+      }
+    ],
+    "checksum": "9094587dd031e8711cfe876adc16d5614da6139a  camelCaser.c\nf7a667a635e54a9cff6a29f9ae39a39973245eb7  camelCaser_tests.c\n",
+    "revision": "1082"
+  },
+  {
+    "timestamp": "2017-09-07 22:00:02.988141",
+    "testcases": [
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser correctly handles various ASCII characters",
+        "ptsPossible": 1.0,
+        "name": "implementationASCII",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns sentences with the correct capitalization",
+        "ptsPossible": 1.0,
+        "name": "implementationCorrectCapitals",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns an array with the correct number of elements",
+        "ptsPossible": 1.0,
+        "name": "implementationCorrectNumberSentences",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns an array with elements that are the correct length",
+        "ptsPossible": 1.0,
+        "name": "implementationCorrectNumberWords",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns output where incomplete sentences are ignored",
+        "ptsPossible": 1.0,
+        "name": "implementationIncompleteSentences",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns an array that is null terminated",
+        "ptsPossible": 1.0,
+        "name": "implementationLastElementNull",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns a correct array with edge case punctuation and spaces",
+        "ptsPossible": 1.0,
+        "name": "implementationMultiplePunc",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 1.0,
+        "description": "Test that camelCaser returns NULL when given NULL",
+        "ptsPossible": 1.0,
+        "name": "implementationNull",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Stress tests your camelCaser implementation",
+        "ptsPossible": 1.0,
+        "name": "implementationStressTest",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Memory test for your camelCaser and destroy (you must pass implementation tests to get full points here)",
+        "ptsPossible": 2.0,
+        "name": "Memory",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Testing your unit tests...",
+        "ptsPossible": 16.0,
+        "name": "Unit Tests",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nYou identified 6/6 good implementations and 0/10 bad implementations.\n\nFailed test"
+      }
+    ],
+    "checksum": "9094587dd031e8711cfe876adc16d5614da6139a  camelCaser.c\nf7a667a635e54a9cff6a29f9ae39a39973245eb7  camelCaser_tests.c\n",
+    "revision": "2267"
+  },
+  {
+    "timestamp": "2017-09-09 22:00:02.669310",
+    "testcases": [
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser correctly handles various ASCII characters",
+        "ptsPossible": 1.0,
+        "name": "implementationASCII",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns sentences with the correct capitalization",
+        "ptsPossible": 1.0,
+        "name": "implementationCorrectCapitals",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns an array with the correct number of elements",
+        "ptsPossible": 1.0,
+        "name": "implementationCorrectNumberSentences",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns an array with elements that are the correct length",
+        "ptsPossible": 1.0,
+        "name": "implementationCorrectNumberWords",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns output where incomplete sentences are ignored",
+        "ptsPossible": 1.0,
+        "name": "implementationIncompleteSentences",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns an array that is null terminated",
+        "ptsPossible": 1.0,
+        "name": "implementationLastElementNull",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns a correct array with edge case punctuation and spaces",
+        "ptsPossible": 1.0,
+        "name": "implementationMultiplePunc",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 1.0,
+        "description": "Test that camelCaser returns NULL when given NULL",
+        "ptsPossible": 1.0,
+        "name": "implementationNull",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Stress tests your camelCaser implementation",
+        "ptsPossible": 1.0,
+        "name": "implementationStressTest",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Memory test for your camelCaser and destroy (you must pass implementation tests to get full points here)",
+        "ptsPossible": 2.0,
+        "name": "Memory",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Testing your unit tests...",
+        "ptsPossible": 16.0,
+        "name": "Unit Tests",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nYou identified 6/6 good implementations and 0/10 bad implementations.\n\nFailed test"
+      }
+    ],
+    "checksum": "9094587dd031e8711cfe876adc16d5614da6139a  camelCaser.c\nf7a667a635e54a9cff6a29f9ae39a39973245eb7  camelCaser_tests.c\n",
+    "revision": "3459"
+  },
+  {
+    "timestamp": "2017-09-10 22:00:03.333585",
+    "testcases": [
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser correctly handles various ASCII characters",
+        "ptsPossible": 1.0,
+        "name": "implementationASCII",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns sentences with the correct capitalization",
+        "ptsPossible": 1.0,
+        "name": "implementationCorrectCapitals",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns an array with the correct number of elements",
+        "ptsPossible": 1.0,
+        "name": "implementationCorrectNumberSentences",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns an array with elements that are the correct length",
+        "ptsPossible": 1.0,
+        "name": "implementationCorrectNumberWords",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns output where incomplete sentences are ignored",
+        "ptsPossible": 1.0,
+        "name": "implementationIncompleteSentences",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns an array that is null terminated",
+        "ptsPossible": 1.0,
+        "name": "implementationLastElementNull",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns a correct array with edge case punctuation and spaces",
+        "ptsPossible": 1.0,
+        "name": "implementationMultiplePunc",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 1.0,
+        "description": "Test that camelCaser returns NULL when given NULL",
+        "ptsPossible": 1.0,
+        "name": "implementationNull",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Stress tests your camelCaser implementation",
+        "ptsPossible": 1.0,
+        "name": "implementationStressTest",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Memory test for your camelCaser and destroy (you must pass implementation tests to get full points here)",
+        "ptsPossible": 2.0,
+        "name": "Memory",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Testing your unit tests...",
+        "ptsPossible": 16.0,
+        "name": "Unit Tests",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nYou identified 6/6 good implementations and 0/10 bad implementations.\n\nFailed test"
+      }
+    ],
+    "checksum": "9094587dd031e8711cfe876adc16d5614da6139a  camelCaser.c\nf7a667a635e54a9cff6a29f9ae39a39973245eb7  camelCaser_tests.c\n",
+    "revision": "4765"
+  },
+  {
+    "timestamp": "2017-09-11 12:00:02.613233",
+    "testcases": [
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser correctly handles various ASCII characters",
+        "ptsPossible": 1.0,
+        "name": "implementationASCII",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns sentences with the correct capitalization",
+        "ptsPossible": 1.0,
+        "name": "implementationCorrectCapitals",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns an array with the correct number of elements",
+        "ptsPossible": 1.0,
+        "name": "implementationCorrectNumberSentences",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns an array with elements that are the correct length",
+        "ptsPossible": 1.0,
+        "name": "implementationCorrectNumberWords",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns output where incomplete sentences are ignored",
+        "ptsPossible": 1.0,
+        "name": "implementationIncompleteSentences",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns an array that is null terminated",
+        "ptsPossible": 1.0,
+        "name": "implementationLastElementNull",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns a correct array with edge case punctuation and spaces",
+        "ptsPossible": 1.0,
+        "name": "implementationMultiplePunc",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 1.0,
+        "description": "Test that camelCaser returns NULL when given NULL",
+        "ptsPossible": 1.0,
+        "name": "implementationNull",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Stress tests your camelCaser implementation",
+        "ptsPossible": 1.0,
+        "name": "implementationStressTest",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Memory test for your camelCaser and destroy (you must pass implementation tests to get full points here)",
+        "ptsPossible": 2.0,
+        "name": "Memory",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed test"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Testing your unit tests...",
+        "ptsPossible": 16.0,
+        "name": "Unit Tests",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nYou identified 6/6 good implementations and 0/10 bad implementations.\n\nFailed test"
+      }
+    ],
+    "checksum": "9094587dd031e8711cfe876adc16d5614da6139a  camelCaser.c\nf7a667a635e54a9cff6a29f9ae39a39973245eb7  camelCaser_tests.c\n",
+    "revision": "5396"
+  },
+  {
+    "timestamp": "2017-09-12 00:00:03.487378",
+    "testcases": [
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser correctly handles various ASCII characters",
+        "ptsPossible": 1.0,
+        "name": "implementationASCII",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\ncamelCaser.c:56:5: error: conflicting types for \u2018test_camelCaser\u2019\n int test_camelCaser (char ** (* camelCaser)(const char *))\r\n     ^\nIn file included from camelCaser.c:1:0:\ncamelCaser_tests.h:7:5: note: previous declaration of \u2018test_camelCaser\u2019 was here\n int test_camelCaser (char ** (* camelCaser)(const char * ), void (* destroy)(char **));\n     ^\nmake: *** [camelCaser.o] Error 1\n"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns sentences with the correct capitalization",
+        "ptsPossible": 1.0,
+        "name": "implementationCorrectCapitals",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\ncamelCaser.c:56:5: error: conflicting types for \u2018test_camelCaser\u2019\n int test_camelCaser (char ** (* camelCaser)(const char *))\r\n     ^\nIn file included from camelCaser.c:1:0:\ncamelCaser_tests.h:7:5: note: previous declaration of \u2018test_camelCaser\u2019 was here\n int test_camelCaser (char ** (* camelCaser)(const char * ), void (* destroy)(char **));\n     ^\nmake: *** [camelCaser.o] Error 1\n"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns an array with the correct number of elements",
+        "ptsPossible": 1.0,
+        "name": "implementationCorrectNumberSentences",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\ncamelCaser.c:56:5: error: conflicting types for \u2018test_camelCaser\u2019\n int test_camelCaser (char ** (* camelCaser)(const char *))\r\n     ^\nIn file included from camelCaser.c:1:0:\ncamelCaser_tests.h:7:5: note: previous declaration of \u2018test_camelCaser\u2019 was here\n int test_camelCaser (char ** (* camelCaser)(const char * ), void (* destroy)(char **));\n     ^\nmake: *** [camelCaser.o] Error 1\n"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns an array with elements that are the correct length",
+        "ptsPossible": 1.0,
+        "name": "implementationCorrectNumberWords",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\ncamelCaser.c:56:5: error: conflicting types for \u2018test_camelCaser\u2019\n int test_camelCaser (char ** (* camelCaser)(const char *))\r\n     ^\nIn file included from camelCaser.c:1:0:\ncamelCaser_tests.h:7:5: note: previous declaration of \u2018test_camelCaser\u2019 was here\n int test_camelCaser (char ** (* camelCaser)(const char * ), void (* destroy)(char **));\n     ^\nmake: *** [camelCaser.o] Error 1\n"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns output where incomplete sentences are ignored",
+        "ptsPossible": 1.0,
+        "name": "implementationIncompleteSentences",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\ncamelCaser.c:56:5: error: conflicting types for \u2018test_camelCaser\u2019\n int test_camelCaser (char ** (* camelCaser)(const char *))\r\n     ^\nIn file included from camelCaser.c:1:0:\ncamelCaser_tests.h:7:5: note: previous declaration of \u2018test_camelCaser\u2019 was here\n int test_camelCaser (char ** (* camelCaser)(const char * ), void (* destroy)(char **));\n     ^\nmake: *** [camelCaser.o] Error 1\n"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns an array that is null terminated",
+        "ptsPossible": 1.0,
+        "name": "implementationLastElementNull",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\ncamelCaser.c:56:5: error: conflicting types for \u2018test_camelCaser\u2019\n int test_camelCaser (char ** (* camelCaser)(const char *))\r\n     ^\nIn file included from camelCaser.c:1:0:\ncamelCaser_tests.h:7:5: note: previous declaration of \u2018test_camelCaser\u2019 was here\n int test_camelCaser (char ** (* camelCaser)(const char * ), void (* destroy)(char **));\n     ^\nmake: *** [camelCaser.o] Error 1\n"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns a correct array with edge case punctuation and spaces",
+        "ptsPossible": 1.0,
+        "name": "implementationMultiplePunc",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\ncamelCaser.c:56:5: error: conflicting types for \u2018test_camelCaser\u2019\n int test_camelCaser (char ** (* camelCaser)(const char *))\r\n     ^\nIn file included from camelCaser.c:1:0:\ncamelCaser_tests.h:7:5: note: previous declaration of \u2018test_camelCaser\u2019 was here\n int test_camelCaser (char ** (* camelCaser)(const char * ), void (* destroy)(char **));\n     ^\nmake: *** [camelCaser.o] Error 1\n"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns NULL when given NULL",
+        "ptsPossible": 1.0,
+        "name": "implementationNull",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\ncamelCaser.c:56:5: error: conflicting types for \u2018test_camelCaser\u2019\n int test_camelCaser (char ** (* camelCaser)(const char *))\r\n     ^\nIn file included from camelCaser.c:1:0:\ncamelCaser_tests.h:7:5: note: previous declaration of \u2018test_camelCaser\u2019 was here\n int test_camelCaser (char ** (* camelCaser)(const char * ), void (* destroy)(char **));\n     ^\nmake: *** [camelCaser.o] Error 1\n"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Stress tests your camelCaser implementation",
+        "ptsPossible": 1.0,
+        "name": "implementationStressTest",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\ncamelCaser.c:56:5: error: conflicting types for \u2018test_camelCaser\u2019\n int test_camelCaser (char ** (* camelCaser)(const char *))\r\n     ^\nIn file included from camelCaser.c:1:0:\ncamelCaser_tests.h:7:5: note: previous declaration of \u2018test_camelCaser\u2019 was here\n int test_camelCaser (char ** (* camelCaser)(const char * ), void (* destroy)(char **));\n     ^\nmake: *** [camelCaser.o] Error 1\n"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Memory test for your camelCaser and destroy (you must pass implementation tests to get full points here)",
+        "ptsPossible": 2.0,
+        "name": "Memory",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\ncamelCaser.c:56:5: error: conflicting types for \u2018test_camelCaser\u2019\n int test_camelCaser (char ** (* camelCaser)(const char *))\r\n     ^\nIn file included from camelCaser.c:1:0:\ncamelCaser_tests.h:7:5: note: previous declaration of \u2018test_camelCaser\u2019 was here\n int test_camelCaser (char ** (* camelCaser)(const char * ), void (* destroy)(char **));\n     ^\nmake: *** [camelCaser.o] Error 1\n"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Testing your unit tests...",
+        "ptsPossible": 16.0,
+        "name": "Unit Tests",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\ncc_correct.c:1:0: warning: \"_GNU_SOURCE\" redefined\n #define _GNU_SOURCE\n ^\n<command-line>:0:0: note: this is the location of the previous definition\ncamelCaser_tests.c:56:5: error: conflicting types for \u2018test_camelCaser\u2019\n int test_camelCaser (char ** (* camelCaser)(const char *))\r\n     ^\nIn file included from camelCaser_tests.c:1:0:\ncamelCaser_tests.h:7:5: note: previous declaration of \u2018test_camelCaser\u2019 was here\n int test_camelCaser (char ** (* camelCaser)(const char * ), void (* destroy)(char **));\n     ^\ncamelCaser_tests.c:398:1: error: expected identifier or \u2018(\u2019 before \u2018int\u2019\n int test_camelCaser(char **(*camelCaser)(const char *)) {\r\n ^\nmake: *** [camelCaser_tests.o] Error 1\n"
+      }
+    ],
+    "checksum": "2e41cf4d6d34ceffc487d48e22371a2185cbadd4  camelCaser.c\nc69b34b851a8653b9b2bf953d9516a42a1769060  camelCaser_tests.c\n",
+    "revision": "6185"
+  },
+  {
+    "timestamp": "2017-09-13 14:06:16.194295",
+    "revision": "6201",
+    "checksum": "2e41cf4d6d34ceffc487d48e22371a2185cbadd4  camelCaser.c\nc69b34b851a8653b9b2bf953d9516a42a1769060  camelCaser_tests.c\n",
+    "testcases": [
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser correctly handles various ASCII characters",
+        "ptsPossible": 1.0,
+        "name": "implementationASCII",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\ncamelCaser.c:56:5: error: conflicting types for \u2018test_camelCaser\u2019\n int test_camelCaser (char ** (* camelCaser)(const char *))\r\n     ^\nIn file included from camelCaser.c:1:0:\ncamelCaser_tests.h:7:5: note: previous declaration of \u2018test_camelCaser\u2019 was here\n int test_camelCaser (char ** (* camelCaser)(const char * ), void (* destroy)(char **));\n     ^\nmake: *** [camelCaser.o] Error 1\n"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns sentences with the correct capitalization",
+        "ptsPossible": 1.0,
+        "name": "implementationCorrectCapitals",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\ncamelCaser.c:56:5: error: conflicting types for \u2018test_camelCaser\u2019\n int test_camelCaser (char ** (* camelCaser)(const char *))\r\n     ^\nIn file included from camelCaser.c:1:0:\ncamelCaser_tests.h:7:5: note: previous declaration of \u2018test_camelCaser\u2019 was here\n int test_camelCaser (char ** (* camelCaser)(const char * ), void (* destroy)(char **));\n     ^\nmake: *** [camelCaser.o] Error 1\n"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns an array with the correct number of elements",
+        "ptsPossible": 1.0,
+        "name": "implementationCorrectNumberSentences",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\ncamelCaser.c:56:5: error: conflicting types for \u2018test_camelCaser\u2019\n int test_camelCaser (char ** (* camelCaser)(const char *))\r\n     ^\nIn file included from camelCaser.c:1:0:\ncamelCaser_tests.h:7:5: note: previous declaration of \u2018test_camelCaser\u2019 was here\n int test_camelCaser (char ** (* camelCaser)(const char * ), void (* destroy)(char **));\n     ^\nmake: *** [camelCaser.o] Error 1\n"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns an array with elements that are the correct length",
+        "ptsPossible": 1.0,
+        "name": "implementationCorrectNumberWords",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\ncamelCaser.c:56:5: error: conflicting types for \u2018test_camelCaser\u2019\n int test_camelCaser (char ** (* camelCaser)(const char *))\r\n     ^\nIn file included from camelCaser.c:1:0:\ncamelCaser_tests.h:7:5: note: previous declaration of \u2018test_camelCaser\u2019 was here\n int test_camelCaser (char ** (* camelCaser)(const char * ), void (* destroy)(char **));\n     ^\nmake: *** [camelCaser.o] Error 1\n"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns output where incomplete sentences are ignored",
+        "ptsPossible": 1.0,
+        "name": "implementationIncompleteSentences",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\ncamelCaser.c:56:5: error: conflicting types for \u2018test_camelCaser\u2019\n int test_camelCaser (char ** (* camelCaser)(const char *))\r\n     ^\nIn file included from camelCaser.c:1:0:\ncamelCaser_tests.h:7:5: note: previous declaration of \u2018test_camelCaser\u2019 was here\n int test_camelCaser (char ** (* camelCaser)(const char * ), void (* destroy)(char **));\n     ^\nmake: *** [camelCaser.o] Error 1\n"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns an array that is null terminated",
+        "ptsPossible": 1.0,
+        "name": "implementationLastElementNull",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\ncamelCaser.c:56:5: error: conflicting types for \u2018test_camelCaser\u2019\n int test_camelCaser (char ** (* camelCaser)(const char *))\r\n     ^\nIn file included from camelCaser.c:1:0:\ncamelCaser_tests.h:7:5: note: previous declaration of \u2018test_camelCaser\u2019 was here\n int test_camelCaser (char ** (* camelCaser)(const char * ), void (* destroy)(char **));\n     ^\nmake: *** [camelCaser.o] Error 1\n"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns a correct array with edge case punctuation and spaces",
+        "ptsPossible": 1.0,
+        "name": "implementationMultiplePunc",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\ncamelCaser.c:56:5: error: conflicting types for \u2018test_camelCaser\u2019\n int test_camelCaser (char ** (* camelCaser)(const char *))\r\n     ^\nIn file included from camelCaser.c:1:0:\ncamelCaser_tests.h:7:5: note: previous declaration of \u2018test_camelCaser\u2019 was here\n int test_camelCaser (char ** (* camelCaser)(const char * ), void (* destroy)(char **));\n     ^\nmake: *** [camelCaser.o] Error 1\n"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Test that camelCaser returns NULL when given NULL",
+        "ptsPossible": 1.0,
+        "name": "implementationNull",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\ncamelCaser.c:56:5: error: conflicting types for \u2018test_camelCaser\u2019\n int test_camelCaser (char ** (* camelCaser)(const char *))\r\n     ^\nIn file included from camelCaser.c:1:0:\ncamelCaser_tests.h:7:5: note: previous declaration of \u2018test_camelCaser\u2019 was here\n int test_camelCaser (char ** (* camelCaser)(const char * ), void (* destroy)(char **));\n     ^\nmake: *** [camelCaser.o] Error 1\n"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Stress tests your camelCaser implementation",
+        "ptsPossible": 1.0,
+        "name": "implementationStressTest",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\ncamelCaser.c:56:5: error: conflicting types for \u2018test_camelCaser\u2019\n int test_camelCaser (char ** (* camelCaser)(const char *))\r\n     ^\nIn file included from camelCaser.c:1:0:\ncamelCaser_tests.h:7:5: note: previous declaration of \u2018test_camelCaser\u2019 was here\n int test_camelCaser (char ** (* camelCaser)(const char * ), void (* destroy)(char **));\n     ^\nmake: *** [camelCaser.o] Error 1\n"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Memory test for your camelCaser and destroy (you must pass implementation tests to get full points here)",
+        "ptsPossible": 2.0,
+        "name": "Memory",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\ncamelCaser.c:56:5: error: conflicting types for \u2018test_camelCaser\u2019\n int test_camelCaser (char ** (* camelCaser)(const char *))\r\n     ^\nIn file included from camelCaser.c:1:0:\ncamelCaser_tests.h:7:5: note: previous declaration of \u2018test_camelCaser\u2019 was here\n int test_camelCaser (char ** (* camelCaser)(const char * ), void (* destroy)(char **));\n     ^\nmake: *** [camelCaser.o] Error 1\n"
+      },
+      {
+        "ptsEarned": 0.0,
+        "description": "Testing your unit tests...",
+        "ptsPossible": 16.0,
+        "name": "Unit Tests",
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\ncc_correct.c:1:0: warning: \"_GNU_SOURCE\" redefined\n #define _GNU_SOURCE\n ^\n<command-line>:0:0: note: this is the location of the previous definition\ncamelCaser_tests.c:56:5: error: conflicting types for \u2018test_camelCaser\u2019\n int test_camelCaser (char ** (* camelCaser)(const char *))\r\n     ^\nIn file included from camelCaser_tests.c:1:0:\ncamelCaser_tests.h:7:5: note: previous declaration of \u2018test_camelCaser\u2019 was here\n int test_camelCaser (char ** (* camelCaser)(const char * ), void (* destroy)(char **));\n     ^\ncamelCaser_tests.c:398:1: error: expected identifier or \u2018(\u2019 before \u2018int\u2019\n int test_camelCaser(char **(*camelCaser)(const char *)) {\r\n ^\nmake: *** [camelCaser_tests.o] Error 1\n"
+      }
+    ]
+  }
+]

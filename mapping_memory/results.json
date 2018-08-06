@@ -1,0 +1,380 @@
+[
+  {
+    "checksum": "d6f92fd059e5ff241b6317b8a9b32d2e3825658b  mmap.c\n",
+    "revision": "55711",
+    "timestamp": "2017-12-02 22:00:02.419408",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "name": "test_memory",
+        "description": "\nThis checks that there are no memory leaks \n",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nGood Job!"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "test_read_1_byte_4k_file",
+        "description": "\nThis checks that 1 byte can be read from a 4k file using mmap.\n",
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "test_read_4k_byte_4k_file",
+        "description": "\nThis checks that all bytes can be read from a 4k file using mmap.\n",
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "test_read_4k_byte_8k_file_2k_offset",
+        "description": "\nThis checks that 4k bytes can be read from an 8k byte file after a 2k byte offset using mmap.\n",
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "test_read_8k_byte_8k_file",
+        "description": "\nThis checks that all bytes can be read from a 8k file using mmap.\n",
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "test_write_1_byte_4k_file",
+        "description": "\nThis checks that 1 byte can be written to a 4k file using mmap.\n",
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "test_write_4k_byte_4k_file",
+        "description": "\nThis checks that 4k bytes can be written to a 4k file using mmap.\n",
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "test_write_4k_byte_8k_file_2k_offset",
+        "description": "\nThis checks that 4k bytes can be written to an 8k byte file after a 2k byte offset using mmap.\n",
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code."
+      }
+    ]
+  },
+  {
+    "timestamp": "2017-12-03 22:00:02.394606",
+    "revision": "56010",
+    "checksum": "d6f92fd059e5ff241b6317b8a9b32d2e3825658b  mmap.c\n",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "name": "test_memory",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nGood Job!",
+        "description": "\nThis checks that there are no memory leaks \n"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "test_read_1_byte_4k_file",
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "description": "\nThis checks that 1 byte can be read from a 4k file using mmap.\n"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "test_read_4k_byte_4k_file",
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "description": "\nThis checks that all bytes can be read from a 4k file using mmap.\n"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "test_read_4k_byte_8k_file_2k_offset",
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "description": "\nThis checks that 4k bytes can be read from an 8k byte file after a 2k byte offset using mmap.\n"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "test_read_8k_byte_8k_file",
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "description": "\nThis checks that all bytes can be read from a 8k file using mmap.\n"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "test_write_1_byte_4k_file",
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "description": "\nThis checks that 1 byte can be written to a 4k file using mmap.\n"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "test_write_4k_byte_4k_file",
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "description": "\nThis checks that 4k bytes can be written to a 4k file using mmap.\n"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "test_write_4k_byte_8k_file_2k_offset",
+        "ptsEarned": 0.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "description": "\nThis checks that 4k bytes can be written to an 8k byte file after a 2k byte offset using mmap.\n"
+      }
+    ]
+  },
+  {
+    "timestamp": "2017-12-04 22:00:02.149423",
+    "revision": "56435",
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nGood Job!",
+        "ptsPossible": 1.0,
+        "name": "test_memory",
+        "description": "\nThis checks that there are no memory leaks \n",
+        "ptsEarned": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsPossible": 1.0,
+        "name": "test_read_1_byte_4k_file",
+        "description": "\nThis checks that 1 byte can be read from a 4k file using mmap.\n",
+        "ptsEarned": 0.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsPossible": 1.0,
+        "name": "test_read_4k_byte_4k_file",
+        "description": "\nThis checks that all bytes can be read from a 4k file using mmap.\n",
+        "ptsEarned": 0.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsPossible": 1.0,
+        "name": "test_read_4k_byte_8k_file_2k_offset",
+        "description": "\nThis checks that 4k bytes can be read from an 8k byte file after a 2k byte offset using mmap.\n",
+        "ptsEarned": 0.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsPossible": 1.0,
+        "name": "test_read_8k_byte_8k_file",
+        "description": "\nThis checks that all bytes can be read from a 8k file using mmap.\n",
+        "ptsEarned": 0.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsPossible": 1.0,
+        "name": "test_write_1_byte_4k_file",
+        "description": "\nThis checks that 1 byte can be written to a 4k file using mmap.\n",
+        "ptsEarned": 0.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsPossible": 1.0,
+        "name": "test_write_4k_byte_4k_file",
+        "description": "\nThis checks that 4k bytes can be written to a 4k file using mmap.\n",
+        "ptsEarned": 0.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsPossible": 1.0,
+        "name": "test_write_4k_byte_8k_file_2k_offset",
+        "description": "\nThis checks that 4k bytes can be written to an 8k byte file after a 2k byte offset using mmap.\n",
+        "ptsEarned": 0.0
+      }
+    ],
+    "checksum": "d6f92fd059e5ff241b6317b8a9b32d2e3825658b  mmap.c\n"
+  },
+  {
+    "timestamp": "2017-12-05 22:00:02.365751",
+    "revision": "56829",
+    "checksum": "a1bb87cf9f8e7da9c50b94c0ea8ed86b65bd9ea0  mmap.c\n",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "name": "test_memory",
+        "description": "\nThis checks that there are no memory leaks \n",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nGood Job!"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "test_read_1_byte_4k_file",
+        "description": "\nThis checks that 1 byte can be read from a 4k file using mmap.\n",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nGood Job!"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "test_read_4k_byte_4k_file",
+        "description": "\nThis checks that all bytes can be read from a 4k file using mmap.\n",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nGood Job!"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "test_read_4k_byte_8k_file_2k_offset",
+        "description": "\nThis checks that 4k bytes can be read from an 8k byte file after a 2k byte offset using mmap.\n",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nGood Job!"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "test_read_8k_byte_8k_file",
+        "description": "\nThis checks that all bytes can be read from a 8k file using mmap.\n",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nGood Job!"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "test_write_1_byte_4k_file",
+        "description": "\nThis checks that 1 byte can be written to a 4k file using mmap.\n",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nGood Job!"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "test_write_4k_byte_4k_file",
+        "description": "\nThis checks that 4k bytes can be written to a 4k file using mmap.\n",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nGood Job!"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "test_write_4k_byte_8k_file_2k_offset",
+        "description": "\nThis checks that 4k bytes can be written to an 8k byte file after a 2k byte offset using mmap.\n",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nGood Job!"
+      }
+    ]
+  },
+  {
+    "timestamp": "2017-12-06 12:00:02.596095",
+    "revision": "56945",
+    "testcases": [
+      {
+        "ptsPossible": 1.0,
+        "name": "test_memory",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nGood Job!",
+        "description": "\nThis checks that there are no memory leaks \n"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "test_read_1_byte_4k_file",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nGood Job!",
+        "description": "\nThis checks that 1 byte can be read from a 4k file using mmap.\n"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "test_read_4k_byte_4k_file",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nGood Job!",
+        "description": "\nThis checks that all bytes can be read from a 4k file using mmap.\n"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "test_read_4k_byte_8k_file_2k_offset",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nGood Job!",
+        "description": "\nThis checks that 4k bytes can be read from an 8k byte file after a 2k byte offset using mmap.\n"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "test_read_8k_byte_8k_file",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nGood Job!",
+        "description": "\nThis checks that all bytes can be read from a 8k file using mmap.\n"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "test_write_1_byte_4k_file",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nGood Job!",
+        "description": "\nThis checks that 1 byte can be written to a 4k file using mmap.\n"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "test_write_4k_byte_4k_file",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nGood Job!",
+        "description": "\nThis checks that 4k bytes can be written to a 4k file using mmap.\n"
+      },
+      {
+        "ptsPossible": 1.0,
+        "name": "test_write_4k_byte_8k_file_2k_offset",
+        "ptsEarned": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nGood Job!",
+        "description": "\nThis checks that 4k bytes can be written to an 8k byte file after a 2k byte offset using mmap.\n"
+      }
+    ],
+    "checksum": "a1bb87cf9f8e7da9c50b94c0ea8ed86b65bd9ea0  mmap.c\n"
+  },
+  {
+    "timestamp": "2017-12-07 00:00:02.609204",
+    "revision": "57330",
+    "checksum": "fc3a358030e44b3dc2dd43d4e1e4d64fabd9ab22  mmap.c\n",
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nGood Job!",
+        "ptsPossible": 1.0,
+        "name": "test_memory",
+        "description": "\nThis checks that there are no memory leaks \n",
+        "ptsEarned": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nGood Job!",
+        "ptsPossible": 1.0,
+        "name": "test_read_1_byte_4k_file",
+        "description": "\nThis checks that 1 byte can be read from a 4k file using mmap.\n",
+        "ptsEarned": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nGood Job!",
+        "ptsPossible": 1.0,
+        "name": "test_read_4k_byte_4k_file",
+        "description": "\nThis checks that all bytes can be read from a 4k file using mmap.\n",
+        "ptsEarned": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nGood Job!",
+        "ptsPossible": 1.0,
+        "name": "test_read_4k_byte_8k_file_2k_offset",
+        "description": "\nThis checks that 4k bytes can be read from an 8k byte file after a 2k byte offset using mmap.\n",
+        "ptsEarned": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nGood Job!",
+        "ptsPossible": 1.0,
+        "name": "test_read_8k_byte_8k_file",
+        "description": "\nThis checks that all bytes can be read from a 8k file using mmap.\n",
+        "ptsEarned": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nGood Job!",
+        "ptsPossible": 1.0,
+        "name": "test_write_1_byte_4k_file",
+        "description": "\nThis checks that 1 byte can be written to a 4k file using mmap.\n",
+        "ptsEarned": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nGood Job!",
+        "ptsPossible": 1.0,
+        "name": "test_write_4k_byte_4k_file",
+        "description": "\nThis checks that 4k bytes can be written to a 4k file using mmap.\n",
+        "ptsEarned": 1.0
+      },
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nGood Job!",
+        "ptsPossible": 1.0,
+        "name": "test_write_4k_byte_8k_file_2k_offset",
+        "description": "\nThis checks that 4k bytes can be written to an 8k byte file after a 2k byte offset using mmap.\n",
+        "ptsEarned": 1.0
+      }
+    ]
+  }
+]

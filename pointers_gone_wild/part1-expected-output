@@ -1,0 +1,40 @@
+== one() ==
+20 not passed!
+100.000000 passed!
+== two() ==
+The value of p is: 4
+== three() ==
+x and y are equal.
+x and y are different.
+== four() ==
+4 == 4.000000
+432 == 432.000000
+== five() ==
+a is a letter.
+a is not a letter.
+== six() ==
+Hello World!
+== seven() ==
+0.000000 0.100000 0.200000 0.300000 0.400000 0.500000 0.600000 0.700000 0.800000 0.900000 
+== eight() ==
+0 10 40 90 160 250 360 490 640 810 
+== nine() ==
+orange and blue!
+ORANGE and blue!
+Orange and BLUE!
+orange and blue!
+== ten() ==
+The radius of the circle is: 17.500000.
+The radius of the circle is: 10.000000.
+== clear_bits() ==
+170
+0
+171
+0
+20
+0
+== little finite automatons
+5
+4
+6
+7

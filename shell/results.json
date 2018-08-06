@@ -1,0 +1,2186 @@
+[
+  {
+    "revision": "14679",
+    "checksum": "6ce470da316ed9235c2598dd0a33458fedcea3ea  shell.c\n",
+    "timestamp": "2017-09-20 22:00:02.416934",
+    "testcases": [
+      {
+        "description": "Checks the && logical operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "and_operator_test"
+      },
+      {
+        "description": "Attempt to cd to a directory",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "name": "cd_test"
+      },
+      {
+        "description": "Checking if history works (you need to have basic non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Error: Failed to find output of correct history",
+        "ptsEarned": 0.0,
+        "name": "check_history"
+      },
+      {
+        "description": "Checking if shell handles empty inputs correctly",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "eof_test"
+      },
+      {
+        "description": "Checking if shell exits correctly",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "exit_test"
+      },
+      {
+        "description": "Run 1 command with -f (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Program failed to print out commands read from file",
+        "ptsEarned": 0.0,
+        "name": "file_test"
+      },
+      {
+        "description": "Runs more commands with -f (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Program failed to print out commands read from file or read all commands from file",
+        "ptsEarned": 0.0,
+        "name": "file_test_hard"
+      },
+      {
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF.",
+        "ptsPossible": 1.0,
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "ptsEarned": 0.0,
+        "name": "file_test_hard2"
+      },
+      {
+        "description": "Checking that invalid commands are invalidated (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Error: couldn't find error message for running invalid command",
+        "ptsEarned": 0.0,
+        "name": "invalid_command"
+      },
+      {
+        "description": "Checking if rerunning a nonexistent command by history index fails.",
+        "ptsPossible": 1.0,
+        "log": "Error: couldn't find error message for running invalid index",
+        "ptsEarned": 0.0,
+        "name": "invalid_query_index_history"
+      },
+      {
+        "description": "Checking if rerunning a nonexistent command by invalid query fails",
+        "ptsPossible": 1.0,
+        "log": "Error: couldn't find error for not finding matching prefix in history",
+        "ptsEarned": 0.0,
+        "name": "invalid_query_search_history"
+      },
+      {
+        "description": "Memory test - does not depend on shell functionality.",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "memory_check"
+      },
+      {
+        "description": "Checks the || logical operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "name": "or_operator_test"
+      },
+      {
+        "description": "Testing echo and printing.",
+        "ptsPossible": 1.0,
+        "log": "Error: command did not run",
+        "ptsEarned": 0.0,
+        "name": "print_test"
+      },
+      {
+        "description": "Checking if we can rerun a command by index (need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Error: Failed to run command by index",
+        "ptsEarned": 0.0,
+        "name": "query_index_history"
+      },
+      {
+        "description": "Checking if we can rerun a command by index (you need to have all commands working for this)",
+        "ptsPossible": 1.0,
+        "log": "Error: Failed to run command by index",
+        "ptsEarned": 0.0,
+        "name": "query_index_history_hard"
+      },
+      {
+        "description": "Checking if we can rerun a command by last closest match (need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Error: failed to run queried command",
+        "ptsEarned": 0.0,
+        "name": "query_search_history"
+      },
+      {
+        "description": "Checking if we can rerun a command by last closest match (hard version and need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Error: failed to run queried command",
+        "ptsEarned": 0.0,
+        "name": "query_search_history_hard"
+      },
+      {
+        "description": "Checks the ; operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "name": "separator_operator_test"
+      }
+    ]
+  },
+  {
+    "revision": "15761",
+    "checksum": "6ce470da316ed9235c2598dd0a33458fedcea3ea  shell.c\n",
+    "timestamp": "2017-09-22 22:00:02.688086",
+    "testcases": [
+      {
+        "description": "Checks the && logical operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "and_operator_test"
+      },
+      {
+        "description": "Attempt to cd to a directory",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "name": "cd_test"
+      },
+      {
+        "description": "Checking if history works (you need to have basic non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Error: Failed to find output of correct history",
+        "ptsEarned": 0.0,
+        "name": "check_history"
+      },
+      {
+        "description": "Checking if shell handles empty inputs correctly",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "eof_test"
+      },
+      {
+        "description": "Checking if shell exits correctly",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "exit_test"
+      },
+      {
+        "description": "Run 1 command with -f (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Program failed to print out commands read from file",
+        "ptsEarned": 0.0,
+        "name": "file_test"
+      },
+      {
+        "description": "Runs more commands with -f (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Program failed to print out commands read from file or read all commands from file",
+        "ptsEarned": 0.0,
+        "name": "file_test_hard"
+      },
+      {
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF.",
+        "ptsPossible": 1.0,
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "ptsEarned": 0.0,
+        "name": "file_test_hard2"
+      },
+      {
+        "description": "Checking that invalid commands are invalidated (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Error: couldn't find error message for running invalid command",
+        "ptsEarned": 0.0,
+        "name": "invalid_command"
+      },
+      {
+        "description": "Checking if rerunning a nonexistent command by history index fails.",
+        "ptsPossible": 1.0,
+        "log": "Error: couldn't find error message for running invalid index",
+        "ptsEarned": 0.0,
+        "name": "invalid_query_index_history"
+      },
+      {
+        "description": "Checking if rerunning a nonexistent command by invalid query fails",
+        "ptsPossible": 1.0,
+        "log": "Error: couldn't find error for not finding matching prefix in history",
+        "ptsEarned": 0.0,
+        "name": "invalid_query_search_history"
+      },
+      {
+        "description": "Memory test - does not depend on shell functionality.",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "memory_check"
+      },
+      {
+        "description": "Checks the || logical operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "name": "or_operator_test"
+      },
+      {
+        "description": "Testing echo and printing.",
+        "ptsPossible": 1.0,
+        "log": "Error: command did not run",
+        "ptsEarned": 0.0,
+        "name": "print_test"
+      },
+      {
+        "description": "Checking if we can rerun a command by index (need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Error: Failed to run command by index",
+        "ptsEarned": 0.0,
+        "name": "query_index_history"
+      },
+      {
+        "description": "Checking if we can rerun a command by index (you need to have all commands working for this)",
+        "ptsPossible": 1.0,
+        "log": "Error: Failed to run command by index",
+        "ptsEarned": 0.0,
+        "name": "query_index_history_hard"
+      },
+      {
+        "description": "Checking if we can rerun a command by last closest match (need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Error: failed to run queried command",
+        "ptsEarned": 0.0,
+        "name": "query_search_history"
+      },
+      {
+        "description": "Checking if we can rerun a command by last closest match (hard version and need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Error: failed to run queried command",
+        "ptsEarned": 0.0,
+        "name": "query_search_history_hard"
+      },
+      {
+        "description": "Checks the ; operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "name": "separator_operator_test"
+      }
+    ]
+  },
+  {
+    "revision": "16667",
+    "checksum": "6ce470da316ed9235c2598dd0a33458fedcea3ea  shell.c\n",
+    "timestamp": "2017-09-23 22:00:02.185282",
+    "testcases": [
+      {
+        "description": "Checks the && logical operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "and_operator_test"
+      },
+      {
+        "description": "Attempt to cd to a directory",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "name": "cd_test"
+      },
+      {
+        "description": "Checking if history works (you need to have basic non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Error: Failed to find output of correct history",
+        "ptsEarned": 0.0,
+        "name": "check_history"
+      },
+      {
+        "description": "Checking if shell handles empty inputs correctly",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "eof_test"
+      },
+      {
+        "description": "Checking if shell exits correctly",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "exit_test"
+      },
+      {
+        "description": "Run 1 command with -f (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Program failed to print out commands read from file",
+        "ptsEarned": 0.0,
+        "name": "file_test"
+      },
+      {
+        "description": "Runs more commands with -f (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Program failed to print out commands read from file or read all commands from file",
+        "ptsEarned": 0.0,
+        "name": "file_test_hard"
+      },
+      {
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF.",
+        "ptsPossible": 1.0,
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "ptsEarned": 0.0,
+        "name": "file_test_hard2"
+      },
+      {
+        "description": "Checking that invalid commands are invalidated (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Error: couldn't find error message for running invalid command",
+        "ptsEarned": 0.0,
+        "name": "invalid_command"
+      },
+      {
+        "description": "Checking if rerunning a nonexistent command by history index fails.",
+        "ptsPossible": 1.0,
+        "log": "Error: couldn't find error message for running invalid index",
+        "ptsEarned": 0.0,
+        "name": "invalid_query_index_history"
+      },
+      {
+        "description": "Checking if rerunning a nonexistent command by invalid query fails",
+        "ptsPossible": 1.0,
+        "log": "Error: couldn't find error for not finding matching prefix in history",
+        "ptsEarned": 0.0,
+        "name": "invalid_query_search_history"
+      },
+      {
+        "description": "Memory test - does not depend on shell functionality.",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "memory_check"
+      },
+      {
+        "description": "Checks the || logical operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "name": "or_operator_test"
+      },
+      {
+        "description": "Testing echo and printing.",
+        "ptsPossible": 1.0,
+        "log": "Error: command did not run",
+        "ptsEarned": 0.0,
+        "name": "print_test"
+      },
+      {
+        "description": "Checking if we can rerun a command by index (need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Error: Failed to run command by index",
+        "ptsEarned": 0.0,
+        "name": "query_index_history"
+      },
+      {
+        "description": "Checking if we can rerun a command by index (you need to have all commands working for this)",
+        "ptsPossible": 1.0,
+        "log": "Error: Failed to run command by index",
+        "ptsEarned": 0.0,
+        "name": "query_index_history_hard"
+      },
+      {
+        "description": "Checking if we can rerun a command by last closest match (need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Error: failed to run queried command",
+        "ptsEarned": 0.0,
+        "name": "query_search_history"
+      },
+      {
+        "description": "Checking if we can rerun a command by last closest match (hard version and need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Error: failed to run queried command",
+        "ptsEarned": 0.0,
+        "name": "query_search_history_hard"
+      },
+      {
+        "description": "Checks the ; operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "name": "separator_operator_test"
+      }
+    ]
+  },
+  {
+    "revision": "17607",
+    "checksum": "1441379ffa40da876403e0b4b23546d755218876  shell.c\n",
+    "timestamp": "2017-09-24 22:00:02.577314",
+    "testcases": [
+      {
+        "description": "Checks the && logical operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "and_operator_test"
+      },
+      {
+        "description": "Attempt to cd to a directory",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "cd_test"
+      },
+      {
+        "description": "Checking if history works (you need to have basic non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "check_history"
+      },
+      {
+        "description": "Checking if shell handles empty inputs correctly",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "eof_test"
+      },
+      {
+        "description": "Checking if shell exits correctly",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "exit_test"
+      },
+      {
+        "description": "Run 1 command with -f (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Program failed to print out commands read from file",
+        "ptsEarned": 0.0,
+        "name": "file_test"
+      },
+      {
+        "description": "Runs more commands with -f (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Program failed to print out commands read from file or read all commands from file",
+        "ptsEarned": 0.0,
+        "name": "file_test_hard"
+      },
+      {
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF.",
+        "ptsPossible": 1.0,
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "ptsEarned": 0.0,
+        "name": "file_test_hard2"
+      },
+      {
+        "description": "Checking that invalid commands are invalidated (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Error: couldn't find error message for running invalid command",
+        "ptsEarned": 0.0,
+        "name": "invalid_command"
+      },
+      {
+        "description": "Checking if rerunning a nonexistent command by history index fails.",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "invalid_query_index_history"
+      },
+      {
+        "description": "Checking if rerunning a nonexistent command by invalid query fails",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "invalid_query_search_history"
+      },
+      {
+        "description": "Memory test - does not depend on shell functionality.",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "memory_check"
+      },
+      {
+        "description": "Checks the || logical operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "name": "or_operator_test"
+      },
+      {
+        "description": "Testing echo and printing.",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "print_test"
+      },
+      {
+        "description": "Checking if we can rerun a command by index (need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "query_index_history"
+      },
+      {
+        "description": "Checking if we can rerun a command by index (you need to have all commands working for this)",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "query_index_history_hard"
+      },
+      {
+        "description": "Checking if we can rerun a command by last closest match (need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "query_search_history"
+      },
+      {
+        "description": "Checking if we can rerun a command by last closest match (hard version and need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "query_search_history_hard"
+      },
+      {
+        "description": "Checks the ; operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "name": "separator_operator_test"
+      }
+    ]
+  },
+  {
+    "revision": "18477",
+    "checksum": "29f0682dfe789a279207d8c2527c0af3c0a5d6a1  shell.c\n",
+    "timestamp": "2017-09-25 12:00:02.979125",
+    "testcases": [
+      {
+        "description": "Checks the && logical operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "and_operator_test"
+      },
+      {
+        "description": "Attempt to cd to a directory",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "cd_test"
+      },
+      {
+        "description": "Checking if history works (you need to have basic non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "check_history"
+      },
+      {
+        "description": "Checking if shell handles empty inputs correctly",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "eof_test"
+      },
+      {
+        "description": "Checking if shell exits correctly",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "exit_test"
+      },
+      {
+        "description": "Run 1 command with -f (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Program failed to print out commands read from file",
+        "ptsEarned": 0.0,
+        "name": "file_test"
+      },
+      {
+        "description": "Runs more commands with -f (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Program failed to print out commands read from file or read all commands from file",
+        "ptsEarned": 0.0,
+        "name": "file_test_hard"
+      },
+      {
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF.",
+        "ptsPossible": 1.0,
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "ptsEarned": 0.0,
+        "name": "file_test_hard2"
+      },
+      {
+        "description": "Checking that invalid commands are invalidated (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Error: couldn't find error message for running invalid command",
+        "ptsEarned": 0.0,
+        "name": "invalid_command"
+      },
+      {
+        "description": "Checking if rerunning a nonexistent command by history index fails.",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "invalid_query_index_history"
+      },
+      {
+        "description": "Checking if rerunning a nonexistent command by invalid query fails",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "invalid_query_search_history"
+      },
+      {
+        "description": "Memory test - does not depend on shell functionality.",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nMEMORY ERROR/LEAK!",
+        "ptsEarned": 0.0,
+        "name": "memory_check"
+      },
+      {
+        "description": "Checks the || logical operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 2.0,
+        "name": "or_operator_test"
+      },
+      {
+        "description": "Testing echo and printing.",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "print_test"
+      },
+      {
+        "description": "Checking if we can rerun a command by index (need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "query_index_history"
+      },
+      {
+        "description": "Checking if we can rerun a command by index (you need to have all commands working for this)",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "query_index_history_hard"
+      },
+      {
+        "description": "Checking if we can rerun a command by last closest match (need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "query_search_history"
+      },
+      {
+        "description": "Checking if we can rerun a command by last closest match (hard version and need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "query_search_history_hard"
+      },
+      {
+        "description": "Checks the ; operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 2.0,
+        "name": "separator_operator_test"
+      }
+    ]
+  },
+  {
+    "revision": "19624",
+    "checksum": "29f0682dfe789a279207d8c2527c0af3c0a5d6a1  shell.c\n",
+    "timestamp": "2017-09-26 00:00:02.263340",
+    "testcases": [
+      {
+        "description": "Checks the && logical operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "and_operator_test"
+      },
+      {
+        "description": "Attempt to cd to a directory",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "cd_test"
+      },
+      {
+        "description": "Checking if history works (you need to have basic non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "check_history"
+      },
+      {
+        "description": "Checking if shell handles empty inputs correctly",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "eof_test"
+      },
+      {
+        "description": "Checking if shell exits correctly",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "exit_test"
+      },
+      {
+        "description": "Run 1 command with -f (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Program failed to print out commands read from file",
+        "ptsEarned": 0.0,
+        "name": "file_test"
+      },
+      {
+        "description": "Runs more commands with -f (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Program failed to print out commands read from file or read all commands from file",
+        "ptsEarned": 0.0,
+        "name": "file_test_hard"
+      },
+      {
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF.",
+        "ptsPossible": 1.0,
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "ptsEarned": 0.0,
+        "name": "file_test_hard2"
+      },
+      {
+        "description": "Checking that invalid commands are invalidated (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Error: couldn't find error message for running invalid command",
+        "ptsEarned": 0.0,
+        "name": "invalid_command"
+      },
+      {
+        "description": "Checking if rerunning a nonexistent command by history index fails.",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "invalid_query_index_history"
+      },
+      {
+        "description": "Checking if rerunning a nonexistent command by invalid query fails",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "invalid_query_search_history"
+      },
+      {
+        "description": "Memory test - does not depend on shell functionality.",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nMEMORY ERROR/LEAK!",
+        "ptsEarned": 0.0,
+        "name": "memory_check"
+      },
+      {
+        "description": "Checks the || logical operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 2.0,
+        "name": "or_operator_test"
+      },
+      {
+        "description": "Testing echo and printing.",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "print_test"
+      },
+      {
+        "description": "Checking if we can rerun a command by index (need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "query_index_history"
+      },
+      {
+        "description": "Checking if we can rerun a command by index (you need to have all commands working for this)",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "query_index_history_hard"
+      },
+      {
+        "description": "Checking if we can rerun a command by last closest match (need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "query_search_history"
+      },
+      {
+        "description": "Checking if we can rerun a command by last closest match (hard version and need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "query_search_history_hard"
+      },
+      {
+        "description": "Checks the ; operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 2.0,
+        "name": "separator_operator_test"
+      }
+    ]
+  },
+  {
+    "revision": "20234",
+    "checksum": "6ce470da316ed9235c2598dd0a33458fedcea3ea  super_shell.c\n",
+    "timestamp": "2017-09-27 09:37:34.916964",
+    "testcases": [
+      {
+        "description": "Checks the && logical operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "and_operator_test"
+      },
+      {
+        "description": "Attempt to cd to a directory",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "name": "cd_test"
+      },
+      {
+        "description": "Checking if we can run a process in the background (this test will not pass if you do not have the basic non-built in command features implemented)",
+        "ptsPossible": 2.0,
+        "log": "Failed test (core functionality)",
+        "ptsEarned": 0.0,
+        "name": "check_background_process"
+      },
+      {
+        "description": "Checking that process groups are used correctly (this test will not pass if you do not have the basic non-built in command features implemented)",
+        "ptsPossible": 3.0,
+        "log": "Failed test (core functionality)",
+        "ptsEarned": 0.0,
+        "name": "check_background_process_group"
+      },
+      {
+        "description": "Checking if history works (you need to have basic non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Error: Failed to find output of correct history",
+        "ptsEarned": 0.0,
+        "name": "check_history"
+      },
+      {
+        "description": "Checking if zombie processes are cleaned up",
+        "ptsPossible": 1.0,
+        "log": "Error: Process failed to run in background",
+        "ptsEarned": 0.0,
+        "name": "cleanup_zombie"
+      },
+      {
+        "description": "Checking if SIGINT is blocked",
+        "ptsPossible": 1.0,
+        "log": "Shell quit with sigint",
+        "ptsEarned": 0.0,
+        "name": "control_c_test"
+      },
+      {
+        "description": "Checking if shell handles empty inputs correctly",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "eof_test"
+      },
+      {
+        "description": "Tests escaping.",
+        "ptsPossible": 12.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "name": "escape_test"
+      },
+      {
+        "description": "Checking if shell exits correctly",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "exit_test"
+      },
+      {
+        "description": "Run 1 command with -f (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Program failed to print out commands read from file",
+        "ptsEarned": 0.0,
+        "name": "file_test"
+      },
+      {
+        "description": "Runs more commands with -f (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Program failed to print out commands read from file or read all commands from file",
+        "ptsEarned": 0.0,
+        "name": "file_test_hard"
+      },
+      {
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF.",
+        "ptsPossible": 1.0,
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "ptsEarned": 0.0,
+        "name": "file_test_hard2"
+      },
+      {
+        "description": "Test history file behavior.",
+        "ptsPossible": 5.0,
+        "log": "Program failed to print out commands read from file",
+        "ptsEarned": 0.0,
+        "name": "history_file_test"
+      },
+      {
+        "description": "Checking that invalid commands are invalidated (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Error: couldn't find error message for running invalid command",
+        "ptsEarned": 0.0,
+        "name": "invalid_command"
+      },
+      {
+        "description": "Checking if rerunning a nonexistent command by history index fails.",
+        "ptsPossible": 1.0,
+        "log": "Error: couldn't find error message for running invalid index",
+        "ptsEarned": 0.0,
+        "name": "invalid_query_index_history"
+      },
+      {
+        "description": "Checking if rerunning a nonexistent command by invalid query fails",
+        "ptsPossible": 1.0,
+        "log": "Error: couldn't find error for not finding matching prefix in history",
+        "ptsEarned": 0.0,
+        "name": "invalid_query_search_history"
+      },
+      {
+        "description": "Memory test - does not depend on shell functionality.",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "memory_check"
+      },
+      {
+        "description": "Memory check hard (all features need to work for this).",
+        "ptsPossible": 5.0,
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "ptsEarned": 0.0,
+        "name": "memory_check_hard"
+      },
+      {
+        "description": "Checks the || logical operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "name": "or_operator_test"
+      },
+      {
+        "description": "Testing echo and printing.",
+        "ptsPossible": 1.0,
+        "log": "Error: command did not run",
+        "ptsEarned": 0.0,
+        "name": "print_test"
+      },
+      {
+        "description": "Test that ps works correctly",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "name": "ps_test"
+      },
+      {
+        "description": "Test that ps works correctly (difficult, requires job control)",
+        "ptsPossible": 2.0,
+        "log": "Failed test (core functionality)",
+        "ptsEarned": 0.0,
+        "name": "ps_test_hard"
+      },
+      {
+        "description": "Checking if we can rerun a command by index (need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Error: Failed to run command by index",
+        "ptsEarned": 0.0,
+        "name": "query_index_history"
+      },
+      {
+        "description": "Checking if we can rerun a command by index (you need to have all commands working for this)",
+        "ptsPossible": 1.0,
+        "log": "Error: Failed to run command by index",
+        "ptsEarned": 0.0,
+        "name": "query_index_history_hard"
+      },
+      {
+        "description": "Checking if we can rerun a command by last closest match (need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Error: failed to run queried command",
+        "ptsEarned": 0.0,
+        "name": "query_search_history"
+      },
+      {
+        "description": "Checking if we can rerun a command by last closest match (hard version and need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Error: failed to run queried command",
+        "ptsEarned": 0.0,
+        "name": "query_search_history_hard"
+      },
+      {
+        "description": "Checks the ; operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "name": "separator_operator_test"
+      },
+      {
+        "description": "Tests STOP, CONT, and KILL",
+        "ptsPossible": 6.0,
+        "log": "Failed test (core functionality)",
+        "ptsEarned": 0.0,
+        "name": "stop_cont_kill_test"
+      },
+      {
+        "description": "Tests export and variable expansion. (Both must work to pass.)",
+        "ptsPossible": 6.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "name": "variable_test"
+      },
+      {
+        "description": "Tests export, variable expansion, & escaping. Difficult. (Both must work to pass.)",
+        "ptsPossible": 16.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "name": "variable_test_hard"
+      }
+    ]
+  },
+  {
+    "revision": "21097",
+    "checksum": "6ce470da316ed9235c2598dd0a33458fedcea3ea  super_shell.c\n",
+    "timestamp": "2017-09-27 22:00:09.657208",
+    "testcases": [
+      {
+        "description": "Checks the && logical operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "and_operator_test"
+      },
+      {
+        "description": "Attempt to cd to a directory",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "name": "cd_test"
+      },
+      {
+        "description": "Checking if we can run a process in the background (this test will not pass if you do not have the basic non-built in command features implemented)",
+        "ptsPossible": 2.0,
+        "log": "Failed test (core functionality)",
+        "ptsEarned": 0.0,
+        "name": "check_background_process"
+      },
+      {
+        "description": "Checking that process groups are used correctly (this test will not pass if you do not have the basic non-built in command features implemented)",
+        "ptsPossible": 3.0,
+        "log": "Failed test (core functionality)",
+        "ptsEarned": 0.0,
+        "name": "check_background_process_group"
+      },
+      {
+        "description": "Checking if history works (you need to have basic non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Error: Failed to find output of correct history",
+        "ptsEarned": 0.0,
+        "name": "check_history"
+      },
+      {
+        "description": "Checking if zombie processes are cleaned up",
+        "ptsPossible": 1.0,
+        "log": "Error: Process failed to run in background",
+        "ptsEarned": 0.0,
+        "name": "cleanup_zombie"
+      },
+      {
+        "description": "Checking if SIGINT is blocked",
+        "ptsPossible": 1.0,
+        "log": "Shell quit with sigint",
+        "ptsEarned": 0.0,
+        "name": "control_c_test"
+      },
+      {
+        "description": "Checking if shell handles empty inputs correctly",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "eof_test"
+      },
+      {
+        "description": "Tests escaping.",
+        "ptsPossible": 12.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "name": "escape_test"
+      },
+      {
+        "description": "Checking if shell exits correctly",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "exit_test"
+      },
+      {
+        "description": "Run 1 command with -f (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Program failed to print out commands read from file",
+        "ptsEarned": 0.0,
+        "name": "file_test"
+      },
+      {
+        "description": "Runs more commands with -f (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Program failed to print out commands read from file or read all commands from file",
+        "ptsEarned": 0.0,
+        "name": "file_test_hard"
+      },
+      {
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF.",
+        "ptsPossible": 1.0,
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "ptsEarned": 0.0,
+        "name": "file_test_hard2"
+      },
+      {
+        "description": "Test history file behavior.",
+        "ptsPossible": 5.0,
+        "log": "Program failed to print out commands read from file",
+        "ptsEarned": 0.0,
+        "name": "history_file_test"
+      },
+      {
+        "description": "Checking that invalid commands are invalidated (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Error: couldn't find error message for running invalid command",
+        "ptsEarned": 0.0,
+        "name": "invalid_command"
+      },
+      {
+        "description": "Checking if rerunning a nonexistent command by history index fails.",
+        "ptsPossible": 1.0,
+        "log": "Error: couldn't find error message for running invalid index",
+        "ptsEarned": 0.0,
+        "name": "invalid_query_index_history"
+      },
+      {
+        "description": "Checking if rerunning a nonexistent command by invalid query fails",
+        "ptsPossible": 1.0,
+        "log": "Error: couldn't find error for not finding matching prefix in history",
+        "ptsEarned": 0.0,
+        "name": "invalid_query_search_history"
+      },
+      {
+        "description": "Memory test - does not depend on shell functionality.",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "memory_check"
+      },
+      {
+        "description": "Memory check hard (all features need to work for this).",
+        "ptsPossible": 5.0,
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "ptsEarned": 0.0,
+        "name": "memory_check_hard"
+      },
+      {
+        "description": "Checks the || logical operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "name": "or_operator_test"
+      },
+      {
+        "description": "Testing echo and printing.",
+        "ptsPossible": 1.0,
+        "log": "Error: command did not run",
+        "ptsEarned": 0.0,
+        "name": "print_test"
+      },
+      {
+        "description": "Test that ps works correctly",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "name": "ps_test"
+      },
+      {
+        "description": "Test that ps works correctly (difficult, requires job control)",
+        "ptsPossible": 2.0,
+        "log": "Failed test (core functionality)",
+        "ptsEarned": 0.0,
+        "name": "ps_test_hard"
+      },
+      {
+        "description": "Checking if we can rerun a command by index (need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Error: Failed to run command by index",
+        "ptsEarned": 0.0,
+        "name": "query_index_history"
+      },
+      {
+        "description": "Checking if we can rerun a command by index (you need to have all commands working for this)",
+        "ptsPossible": 1.0,
+        "log": "Error: Failed to run command by index",
+        "ptsEarned": 0.0,
+        "name": "query_index_history_hard"
+      },
+      {
+        "description": "Checking if we can rerun a command by last closest match (need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Error: failed to run queried command",
+        "ptsEarned": 0.0,
+        "name": "query_search_history"
+      },
+      {
+        "description": "Checking if we can rerun a command by last closest match (hard version and need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Error: failed to run queried command",
+        "ptsEarned": 0.0,
+        "name": "query_search_history_hard"
+      },
+      {
+        "description": "Checks the ; operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "name": "separator_operator_test"
+      },
+      {
+        "description": "Tests STOP, CONT, and KILL",
+        "ptsPossible": 6.0,
+        "log": "Failed test (core functionality)",
+        "ptsEarned": 0.0,
+        "name": "stop_cont_kill_test"
+      },
+      {
+        "description": "Tests export and variable expansion. (Both must work to pass.)",
+        "ptsPossible": 6.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "name": "variable_test"
+      },
+      {
+        "description": "Tests export, variable expansion, & escaping. Difficult. (Both must work to pass.)",
+        "ptsPossible": 16.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "name": "variable_test_hard"
+      }
+    ]
+  },
+  {
+    "revision": "25815",
+    "checksum": "3d18defd7a02b82f342b26f5c2f6416ef07bd576  super_shell.c\n",
+    "timestamp": "2017-10-02 22:00:51.305229",
+    "testcases": [
+      {
+        "description": "Checks the && logical operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "and_operator_test"
+      },
+      {
+        "description": "Attempt to cd to a directory",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "cd_test"
+      },
+      {
+        "description": "Checking if we can run a process in the background (this test will not pass if you do not have the basic non-built in command features implemented)",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "check_background_process"
+      },
+      {
+        "description": "Checks that process groups are used correctly (requires basic commands and signal handling to work)",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "check_background_process_group"
+      },
+      {
+        "description": "Checking if history works (you need to have basic non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "check_history"
+      },
+      {
+        "description": "Checking if zombie processes are cleaned up",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "cleanup_zombie"
+      },
+      {
+        "description": "Checking if SIGINT is blocked",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "control_c_test"
+      },
+      {
+        "description": "Checking if shell handles empty inputs correctly",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "eof_test"
+      },
+      {
+        "description": "Tests escaping.",
+        "ptsPossible": 12.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "escape_test"
+      },
+      {
+        "description": "Checking if shell exits correctly",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "exit_test"
+      },
+      {
+        "description": "Run 1 command with -f (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "file_test"
+      },
+      {
+        "description": "Runs more commands with -f (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "file_test_hard"
+      },
+      {
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF.",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "file_test_hard2"
+      },
+      {
+        "description": "Test history file behavior.",
+        "ptsPossible": 5.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "history_file_test"
+      },
+      {
+        "description": "Checking that invalid commands are invalidated (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "invalid_command"
+      },
+      {
+        "description": "Checking if rerunning a nonexistent command by history index fails.",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "invalid_query_index_history"
+      },
+      {
+        "description": "Checking if rerunning a nonexistent command by invalid query fails",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "invalid_query_search_history"
+      },
+      {
+        "description": "Memory test - does not depend on shell functionality.",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "memory_check"
+      },
+      {
+        "description": "Memory check hard (all features need to work for this).",
+        "ptsPossible": 5.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "memory_check_hard"
+      },
+      {
+        "description": "Checks the || logical operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "or_operator_test"
+      },
+      {
+        "description": "Testing echo and printing.",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "print_test"
+      },
+      {
+        "description": "Test that ps works correctly",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "ps_test"
+      },
+      {
+        "description": "Test that ps works correctly (difficult, requires job control)",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "ps_test_hard"
+      },
+      {
+        "description": "Checking if we can rerun a command by index (need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "query_index_history"
+      },
+      {
+        "description": "Checking if we can rerun a command by index (you need to have all commands working for this)",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "query_index_history_hard"
+      },
+      {
+        "description": "Checking if we can rerun a command by last closest match (need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "query_search_history"
+      },
+      {
+        "description": "Checking if we can rerun a command by last closest match (hard version and need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "query_search_history_hard"
+      },
+      {
+        "description": "Checks the ; operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "separator_operator_test"
+      },
+      {
+        "description": "Tests STOP, CONT, and KILL",
+        "ptsPossible": 6.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "stop_cont_kill_test"
+      },
+      {
+        "description": "Tests export and variable expansion. (Both must work to pass.)",
+        "ptsPossible": 6.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "variable_test"
+      },
+      {
+        "description": "Tests export, variable expansion, & escaping. Difficult. (Both must work to pass.)",
+        "ptsPossible": 16.0,
+        "log": "Trying to compile your code...\nFAILED TO COMPILE!\nsuper_shell.c:59:49: warning: unused parameter 'head' [-Wunused-parameter]\nint addprocess(pprocess new_process, pprocess * head,size_t * num){\n                                                ^\nsuper_shell.c:477:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nnew_process = (pprocess)malloc(sizeof(process));\n^\nsuper_shell.c:477:1: error: redefinition of 'new_process' with a different type: 'int' vs 'pprocess' (aka 'struct process *')\nsuper_shell.c:476:10: note: previous definition is here\npprocess new_process = NULL;\n         ^\nsuper_shell.c:478:1: error: unknown type name 'new_process'\nnew_process ->pid =p;\n^\nsuper_shell.c:478:13: error: expected identifier or '('\nnew_process ->pid =p;\n            ^\nsuper_shell.c:479:1: error: unknown type name 'new_process'\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n^\nsuper_shell.c:479:13: error: expected identifier or '('\nnew_process -> status = (char *)malloc(sizeof(STATUS_RUNNING));\n            ^\nsuper_shell.c:480:8: error: unknown type name 'new_process'\nstrcpy(new_process -> status, STATUS_RUNNING);\n       ^\nsuper_shell.c:480:20: error: expected ')'\nstrcpy(new_process -> status, STATUS_RUNNING);\n                   ^\nsuper_shell.c:480:7: note: to match this '('\nstrcpy(new_process -> status, STATUS_RUNNING);\n      ^\nsuper_shell.c:480:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process -> status, STATUS_RUNNING);\n^\nsuper_shell.c:481:1: error: unknown type name 'new_process'\nnew_process -> command = (char *)malloc(strlen(command));\n^\nsuper_shell.c:481:13: error: expected identifier or '('\nnew_process -> command = (char *)malloc(strlen(command));\n            ^\nsuper_shell.c:482:8: error: unknown type name 'new_process'\nstrcpy(new_process ->command, command);\n       ^\nsuper_shell.c:482:20: error: expected ')'\nstrcpy(new_process ->command, command);\n                   ^\nsuper_shell.c:482:7: note: to match this '('\nstrcpy(new_process ->command, command);\n      ^\nsuper_shell.c:482:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\nstrcpy(new_process ->command, command);\n^\nsuper_shell.c:483:24: error: expected identifier\naddprocess(new_process,&processlist,&processnum);\n                       ^\nsuper_shell.c:483:1: error: type specifier missing, defaults to 'int' [-Werror,-Wimplicit-int]\naddprocess(new_process,&processlist,&processnum);\n^\n1 warning and 16 errors generated.\nmake: *** [.objs/super_shell-release.o] Error 1\n",
+        "ptsEarned": 0.0,
+        "name": "variable_test_hard"
+      }
+    ]
+  },
+  {
+    "revision": "26903",
+    "checksum": "fcae528e6da007bf94df2fce11cf258a45d932b2  super_shell.c\n",
+    "timestamp": "2017-10-05 12:41:41.206919",
+    "testcases": [
+      {
+        "description": "Checks the && logical operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "and_operator_test"
+      },
+      {
+        "description": "Attempt to cd to a directory",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "cd_test"
+      },
+      {
+        "description": "Checking if we can run a process in the background (this test will not pass if you do not have the basic non-built in command features implemented)",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 2.0,
+        "name": "check_background_process"
+      },
+      {
+        "description": "Checks that process groups are used correctly (requires basic commands and signal handling to work)",
+        "ptsPossible": 3.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed to assign background process to process group",
+        "ptsEarned": 0.0,
+        "name": "check_background_process_group"
+      },
+      {
+        "description": "Checking if history works (you need to have basic non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "check_history"
+      },
+      {
+        "description": "Checking if zombie processes are cleaned up",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "cleanup_zombie"
+      },
+      {
+        "description": "Checking if SIGINT is blocked",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "control_c_test"
+      },
+      {
+        "description": "Checking if shell handles empty inputs correctly",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "eof_test"
+      },
+      {
+        "description": "Tests escaping.",
+        "ptsPossible": 12.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "name": "escape_test"
+      },
+      {
+        "description": "Checking if shell exits correctly",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "exit_test"
+      },
+      {
+        "description": "Run 1 command with -f (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Program failed to print out commands read from file",
+        "ptsEarned": 0.0,
+        "name": "file_test"
+      },
+      {
+        "description": "Runs more commands with -f (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "file_test_hard"
+      },
+      {
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF.",
+        "ptsPossible": 1.0,
+        "log": "Error: Your program didn't exit when reaching the end of file.",
+        "ptsEarned": 0.0,
+        "name": "file_test_hard2"
+      },
+      {
+        "description": "Test history file behavior.",
+        "ptsPossible": 5.0,
+        "log": "Program failed to print out commands read from file",
+        "ptsEarned": 0.0,
+        "name": "history_file_test"
+      },
+      {
+        "description": "Checking that invalid commands are invalidated (you should have commands working already).",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "invalid_command"
+      },
+      {
+        "description": "Checking if rerunning a nonexistent command by history index fails.",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "invalid_query_index_history"
+      },
+      {
+        "description": "Checking if rerunning a nonexistent command by invalid query fails",
+        "ptsPossible": 1.0,
+        "log": "Error: couldn't find error for not finding matching prefix in history",
+        "ptsEarned": 0.0,
+        "name": "invalid_query_search_history"
+      },
+      {
+        "description": "Memory test - does not depend on shell functionality.",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nMEMORY ERROR/LEAK!",
+        "ptsEarned": 0.0,
+        "name": "memory_check"
+      },
+      {
+        "description": "Memory check hard (all features need to work for this).",
+        "ptsPossible": 5.0,
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "ptsEarned": 0.0,
+        "name": "memory_check_hard"
+      },
+      {
+        "description": "Checks the || logical operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 2.0,
+        "name": "or_operator_test"
+      },
+      {
+        "description": "Testing echo and printing.",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "print_test"
+      },
+      {
+        "description": "Test that ps works correctly",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "ps_test"
+      },
+      {
+        "description": "Test that ps works correctly (difficult, requires job control)",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "name": "ps_test_hard"
+      },
+      {
+        "description": "Checking if we can rerun a command by index (need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "query_index_history"
+      },
+      {
+        "description": "Checking if we can rerun a command by index (you need to have all commands working for this)",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "name": "query_index_history_hard"
+      },
+      {
+        "description": "Checking if we can rerun a command by last closest match (need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Error: failed to run queried command",
+        "ptsEarned": 0.0,
+        "name": "query_search_history"
+      },
+      {
+        "description": "Checking if we can rerun a command by last closest match (hard version and need to have non-builtin commands working)",
+        "ptsPossible": 1.0,
+        "log": "Error: failed to run queried command",
+        "ptsEarned": 0.0,
+        "name": "query_search_history_hard"
+      },
+      {
+        "description": "Checks the ; operator is working",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "name": "separator_operator_test"
+      },
+      {
+        "description": "Tests STOP, CONT, and KILL",
+        "ptsPossible": 6.0,
+        "log": "Failed to STOP process",
+        "ptsEarned": 0.0,
+        "name": "stop_cont_kill_test"
+      },
+      {
+        "description": "Tests export and variable expansion. (Both must work to pass.)",
+        "ptsPossible": 6.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 6.0,
+        "name": "variable_test"
+      },
+      {
+        "description": "Tests export, variable expansion, & escaping. Difficult. (Both must work to pass.)",
+        "ptsPossible": 16.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 8.0,
+        "name": "variable_test_hard"
+      }
+    ]
+  },
+  {
+    "revision": "26903",
+    "checksum": "fcae528e6da007bf94df2fce11cf258a45d932b2  super_shell.c\n",
+    "timestamp": "2017-10-05 19:43:18.904074",
+    "testcases": [
+      {
+        "name": "and_operator_test",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "description": "Checks the && logical operator is working"
+      },
+      {
+        "name": "cd_test",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "description": "Attempt to cd to a directory"
+      },
+      {
+        "name": "check_background_process",
+        "ptsPossible": 2.0,
+        "log": "Unknown failure :(\nPlease contact staff!",
+        "ptsEarned": 0.0,
+        "description": ""
+      },
+      {
+        "name": "check_background_process_group",
+        "ptsPossible": 3.0,
+        "log": "Unknown failure :(\nPlease contact staff!",
+        "ptsEarned": 0.0,
+        "description": ""
+      },
+      {
+        "name": "check_history",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "description": "Checking if history works (you need to have basic non-builtin commands working)"
+      },
+      {
+        "name": "cleanup_zombie",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "description": "Checking if zombie processes are cleaned up"
+      },
+      {
+        "name": "control_c_test",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "description": "Checking if SIGINT is blocked"
+      },
+      {
+        "name": "eof_test",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "description": "Checking if shell handles empty inputs correctly"
+      },
+      {
+        "name": "escape_test",
+        "ptsPossible": 12.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "description": "Tests escaping."
+      },
+      {
+        "name": "exit_test",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "name": "file_test",
+        "ptsPossible": 1.0,
+        "log": "Program failed to print out commands read from file",
+        "ptsEarned": 0.0,
+        "description": "Run 1 command with -f (you should have commands working already)."
+      },
+      {
+        "name": "file_test_hard",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "description": "Runs more commands with -f (you should have commands working already)."
+      },
+      {
+        "name": "file_test_hard2",
+        "ptsPossible": 1.0,
+        "log": "Error: Your program didn't exit when reaching the end of file.",
+        "ptsEarned": 0.0,
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF."
+      },
+      {
+        "name": "history_file_test",
+        "ptsPossible": 5.0,
+        "log": "Program failed to print out commands read from file",
+        "ptsEarned": 0.0,
+        "description": "Test history file behavior."
+      },
+      {
+        "name": "invalid_command",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "description": "Checking that invalid commands are invalidated (you should have commands working already)."
+      },
+      {
+        "name": "invalid_query_index_history",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "description": "Checking if rerunning a nonexistent command by history index fails."
+      },
+      {
+        "name": "invalid_query_search_history",
+        "ptsPossible": 1.0,
+        "log": "Error: couldn't find error for not finding matching prefix in history",
+        "ptsEarned": 0.0,
+        "description": "Checking if rerunning a nonexistent command by invalid query fails"
+      },
+      {
+        "name": "memory_check",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nMEMORY ERROR/LEAK!",
+        "ptsEarned": 0.0,
+        "description": "Memory test - does not depend on shell functionality."
+      },
+      {
+        "name": "memory_check_hard",
+        "ptsPossible": 5.0,
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "ptsEarned": 0.0,
+        "description": "Memory check hard (all features need to work for this)."
+      },
+      {
+        "name": "or_operator_test",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 2.0,
+        "description": "Checks the || logical operator is working"
+      },
+      {
+        "name": "print_test",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "description": "Testing echo and printing."
+      },
+      {
+        "name": "ps_test",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "description": "Test that ps works correctly"
+      },
+      {
+        "name": "ps_test_hard",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "description": "Test that ps works correctly (difficult, requires job control)"
+      },
+      {
+        "name": "query_index_history",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "description": "Checking if we can rerun a command by index (need to have non-builtin commands working)"
+      },
+      {
+        "name": "query_index_history_hard",
+        "ptsPossible": 1.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "description": "Checking if we can rerun a command by index (you need to have all commands working for this)"
+      },
+      {
+        "name": "query_search_history",
+        "ptsPossible": 1.0,
+        "log": "Error: failed to run queried command",
+        "ptsEarned": 0.0,
+        "description": "Checking if we can rerun a command by last closest match (need to have non-builtin commands working)"
+      },
+      {
+        "name": "query_search_history_hard",
+        "ptsPossible": 1.0,
+        "log": "Error: failed to run queried command",
+        "ptsEarned": 0.0,
+        "description": "Checking if we can rerun a command by last closest match (hard version and need to have non-builtin commands working)"
+      },
+      {
+        "name": "separator_operator_test",
+        "ptsPossible": 2.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "description": "Checks the ; operator is working"
+      },
+      {
+        "name": "stop_cont_kill_test",
+        "ptsPossible": 6.0,
+        "log": "Failed to STOP process",
+        "ptsEarned": 0.0,
+        "description": "Tests STOP, CONT, and KILL"
+      },
+      {
+        "name": "variable_test",
+        "ptsPossible": 6.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 6.0,
+        "description": "Tests export and variable expansion. (Both must work to pass.)"
+      },
+      {
+        "name": "variable_test_hard",
+        "ptsPossible": 16.0,
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 8.0,
+        "description": "Tests export, variable expansion, & escaping. Difficult. (Both must work to pass.)"
+      }
+    ]
+  },
+  {
+    "revision": "26903",
+    "checksum": "fcae528e6da007bf94df2fce11cf258a45d932b2  super_shell.c\n",
+    "timestamp": "2017-10-14 22:01:57.109153",
+    "testcases": [
+      {
+        "name": "and_operator_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 2.0,
+        "description": "Checks the && logical operator is working"
+      },
+      {
+        "name": "cd_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "description": "Attempt to cd to a directory"
+      },
+      {
+        "name": "check_background_process",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 2.0,
+        "ptsPossible": 2.0,
+        "description": "Checking if we can run a process in the background (this test will not pass if you do not have the basic non-built in command features implemented)"
+      },
+      {
+        "name": "check_background_process_group",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nFailed to assign background process to process group",
+        "ptsEarned": 0.0,
+        "ptsPossible": 3.0,
+        "description": "Checks that process groups are used correctly (requires basic commands and signal handling to work)"
+      },
+      {
+        "name": "check_history",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "description": "Checking if history works (you need to have basic non-builtin commands working)"
+      },
+      {
+        "name": "cleanup_zombie",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "description": "Checking if zombie processes are cleaned up"
+      },
+      {
+        "name": "control_c_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "description": "Checking if SIGINT is blocked"
+      },
+      {
+        "name": "eof_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "description": "Checking if shell handles empty inputs correctly"
+      },
+      {
+        "name": "escape_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 12.0,
+        "description": "Tests escaping."
+      },
+      {
+        "name": "exit_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "description": "Checking if shell exits correctly"
+      },
+      {
+        "name": "file_test",
+        "log": "Program failed to print out commands read from file",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "description": "Run 1 command with -f (you should have commands working already)."
+      },
+      {
+        "name": "file_test_hard",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "description": "Runs more commands with -f (you should have commands working already)."
+      },
+      {
+        "name": "file_test_hard2",
+        "log": "Error: Your program didn't exit when reaching the end of file.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "description": "Runs hard commands with -f (you should have commands working already) and checks if it exits at EOF."
+      },
+      {
+        "name": "history_file_test",
+        "log": "Program failed to print out commands read from file",
+        "ptsEarned": 0.0,
+        "ptsPossible": 5.0,
+        "description": "Test history file behavior."
+      },
+      {
+        "name": "invalid_command",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "description": "Checking that invalid commands are invalidated (you should have commands working already)."
+      },
+      {
+        "name": "invalid_query_index_history",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "description": "Checking if rerunning a nonexistent command by history index fails."
+      },
+      {
+        "name": "invalid_query_search_history",
+        "log": "Error: couldn't find error for not finding matching prefix in history",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "description": "Checking if rerunning a nonexistent command by invalid query fails"
+      },
+      {
+        "name": "memory_check",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.\nMEMORY ERROR/LEAK!",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "description": "Memory test - does not depend on shell functionality."
+      },
+      {
+        "name": "memory_check_hard",
+        "log": "Error: Your program didn't run the given commands from a file.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 5.0,
+        "description": "Memory check hard (all features need to work for this)."
+      },
+      {
+        "name": "or_operator_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 2.0,
+        "ptsPossible": 2.0,
+        "description": "Checks the || logical operator is working"
+      },
+      {
+        "name": "print_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "description": "Testing echo and printing."
+      },
+      {
+        "name": "ps_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "description": "Test that ps works correctly"
+      },
+      {
+        "name": "ps_test_hard",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 2.0,
+        "description": "Test that ps works correctly (difficult, requires job control)"
+      },
+      {
+        "name": "query_index_history",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "description": "Checking if we can rerun a command by index (need to have non-builtin commands working)"
+      },
+      {
+        "name": "query_index_history_hard",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 1.0,
+        "ptsPossible": 1.0,
+        "description": "Checking if we can rerun a command by index (you need to have all commands working for this)"
+      },
+      {
+        "name": "query_search_history",
+        "log": "Error: failed to run queried command",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "description": "Checking if we can rerun a command by last closest match (need to have non-builtin commands working)"
+      },
+      {
+        "name": "query_search_history_hard",
+        "log": "Error: failed to run queried command",
+        "ptsEarned": 0.0,
+        "ptsPossible": 1.0,
+        "description": "Checking if we can rerun a command by last closest match (hard version and need to have non-builtin commands working)"
+      },
+      {
+        "name": "separator_operator_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 0.0,
+        "ptsPossible": 2.0,
+        "description": "Checks the ; operator is working"
+      },
+      {
+        "name": "stop_cont_kill_test",
+        "log": "Failed to STOP process",
+        "ptsEarned": 0.0,
+        "ptsPossible": 6.0,
+        "description": "Tests STOP, CONT, and KILL"
+      },
+      {
+        "name": "variable_test",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 6.0,
+        "ptsPossible": 6.0,
+        "description": "Tests export and variable expansion. (Both must work to pass.)"
+      },
+      {
+        "name": "variable_test_hard",
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.",
+        "ptsEarned": 8.0,
+        "ptsPossible": 16.0,
+        "description": "Tests export, variable expansion, & escaping. Difficult. (Both must work to pass.)"
+      }
+    ]
+  }
+]
